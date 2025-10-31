@@ -1,0 +1,14 @@
+{
+  "name": "datum-guardian",
+  "description": "Warns if GPS datum and chart geodetic datum differ and gives the position shift to apply.",
+  "version": "1.0",
+  "triggers": [
+    "Can I plot WGS-84 on this chart?",
+    "Datum shift for BA",
+    "GPS says WGS-84, chart says",
+    "Is my position safe to plot?",
+    "Datum difference",
+    "Chart datum vs GPS",
+    "Apply datum correction"
+  ]
+}

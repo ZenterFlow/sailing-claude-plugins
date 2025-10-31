@@ -1,0 +1,10 @@
+Cherbourg:
+  VHF: [12, 16]
+  Lock: "H24 except 1 h either side LW"
+  HW_diff: "-0056 Dover, +0.2 m"
+  Pilots: "Board 2 M S of breakwater ≈ 49°38′ N 01°37′ W"
+Victoria:
+  VHF: [11, 16]
+  Lock: "HW–3 to HW+2, call 'Victoria Lock' on Ch 11"
+  HW_diff: "Same as Portsmouth"
+  Pilots: "Not compulsory < 30 m"

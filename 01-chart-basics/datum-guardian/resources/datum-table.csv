@@ -1,0 +1,7 @@
+chart_id,chart_title,geodetic_datum,shift_lat_min,shift_lon_min,shift_distance_m,notes
+BA 2454,"Portsmouth to Isle of Wight",WGS-84,0.00,0.00,0,
+BA 1876,"Cherbourg to Jersey",ED-50,0.30 N,0.10 W,370,
+BA 2045,"Falmouth to Plymouth",OSGB-36,0.12 S,0.08 E,180,
+BA 1128,"Dover Strait",WGS-84,0.00,0.00,0,
+Imray C-12,"Channel Islands",ED-50,0.30 N,0.10 W,370,
+NOAA 13205,"Long Island Sound",NAD-83,0.01 S,0.02 W,30,

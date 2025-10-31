@@ -1,0 +1,1 @@
+{"name":"chart-update-checker","description":"Reports whether a chart is up-to-date and lists missing NM.","version":"1.0","triggers":["Last correction for","Update my","Is BA current","NM to apply"]}

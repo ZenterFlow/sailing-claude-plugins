@@ -1,0 +1,5 @@
+1. "What is the tide height at 14:30 on 3 July in Victoria?"
+2. "Calculate HW time and height at St Peter Port on 5 August using St Helier"
+3. "When will the tide reach 3.2m at Braye on 12 June?"
+4. "Use tidal diamond M on Chart 3 to find stream rate at 0925 on 24 Feb"
+5. "Test me on secondary port calculation using rule of twelfths"

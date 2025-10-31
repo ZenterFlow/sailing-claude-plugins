@@ -1,0 +1,12 @@
+- symbol: "★★★ ( magenta)"        # 3 stars
+  meaning: "Flood-lit conspicuous object"
+  options: ["Flood-lit object","Radar beacon","Wreck"]
+  correct: 0
+- symbol: "underlined 2·4"
+  meaning: "Drying height above Chart Datum"
+  options: ["Height above MHWS","Drying height","Sounding"]
+  correct: 1
+- symbol: "♒ (blue) P"
+  meaning: "Preferred channel to port"
+  options: ["Port lateral","Preferred channel port","Starboard lateral"]
+  correct: 1

@@ -1,0 +1,14 @@
+{
+  "name": "tide-calculator",
+  "description": "Calculates tidal heights and streams using RYA Admiralty method, secondary port corrections, and tidal stream atlases.",
+  "version": "1.0",
+  "triggers": [
+    "calculate tide",
+    "tide height at time",
+    "secondary port tide",
+    "tidal stream rate",
+    "tidal diamond calculation",
+    "when will tide reach 3.5m",
+    "rule of twelfths"
+  ]
+}

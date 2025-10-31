@@ -1,0 +1,13 @@
+{
+  "name": "depth-datum-flipper",
+  "description": "Converts charted depths, drying heights & clearances to true depth at any tide.",
+  "version": "1.0",
+  "triggers": [
+    "Is x m enough at",
+    "drying height",
+    "clearance at",
+    "Can I pass",
+    "Will I touch",
+    "UKC calculation"
+  ]
+}

@@ -1,0 +1,5 @@
+"Can I plot a WGS-84 position straight onto BA 2454?"
+"GPS is NAD-83, chart is NOAA 13205—any shift needed?"
+"What correction do I apply for BA 1876 with WGS-84 GPS?"
+"Is ED-50 compatible with my Garmin set to WGS-84 on Imray C-12?"
+"Chart datum unknown—how do I check?"

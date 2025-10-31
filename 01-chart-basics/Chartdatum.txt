@@ -1,0 +1,57 @@
+Chart Datum
+
+Chartwork Revision: Chart Information
+Information found on charts
+
+Chart datumDatum
+All charts have a large amount of information about how to use the chart, datum, scale and dangers etc.
+
+Information to look for:
+
+Geodetic datum.
+
+See the adjacent graphic.
+The geodetic datum is the datum that has been used to make the chart. If the world were perfectly round there would be just one point that would be considered the centre and just one datum; but because it is not round different datums (centres of the Earth) have been used over the years.
+
+Latitude and longitude are angles from the centre of the Earth (or datum) to a given point on the surface.  The different datums are used depending on how and where the charts are made with the geodetic datum being appropriate for the area.
+
+GPS and other navigation systems use these datums to provide accurate positions on charts and chart navigation systems, but this only works when the correct datum is entered to match the chart being used.
+The difference can be as much as 900m, about 0.5 miles.
+
+WGS 84 is used in GPS but this can be changed when working with non WGS 84 charts. On the RYA charts the datum is WGS 84 and information from a GPS set to WGS 84 can be plotted straight onto the chart.
+
+Copyright V & L Punch Navathome.com
+Apart from the obvious, navigation charts contain other important information. A good understanding of this information is required to navigate safely at sea.​
+
+Information found on the chart
+Direction of buoyage should be noted to prevent passing the wrong side of lateral marks.
+
+Variation is given as part of the compass rose.
+
+Tidal height datum table is useful for quick depth calculations.
+
+Chart corrections
+The date and reference numbers of the latest corrections can be found at the bottom left hand corner of the chart.
+
+Corrections on electronic charts are made in different ways depending on the type of electronic chart. Cartridges are replaced; software based chart navigation systems can be updated on the internet or by replacing the CD ROMs.
+
+Tidal diamond
+Tidal diamond information (top of the adjacent chart) is available for passage making and gives tidal rate and direction for 6 hours either side of HW for the reference port.
+On this chart the reference port is Victoria.
+
+Charted depth datum and height datum
+This information is given in the chart information.
+On this chart depths are in metres and are reduced to chart datum, which is approximately the level of the lowest astronomical tide.
+
+Charted heights for the adjacent chart are in metres.
+Underlined heights are drying heights above chart datum.
+
+Vertical clearance heights are above Highest Astronomical Tide and all other heights are above Mean High Water Springs.
+
+Chart Symbols
+Information on chart symbols used in this course can be found in the RYA Almanac and are not always identical to the ones in chart 5011, the Admiralty List of Chart Symbols and Abbreviations.
+Chart Symbols
+Chart 5011, the Admiralty List of Chart Symbols and Abbreviations has a more exact representation of each symbol with the various options and details being included fully. It also contains information on all aspects of Admiralty charts including rocks, wrecks and obstructions, buoyage and much more.
+
+The Almanac
+The Almanac contains information about ports, tidal streams, tidal heights, pilotage, passage planning, communications, safety regulations, weather and much more.

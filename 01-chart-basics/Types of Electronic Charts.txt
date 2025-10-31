@@ -1,0 +1,61 @@
+Electronic Navigation: Types of Electronic Charts
+Raster and vector charts
+
+Raster Navigational Charts (RNC)
+Raster charts are scanned bitmap images of paper charts
+
+
+They are scanned at high resolution to maximise detail, and converted to a digital representation.
+
+The symbols, colour and information presented on the raster chart are identical to paper charts.
+
+They are widely available and provide a cost effective way to convert information into an electronic format.
+
+Raster charts do have some drawbacks. Due to the nature of their digitisation, they carry along with them any inherent errors in the paper charts and any errors that may have been introduced through the scanning process.
+
+Note: Zooming in on raster charts distorts the image!
+
+raster charts
+
+Zoom Out   Zoom In
+
+Raster charts are a picture image and carry no additional data that may be queried by the user or by an automated system such as an Electronic Chart Display Information System (ECDIS) to display warnings or alarms for approaching hazards. (an ECDIS is a very sophisticated, commercial plotting device which we will cover in more detail later.
+
+Vector Charts Or Electronic Navigational Charts (ECD)
+Vector charts are constructed of lines, points or areas that not only provide a graphic representation of charted features, but also include an associated database.
+
+The database provides 'layers' of information on the electronic chart which allow the user to manually or automatically query a specific area for additional information.
+
+Chart plotters have the facility to zoom in on a vector chart and get more information, whereas when zooming in on a raster chart the same image just gets bigger.
+
+The layers of data on a vector chart can be read by an ECDIS and depending on the configuration, Alarm parameters can be set to warn of approaching hazards such as shoal water or an underwater obstruction.
+
+Individual points or areas on the vector chart may be queried by the user such as navigation marks, sounding data in a chosen location, anchorage information, traffic schemes etc.
+
+
+vector charts
+
+Zoom Out   Zoom In
+
+
+Drawbacks of vector charts
+They are expensive and time consuming to construct.
+
+Using a magnification beyond the scale originally produced can give a false impression of reliability of position information.
+
+There is limited coverage (although worldwide coverage is quickly approaching).
+
+The level of detail provided in the database is largely dependent upon the manufacturer.
+
+Because of the various standards the International Maritime Organisation (IMO) has established minimum requirements.
+
+Symbols on electronic charts
+
+Raster charts and paper charts use the same symbols but electronic navigation charts use their own similar versions of the symbols.
+
+Updating electronic charts
+
+All charts, electronic or otherwise, should be updated regularly. Notice to Mariners provides the information for paper charts which can be updated manually or by a chart agent.
+
+Electronic charts are typically updated by the manufacturer. This can be in the form of a replacement computer memory car, CD Rom or in some cases the memory card can be updated via the supplier's website.
+Unfortunately there is usually a charge or license fee involved.

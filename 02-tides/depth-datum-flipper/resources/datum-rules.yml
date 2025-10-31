@@ -1,0 +1,8 @@
+default_ukc_power: 0.5   # m
+default_ukc_sail: 1.0    # m
+vertical_refs:
+  soundings: "Chart Datum (CD)"
+  drying: "Chart Datum (CD)"
+  heights: "Highest Astronomical Tide (HAT)"
+  bridges: "HAT"
+  lights: "Mean High Water Springs (MHWS)"

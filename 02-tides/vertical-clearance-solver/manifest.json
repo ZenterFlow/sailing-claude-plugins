@@ -1,0 +1,1 @@
+{"name":"vertical-clearance-solver","description":"Mast vs bridge / wire clearance check.","version":"1.0","triggers":["Clear x m bridge","Mast x m, bridge","Overhead cable","will I hit","vertical clearance"]}
