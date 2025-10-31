@@ -4,8 +4,8 @@
   "description": "Navigation lights, day shapes, flags, sound signals quick quiz",
   "author": {"name": "ZenterFlow", "url": "https://github.com/ZenterFlow"},
   "homepage": "https://github.com/ZenterFlow/sailing-claude-plugins",
-  "repository": {"type": "git", "url": "https://github.com/ZenterFlow/sailing-claude-plugins.git"},
+  "repository": "https://github.com/ZenterFlow/sailing-claude-plugins.git",
   "license": "MIT",
   "keywords": ["sailing", "lights", "shapes", "quiz", "colregs"],
-  "agents": "./agents"
+  "agents": "./agents/nav-lights-flip-tutor.md"
 }

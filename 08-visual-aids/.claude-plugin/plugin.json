@@ -4,9 +4,9 @@
   "description": "Buoys, lights, ranges, transits, dipping distances",
   "author": {"name": "ZenterFlow", "url": "https://github.com/ZenterFlow"},
   "homepage": "https://github.com/ZenterFlow/sailing-claude-plugins",
-  "repository": {"type": "git", "url": "https://github.com/ZenterFlow/sailing-claude-plugins.git"},
+  "repository": "https://github.com/ZenterFlow/sailing-claude-plugins.git",
   "license": "MIT",
   "keywords": ["sailing", "navigation", "buoys", "lights", "iala"],
-  "agents": "./agents",
+  "agents": "./agents/visual-aids-tutor.md",
   "skills": "./skills"
 }

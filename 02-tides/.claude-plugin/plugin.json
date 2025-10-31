@@ -7,12 +7,9 @@
     "url": "https://github.com/ZenterFlow"
   },
   "homepage": "https://github.com/ZenterFlow/sailing-claude-plugins",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ZenterFlow/sailing-claude-plugins.git"
-  },
+  "repository": "https://github.com/ZenterFlow/sailing-claude-plugins.git",
   "license": "MIT",
   "keywords": ["sailing", "navigation", "tides", "tidal-streams", "safety", "rya", "asa"],
-  "agents": "./agents",
+  "agents": "./agents/tides-tutor.md",
   "skills": "./skills"
 }

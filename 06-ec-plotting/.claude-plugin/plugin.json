@@ -4,8 +4,8 @@
   "description": "Chart-plotter operation, self-test questions",
   "author": {"name": "ZenterFlow", "url": "https://github.com/ZenterFlow"},
   "homepage": "https://github.com/ZenterFlow/sailing-claude-plugins",
-  "repository": {"type": "git", "url": "https://github.com/ZenterFlow/sailing-claude-plugins.git"},
+  "repository": "https://github.com/ZenterFlow/sailing-claude-plugins.git",
   "license": "MIT",
   "keywords": ["sailing", "navigation", "chartplotter", "electronic-charts"],
-  "agents": "./agents"
+  "agents": "./agents/ec-plotting-tutor.md"
 }
