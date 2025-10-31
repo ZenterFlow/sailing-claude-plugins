@@ -1,0 +1,106 @@
+{
+  "marketplace_name": "Sailing Curriculum – Topic Agents",
+  "description": "14 topic-based agents covering the full RYA/ASA syllabus from chart-work to collision regs.",
+  "author": "ZenterFlow",
+  "contact": "https://github.com/ZenterFlow/sailing-claude-plugins/issues",
+  "plugins": [
+    {
+      "id": "chart-basics",
+      "name": "Chart Basics",
+      "description": "Chart datum, symbols, Mercator projection, compass types, variation & deviation",
+      "folder": "01-chart-basics",
+      "version": "0.1.0"
+    },
+    {
+      "id": "tides",
+      "name": "Tides",
+      "description": "Causes, terms, tables, curves, secondary ports, diamonds, stream atlas",
+      "folder": "02-tides",
+      "version": "0.1.0"
+    },
+    {
+      "id": "positioning",
+      "name": "Positioning",
+      "description": "EP, circle of error, visual fixing, leeway, cross-track error",
+      "folder": "03-positioning",
+      "version": "0.1.0"
+    },
+    {
+      "id": "course-to-steer",
+      "name": "Course to Steer",
+      "description": "CTS calculations, leeway application, worked examples",
+      "folder": "04-course-to-steer",
+      "version": "0.1.0"
+    },
+    {
+      "id": "electronic-nav",
+      "name": "Electronic Navigation",
+      "description": "GPS/GNSS, radar, instruments, abbreviations, Q & A",
+      "folder": "05-electronic-navigation",
+      "version": "0.1.0"
+    },
+    {
+      "id": "ec-plotting",
+      "name": "Electronic Chart Plotting",
+      "description": "Chart-plotter operation, self-test questions",
+      "folder": "06-ec-plotting",
+      "version": "0.1.0"
+    },
+    {
+      "id": "passage-making",
+      "name": "Passage Making",
+      "description": "Planning, regulations, watch systems, monitoring, worked plans",
+      "folder": "07-passage-making",
+      "version": "0.1.0"
+    },
+    {
+      "id": "visual-aids",
+      "name": "Visual Navigation Aids",
+      "description": "Buoys, lights, ranges, transits, dipping distances",
+      "folder": "08-visual-aids",
+      "version": "0.1.0"
+    },
+    {
+      "id": "pilotage",
+      "name": "Pilotage",
+      "description": "Leading lines, clearing bearings, restricted visibility plans",
+      "folder": "09-pilotage",
+      "version": "0.1.0"
+    },
+    {
+      "id": "meteorology",
+      "name": "Meteorology",
+      "description": "Forecast sources, clouds, sea-breeze, fog, synoptic charts",
+      "folder": "10-meteorology",
+      "version": "0.1.0"
+    },
+    {
+      "id": "irpcs",
+      "name": "IRPCS",
+      "description": "General rules, sounds, day-shapes, lights, collision scenarios",
+      "folder": "11-irpcs",
+      "version": "0.1.0"
+    },
+    {
+      "id": "safety-environment",
+      "name": "Safety & Environment",
+      "description": "Safety briefs, Mayday, stability, environment regs",
+      "folder": "12-safety-environment",
+      "version": "0.1.0"
+    },
+    {
+      "id": "collision-regs",
+      "name": "Collision Regulations",
+      "description": "Conduct in sight / restricted visibility, lights, sounds, exceptions",
+      "folder": "13-collision-regs",
+      "version": "0.1.0"
+    },
+    {
+      "id": "nav-lights-flip",
+      "name": "Nav Lights Flip Cards",
+      "description": "Navigation lights, day shapes, flags, sound signals quick quiz",
+      "folder": "14-nav-lights-flip",
+      "version": "0.1.0"
+    }
+  ]
+}
