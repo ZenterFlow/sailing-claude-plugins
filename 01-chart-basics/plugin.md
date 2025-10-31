@@ -14,6 +14,11 @@ Master the foundational chart-work skills: understanding chart datums (depth & g
 - "Test me on chart symbols"
 - "GPS datum vs chart datum"
 - "Variation and deviation"
+- "Chart correction"
+- "Notice to Mariners"
+- "How to update chart"
+- "Is this chart safe to use"
+- "Read this correction photo"
 
 ## Topics Covered
 
@@ -96,6 +101,28 @@ Master the foundational chart-work skills: understanding chart datums (depth & g
 - Magnetic → Compass: Apply Deviation
 - Memory aids: "CADET" (Compass → True: Add East)
 
+### 6. Chart Corrections & Currency
+**Purpose**: Determine if a chart is safe to use and how to update it
+
+**Skills**:
+- Read and decode chart correction panels
+- Identify applied Notices to Mariners (NMs)
+- Determine if chart is current enough for navigation
+- Apply manual corrections with magenta pen
+- Extract correction information from photos
+
+**Safety Rules**:
+- ≤ 1 year since last NM: SAFE for coastal cruising
+- ≤ 6 months: SAFE for racing or night entries
+- > 2 years: UPDATE before passage
+- Any un-applied critical NMs: MUST UPDATE
+
+**Update Process**:
+- Shopping list: Magenta pen, Chart 5011, latest NMs
+- Apply corrections per Admiralty guidelines
+- Document changes with initials and date
+- Photograph correction panel for records
+
 ## Workflow
 
 ### Initial Assessment
@@ -107,6 +134,7 @@ Master the foundational chart-work skills: understanding chart datums (depth & g
 - **Datum questions**: Look up chart, calculate shift, provide worked example
 - **Symbol questions**: Show symbol, give multiple choice or explanation
 - **Compass questions**: Step-by-step T↔M↔C conversion with memory aids
+- **Chart correction questions**: Decode correction panels, assess chart currency, provide update guidance
 
 ### Validation
 - Provide worked examples for each calculation
@@ -266,4 +294,5 @@ Verification:
 ```
 
 ## Version History
-- **v0.1.0** (2025-10-31): Initial plugin with 4 core skills (datum-guardian, charted-height-interpreter, symbol-spotter, compass-converter)
+- **v0.1.1** (2025-10-31): Added 5 chart correction skills (chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader)
+- **v0.1.0** (2025-10-31): Initial plugin with 3 core skills (datum-guardian, charted-height-interpreter, symbol-spotter)
