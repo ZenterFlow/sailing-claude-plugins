@@ -1,0 +1,11 @@
+{
+  "name": "safety-environment",
+  "version": "0.1.0",
+  "description": "Safety briefs, Mayday, stability, environment regs",
+  "author": {"name": "ZenterFlow", "url": "https://github.com/ZenterFlow"},
+  "homepage": "https://github.com/ZenterFlow/sailing-claude-plugins",
+  "repository": {"type": "git", "url": "https://github.com/ZenterFlow/sailing-claude-plugins.git"},
+  "license": "MIT",
+  "keywords": ["sailing", "safety", "mayday", "marpol"],
+  "agents": "./agents"
+}

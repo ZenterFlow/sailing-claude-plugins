@@ -8,13 +8,57 @@ This plugin suite provides 14 specialized agents with dedicated skills, turning 
 
 ## 🚀 Installation
 
-Adding the entire curriculum to your Claude workspace is simple and requires just one command:
+### Step 1: Add the Marketplace
 
 ```bash
-/claude-code> /marketplace add https://github.com/ZenterFlow/sailing-claude-plugins
+/plugin marketplace add ZenterFlow/sailing-claude-plugins
 ```
 
-That's it! The 14 topic agents are now instantly available in every chat session.
+### Step 2: Install Individual Plugins
+
+Install the plugins you need:
+
+```bash
+# Ready for testing (with implemented skills)
+/plugin install chart-basics@sailing-curriculum
+/plugin install tides@sailing-curriculum
+/plugin install passage-making@sailing-curriculum
+/plugin install visual-aids@sailing-curriculum
+/plugin install pilotage@sailing-curriculum
+
+# In development (skeleton agents, no skills yet)
+/plugin install positioning@sailing-curriculum
+/plugin install course-to-steer@sailing-curriculum
+# ... and 7 more
+```
+
+### Or Install All at Once
+
+```bash
+# Install all 14 plugins
+/plugin install chart-basics@sailing-curriculum && \
+/plugin install tides@sailing-curriculum && \
+/plugin install positioning@sailing-curriculum && \
+/plugin install course-to-steer@sailing-curriculum && \
+/plugin install electronic-navigation@sailing-curriculum && \
+/plugin install ec-plotting@sailing-curriculum && \
+/plugin install passage-making@sailing-curriculum && \
+/plugin install visual-aids@sailing-curriculum && \
+/plugin install pilotage@sailing-curriculum && \
+/plugin install meteorology@sailing-curriculum && \
+/plugin install irpcs@sailing-curriculum && \
+/plugin install safety-environment@sailing-curriculum && \
+/plugin install collision-regs@sailing-curriculum && \
+/plugin install nav-lights-flip@sailing-curriculum
+```
+
+### Verify Installation
+
+```bash
+/plugin
+```
+
+This opens the interactive plugin management interface where you can see all installed plugins.
 
 ---
 
@@ -169,20 +213,37 @@ Apply for ±1 hour either side of HW+3
 
 ## 🏗️ Architecture
 
-Each plugin follows this structure:
+Each plugin follows the official Claude Code plugin structure:
 
 ```
 NN-plugin-name/
-├── agent.md           # Agent personality, teaching approach, skills available
-├── plugin.md          # Comprehensive topic documentation (where applicable)
-├── README.md          # Quick plugin overview
-├── skill-name/        # Individual skills with:
-│   ├── SKILL.md       # Skill description and behavior
-│   ├── manifest.json  # Skill metadata
-│   ├── instructions.md # Detailed instructor-level notes
-│   ├── resources/     # Reference data (CSV, YAML, images)
-│   ├── templates/     # Reusable response templates
-│   └── tests/         # Sample prompts for validation
+├── .claude-plugin/
+│   └── plugin.json         # Required metadata (name, version, author)
+├── agents/
+│   └── tutor-name.md       # Agent personality and teaching approach
+├── skills/                 # Individual skills (for plugins with skills)
+│   ├── skill-name/
+│   │   ├── SKILL.md        # Skill description and behavior
+│   │   ├── manifest.json   # Skill metadata
+│   │   ├── instructions.md # Detailed instructor notes
+│   │   ├── resources/      # Reference data (CSV, YAML, images)
+│   │   ├── templates/      # Reusable response templates
+│   │   └── tests/          # Sample prompts for validation
+│   └── another-skill/
+│       └── ...
+├── plugin.md               # Comprehensive documentation (where applicable)
+└── README.md               # Quick plugin overview
+```
+
+**Marketplace Structure**:
+```
+sailing-claude-plugins/
+├── .claude-plugin/
+│   └── marketplace.json    # Marketplace catalog (14 plugins)
+├── 01-chart-basics/
+├── 02-tides/
+├── ... (12 more plugins)
+└── README.md
 ```
 
 **Design Principles**:
