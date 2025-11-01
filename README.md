@@ -70,11 +70,11 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (5 plugins, 11 skills)
+### ✅ Ready for Testing (5 plugins, 17 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
-| **01. Chart Basics** | Chart Basics Tutor | 4 skills: datum-guardian, charted-height-interpreter, symbol-spotter, compass-converter | ✅ Ready |
+| **01. Chart Basics** | Chart Basics Tutor | 8 skills: datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader | ✅ Ready |
 | **02. Tides** | Tides Tutor | 5 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver | ✅ Ready |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
 | **08. Visual Aids** | Visual Aids Tutor | 1 skill: direction-of-buoyage-reminder | ✅ Ready |
@@ -159,14 +159,18 @@ Apply for ±1 hour either side of HW+3
 ## 🎯 Plugin Details
 
 ### Plugin 01: Chart Basics ✅
-**Topics**: Chart datum, symbols, Mercator projection, compass errors
-**Skills**:
+**Topics**: Chart datum, symbols, Mercator projection, compass errors, chart corrections
+**Skills** (8 total):
 - datum-guardian (GPS ↔ chart datum shifts)
 - charted-height-interpreter (HAT, MHWS, CD, LAT datums)
 - symbol-spotter (100+ chart symbols quiz)
-- compass-converter (True ↔ Magnetic ↔ Compass)
+- chart-correction-decoder (Read and explain correction panels)
+- corrections-mini-quiz (Interactive quiz on chart corrections)
+- chart-update-checklist (How to update charts with magenta pen)
+- chart-safe-go-nogo (Determine if chart is current enough)
+- photo-correction-reader (OCR correction panels from photos)
 
-**Triggers**: "datum shift", "chart symbol", "variation and deviation", "WGS-84 vs ED-50"
+**Triggers**: "datum shift", "chart symbol", "variation and deviation", "WGS-84 vs ED-50", "chart correction", "Notice to Mariners"
 
 ---
 
@@ -257,10 +261,11 @@ sailing-claude-plugins/
 
 ## ⚠️ Status & Roadmap
 
-**v0.1.0 (Current)** - 2025-10-31
-- ✅ 5 plugins ready for testing (11 skills total)
+**v0.1.0 (Current)** - 2025-11-01
+- ✅ 5 plugins ready for testing (17 skills total)
 - ✅ Agent framework established for all 14 plugins
 - ✅ Comprehensive documentation
+- ✅ Chart correction skills added (5 new skills in chart-basics)
 - 🚧 9 plugins with skeleton agents (skills in development)
 
 **v0.2.0 (Planned)**
@@ -311,7 +316,7 @@ https://github.com/ZenterFlow/claude-skills-library
 
 - **Total Plugins**: 14
 - **Ready for Testing**: 5 (36%)
-- **Total Skills**: 11 (with 20+ more planned)
+- **Total Skills**: 17 (with 20+ more planned)
 - **Total Agents**: 14
 - **Lines of Documentation**: 5,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
@@ -320,12 +325,13 @@ https://github.com/ZenterFlow/claude-skills-library
 
 ## 📝 Version History
 
-**v0.1.0** (2025-10-31)
+**v0.1.0** (2025-11-01)
 - Initial marketplace release
 - 5 plugins ready: Chart Basics, Tides, Passage Making, Visual Aids, Pilotage
-- 11 skills implemented and tested
+- 17 skills implemented and tested
 - 14 agent frameworks established
 - Complete documentation structure
+- Added 5 chart correction skills to chart-basics plugin
 
 ---
 
@@ -350,5 +356,5 @@ Skills consolidated from:
 
 &copy; ZenterFlow
 
-*Last Updated: 2025-10-31*
+*Last Updated: 2025-11-01*
 *Version: 0.1.0 (Early Beta)*

@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(git add:*)",
+      "Bash(git push)",
+      "Bash(tree:*)",
+      "Read(//c/Users/jonat/Documents/Tech/**)",
+      "Read(//c/Users/jonat/Documents/Tech//**)",
+      "Bash(git init:*)",
+      "Bash(git clone:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Read(//c/Users/jonat/**)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": []
