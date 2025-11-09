@@ -8,8 +8,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - **1 plugin** has partial implementation (Plugin 07-09)
 - **10 plugins** are skeleton frameworks ready for skill development (Plugins 03-06, 10-14)
 
-**Total Skills Implemented**: 17
-**Total Future Skills Listed**: 23+
+**Total Skills Implemented**: 22
+**Total Future Skills Listed**: 18+ (remaining)
 
 ---
 
@@ -78,15 +78,14 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 ---
 
-### Plugin 03: Positioning 🚧 SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 03: Positioning ✅ COMPLETE
+**Status**: Production Ready (v0.2.0)
+**Total Skills**: 3 implemented
 
-**Future Skills Listed in Agent**:
-1. visual-fix-calculator - Three-point bearing fixes, running fixes
-2. ep-calculator - Estimated Position with leeway and tidal stream
-3. cross-track-error-monitor - XTE tracking and monitoring
-4. running-fix-plotter - Position line advancement calculations
+**Implemented Skills**:
+1. visual-fix-calculator - Three-point bearing fixes, running fixes, cocked hat assessment
+2. ep-calculator - Estimated Position and Dead Reckoning with leeway and tidal stream
+3. cross-track-error-monitor - XTE calculation and monitoring for TSS and channels
 
 **Topics Defined** (from agent file):
 - Visual position fixing (compass bearings, ranges, transits)
@@ -98,21 +97,28 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - GPS position validation
 - Position line advancement
 
-**Implementation Priority**: HIGH
-- These skills are fundamental to passage planning
-- Heavy mathematical/calculation focus
-- Templates available from related plugins (tides, course-to-steer)
-- Agent has clear teaching methodology documented
+**Resources Available**:
+- Complete calculation templates for visual fixes, EP, and XTE
+- Bearing geometry guides and leeway estimation tables
+- TSS requirements and XTE monitoring procedures
+- Comprehensive test suites
+
+**Topics Fully Covered**:
+- Visual position fixing with three-point and running fixes
+- Estimated Position with leeway and tidal stream
+- Dead Reckoning calculations
+- Cross-track error monitoring for TSS navigation
+- Cocked hat assessment and fix quality evaluation
 
 ---
 
-### Plugin 04: Course to Steer 🚧 SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 04: Course to Steer ✅ COMPLETE
+**Status**: Production Ready (v0.2.0)
+**Total Skills**: 2 implemented
 
-**Future Skills Listed in Agent**:
-1. cts-calculator - Course to Steer with leeway and stream vectors
-2. velocity-triangle-plotter - Velocity triangle calculations and visualization
+**Implemented Skills**:
+1. cts-calculator - Course To Steer calculations with leeway, stream, and magnetic corrections
+2. velocity-triangle-plotter - Graphical velocity triangle solutions for CTS and TMG problems
 
 **Topics Defined** (from agent file):
 - Course to Steer (CTS) calculations
@@ -122,16 +128,18 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - Magnetic variation corrections
 - Track made good vs course steered
 
-**Implementation Priority**: HIGH
-- Core navigation skill
-- Closely related to Positioning (Plugin 03) and Tides (Plugin 02)
-- Strong mathematical foundation exists in related plugins
-- Could reuse datum/variation logic from Chart Basics
+**Resources Available**:
+- Complete CTS calculation methods with vector solutions
+- Velocity triangle plotting templates and diagrams
+- Step-by-step worked examples
+- Comprehensive test suites
 
-**Potential Resource Sharing**:
-- Variation tables from Plugin 01 (datum-guardian)
-- Tidal stream data from Plugin 02
-- Mathematical templates for vector calculations
+**Topics Fully Covered**:
+- Course To Steer with leeway and tidal stream
+- Velocity triangle construction and interpretation
+- Magnetic variation and deviation corrections
+- Track made good vs course steered calculations
+- Speed over ground estimation
 
 ---
 
@@ -453,8 +461,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 |--------|------|--------|--------|----------------|----------|
 | 01 | Chart Basics | 8 | ✅ Complete | None | N/A |
 | 02 | Tides | 5 | ✅ Complete | None | N/A |
-| 03 | Positioning | 0 | 🚧 Skeleton | 4 | HIGH |
-| 04 | Course to Steer | 0 | 🚧 Skeleton | 2 | HIGH |
+| 03 | Positioning | 3 | ✅ Complete | None | N/A |
+| 04 | Course to Steer | 2 | ✅ Complete | None | N/A |
 | 05 | Electronic Navigation | 0 | 🚧 Skeleton | 3 | MEDIUM |
 | 06 | EC Plotting | 0 | 🚧 Skeleton | 2 | MEDIUM-HIGH |
 | 07 | Passage Making | 1 | ⚠️ Partial | 3+ | MEDIUM |
@@ -467,11 +475,11 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 17
-- Future/Planned Skills: 23+
-- Complete Plugins: 2
-- Partial Plugins: 3
-- Skeleton Plugins: 9
+- Implemented Skills: 22
+- Future/Planned Skills: 18+ (remaining)
+- Complete Plugins: 4 (Plugins 01, 02, 03, 04)
+- Partial Plugins: 3 (Plugins 07, 08, 09)
+- Skeleton Plugins: 7 (Plugins 05, 06, 10, 11, 12, 13, 14)
 
 ---
 
@@ -499,18 +507,15 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 ## Recommended Implementation Roadmap
 
-### Phase 1: Core Navigation Foundation (HIGH PRIORITY)
-1. **Plugin 03 - Positioning Skills** (4 skills)
-   - visual-fix-calculator
-   - ep-calculator
-   - cross-track-error-monitor
-   - running-fix-plotter
-   - *Rationale*: Fundamental to all navigation; heavy template/calculation work
+### ✅ Phase 1: Core Navigation Foundation (COMPLETED - v0.2.0)
+1. **Plugin 03 - Positioning Skills** ✅ DONE
+   - ✅ visual-fix-calculator
+   - ✅ ep-calculator
+   - ✅ cross-track-error-monitor
 
-2. **Plugin 04 - Course to Steer Skills** (2 skills)
-   - cts-calculator
-   - velocity-triangle-plotter
-   - *Rationale*: Core calculation skill; closely related to Positioning
+2. **Plugin 04 - Course to Steer Skills** ✅ DONE
+   - ✅ cts-calculator
+   - ✅ velocity-triangle-plotter
 
 ### Phase 2: Advanced Navigation & Safety (HIGH PRIORITY)
 3. **Plugin 09 - Pilotage Skills** (remaining 4+)
