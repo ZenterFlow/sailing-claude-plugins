@@ -22,14 +22,16 @@ Install the plugins you need:
 # Ready for testing (with implemented skills)
 /plugin install chart-basics@sailing-curriculum
 /plugin install tides@sailing-curriculum
+/plugin install positioning@sailing-curriculum
+/plugin install course-to-steer@sailing-curriculum
 /plugin install passage-making@sailing-curriculum
 /plugin install visual-aids@sailing-curriculum
 /plugin install pilotage@sailing-curriculum
 
 # In development (skeleton agents, no skills yet)
-/plugin install positioning@sailing-curriculum
-/plugin install course-to-steer@sailing-curriculum
-# ... and 7 more
+/plugin install electronic-navigation@sailing-curriculum
+/plugin install ec-plotting@sailing-curriculum
+# ... and 5 more
 ```
 
 ### Or Install All at Once
@@ -70,22 +72,22 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (5 plugins, 17 skills)
+### ✅ Ready for Testing (7 plugins, 22 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
 | **01. Chart Basics** | Chart Basics Tutor | 8 skills: datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader | ✅ Ready |
 | **02. Tides** | Tides Tutor | 5 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver | ✅ Ready |
+| **03. Positioning** | Positioning Tutor | 3 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor | ✅ Ready |
+| **04. Course to Steer** | Course to Steer Tutor | 2 skills: cts-calculator, velocity-triangle-plotter | ✅ Ready |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
 | **08. Visual Aids** | Visual Aids Tutor | 1 skill: direction-of-buoyage-reminder | ✅ Ready |
 | **09. Pilotage** | Pilotage Tutor | 2 skills: chart-update-checker, almanac-navigator | ✅ Ready |
 
-### 🚧 In Development (9 plugins)
+### 🚧 In Development (7 plugins)
 
 | Plugin | Agent | Topics Covered |
 |--------|-------|----------------|
-| **03. Positioning** | Positioning Tutor | EP, DR, visual fixes, leeway, cross-track error |
-| **04. Course to Steer** | Course to Steer Tutor | CTS calculations, leeway, tidal stream vectors |
 | **05. Electronic Nav** | Electronic Nav Tutor | GPS/GNSS, radar, AIS, instruments |
 | **06. EC Plotting** | EC Plotting Tutor | Chart plotter operation, ENC/RNC, validation |
 | **10. Meteorology** | Meteorology Tutor | Forecasts, clouds, pressure systems, sea state |
@@ -315,15 +317,23 @@ https://github.com/ZenterFlow/claude-skills-library
 ## 📊 Statistics
 
 - **Total Plugins**: 14
-- **Ready for Testing**: 5 (36%)
-- **Total Skills**: 17 (with 20+ more planned)
+- **Ready for Testing**: 7 (50%)
+- **Total Skills**: 22 (with 20+ more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 5,000+
+- **Lines of Documentation**: 10,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
+
+**v0.2.0** (2025-11-09)
+- Added 5 new skills across 2 plugins
+- Plugin 03 (Positioning) now ready: 3 skills (visual-fix, EP, XTE)
+- Plugin 04 (Course to Steer) now ready: 2 skills (CTS calculator, velocity triangles)
+- 7 plugins now ready for testing (50% complete)
+- 22 total skills implemented
+- Comprehensive navigation calculation support
 
 **v0.1.0** (2025-11-01)
 - Initial marketplace release
@@ -331,7 +341,6 @@ https://github.com/ZenterFlow/claude-skills-library
 - 17 skills implemented and tested
 - 14 agent frameworks established
 - Complete documentation structure
-- Added 5 chart correction skills to chart-basics plugin
 
 ---
 
@@ -356,5 +365,5 @@ Skills consolidated from:
 
 &copy; ZenterFlow
 
-*Last Updated: 2025-11-01*
-*Version: 0.1.0 (Early Beta)*
+*Last Updated: 2025-11-09*
+*Version: 0.2.0 (Early Beta)*
