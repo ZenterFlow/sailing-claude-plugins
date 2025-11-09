@@ -1,0 +1,10 @@
+skill_name: "example-skill"
+description: "One-sentence win"
+triggers:
+  - "Can I ..."
+resources:
+  - lookup-table.csv
+templates:
+  - worked-example.md
+tests:
+  - sample-prompts.md

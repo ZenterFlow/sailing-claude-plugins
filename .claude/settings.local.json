@@ -12,7 +12,11 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Read(//c/Users/jonat/**)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(test:*)",
+      "Skill(plugin-formatter)"
     ],
     "deny": [],
     "ask": []

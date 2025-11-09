@@ -1,0 +1,13 @@
+{
+  "name": "longitude-latitude",
+  "description": "Explains how to read and use latitude/longitude scales on charts",
+  "version": "0.1.0",
+  "triggers": [
+    "latitude scale",
+    "longitude scale",
+    "how to measure distance on chart",
+    "read lat long",
+    "nautical mile",
+    "chart position format"
+  ]
+}

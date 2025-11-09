@@ -1,0 +1,6 @@
+{
+  "name": "example-skill",
+  "description": "One-sentence win",
+  "version": "1.0",
+  "triggers": ["Can I ..."]
+}
