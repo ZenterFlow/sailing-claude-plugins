@@ -1,0 +1,13 @@
+{
+  "name": "light-characteristics-quiz",
+  "description": "Interactive quiz for identifying navigation light characteristics and rhythms.",
+  "version": "1.0",
+  "triggers": [
+    "light characteristics quiz",
+    "identify lights",
+    "test me on lights",
+    "navigation lights quiz",
+    "light rhythm",
+    "flashing lights"
+  ]
+}

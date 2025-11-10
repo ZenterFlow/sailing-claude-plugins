@@ -1,0 +1,15 @@
+{
+  "name": "cardinal-marks-identifier",
+  "description": "Identify cardinal marks (N/E/S/W) by topmarks, colors, and lights for hazard navigation.",
+  "version": "1.0",
+  "triggers": [
+    "cardinal marks",
+    "north cardinal",
+    "east cardinal",
+    "south cardinal",
+    "west cardinal",
+    "identify cardinal",
+    "cardinal buoy",
+    "topmarks"
+  ]
+}
