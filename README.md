@@ -72,7 +72,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (7 plugins, 22 skills)
+### ✅ Ready for Testing (8 plugins, 26 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
@@ -82,9 +82,9 @@ Each plugin contains:
 | **04. Course to Steer** | Course to Steer Tutor | 2 skills: cts-calculator, velocity-triangle-plotter | ✅ Ready |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
 | **08. Visual Aids** | Visual Aids Tutor | 1 skill: direction-of-buoyage-reminder | ✅ Ready |
-| **09. Pilotage** | Pilotage Tutor | 2 skills: chart-update-checker, almanac-navigator | ✅ Ready |
+| **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Ready |
 
-### 🚧 In Development (7 plugins)
+### 🚧 In Development (6 plugins)
 
 | Plugin | Agent | Topics Covered |
 |--------|-------|----------------|
@@ -317,22 +317,27 @@ https://github.com/ZenterFlow/claude-skills-library
 ## 📊 Statistics
 
 - **Total Plugins**: 14
-- **Ready for Testing**: 7 (50%)
-- **Total Skills**: 22 (with 20+ more planned)
+- **Ready for Testing**: 8 (57%)
+- **Total Skills**: 26 (with 15+ more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 10,000+
+- **Lines of Documentation**: 12,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
 
+**v0.3.0** (2025-11-09)
+- Added 4 new pilotage skills to Plugin 09
+- Plugin 09 (Pilotage) now complete: 6 skills (clearing bearings, leading lines, harbor entry, fog navigation)
+- 8 plugins now ready for testing (57% complete)
+- 26 total skills implemented
+- Safety-critical pilotage procedures complete
+
 **v0.2.0** (2025-11-09)
 - Added 5 new skills across 2 plugins
 - Plugin 03 (Positioning) now ready: 3 skills (visual-fix, EP, XTE)
 - Plugin 04 (Course to Steer) now ready: 2 skills (CTS calculator, velocity triangles)
-- 7 plugins now ready for testing (50% complete)
-- 22 total skills implemented
 - Comprehensive navigation calculation support
 
 **v0.1.0** (2025-11-01)
@@ -366,4 +371,4 @@ Skills consolidated from:
 &copy; ZenterFlow
 
 *Last Updated: 2025-11-09*
-*Version: 0.2.0 (Early Beta)*
+*Version: 0.3.0 (Beta)*

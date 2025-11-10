@@ -1,0 +1,13 @@
+{
+  "name": "leading-line-plotter",
+  "description": "Calculate and plot leading lines (transits) for accurate position fixing and harbor entry.",
+  "version": "1.0",
+  "triggers": [
+    "leading line",
+    "transit",
+    "leading marks",
+    "objects in line",
+    "range",
+    "transit navigation"
+  ]
+}
