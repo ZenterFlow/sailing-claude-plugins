@@ -1,0 +1,11 @@
+{
+  "name": "skill-crafter-toolkit",
+  "description": "Turn any paragraph into a working Claude skill in minutes.",
+  "version": "1.0",
+  "triggers": [
+    "skills per chapter",
+    "Turn this paragraph into a trigger",
+    "Build me a skill from this paragraph",
+    "How do I upload and toggle a skill"
+  ]
+}

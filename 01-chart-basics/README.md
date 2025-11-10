@@ -11,14 +11,19 @@
 - Chart corrections and currency (Notices to Mariners, updating charts)
 
 ## Skills Included
-1. **datum-guardian** - GPS/chart datum compatibility and shift calculations
+1. **chart-correction-decoder** - Read and explain chart correction panels
 2. **charted-height-interpreter** - Vertical datum reference guide
-3. **symbol-spotter** - Interactive chart symbol quiz with 100+ symbols
-4. **chart-correction-decoder** - Read and explain chart correction panels
-5. **corrections-mini-quiz** - Interactive quiz on reading correction panels
+3. **chart-safe-go-nogo** - Quick safety call on chart currency
+4. **chart-symbol-spotter** - Identify chart symbols by name or photo
+5. **chart-update-checker** - Verify chart currency and identify required corrections
 6. **chart-update-checklist** - Shopping list and steps for hand-correcting charts
-7. **chart-safe-go-nogo** - Quick safety call on chart currency
-8. **photo-correction-reader** - OCR and decode correction photos
+7. **chartwork-mercator-projection** - Explains Mercator projection principles
+8. **corrections-mini-quiz** - Interactive quiz on reading correction panels
+9. **datum-guardian** - GPS/chart datum compatibility and shift calculations
+10. **longitude-latitude** - How to read and use lat/long scales correctly
+11. **photo-correction-reader** - OCR and decode correction photos
+12. **symbol-quiz-flashcards** - Rapid-fire flashcard quiz on chart symbols
+13. **symbol-spotter** - Interactive chart symbol quiz with 100+ symbols
 
 ## Agent
 **Chart Basics Tutor** - Patient instructor focusing on precision and safety
@@ -34,7 +39,7 @@ Activate by asking chart-related questions:
 - "How do I update my chart?"
 
 ## Status
-✅ **Ready for Testing** - 8 skills fully implemented
+✅ **Ready for Testing** - 13 skills fully implemented
 
 ## Example Session
 ```
@@ -53,4 +58,4 @@ Always check chart title block for datum before plotting.
 ```
 
 ## Version
-v0.1.1 (2025-10-31)
+v0.1.2 (2025-11-02) - Added 5 new skills: chart-symbol-spotter, chart-update-checker, chartwork-mercator-projection, longitude-latitude, symbol-quiz-flashcards

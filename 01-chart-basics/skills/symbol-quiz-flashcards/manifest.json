@@ -1,0 +1,11 @@
+{
+  "name": "symbol-quiz-flashcards",
+  "description": "Rapid-fire picture or text quiz on chart symbols",
+  "version": "0.1.0",
+  "triggers": [
+    "quiz symbol",
+    "flashcard",
+    "test me on chart symbols",
+    "symbol quiz"
+  ]
+}

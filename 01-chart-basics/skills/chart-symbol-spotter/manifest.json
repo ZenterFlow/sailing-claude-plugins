@@ -1,0 +1,13 @@
+{
+  "name": "chart-symbol-spotter",
+  "description": "Identify the symbol the student names or uploads",
+  "version": "0.1.0",
+  "triggers": [
+    "symbol",
+    "what is this",
+    "major light",
+    "wind farm",
+    "perch",
+    "AIS buoy"
+  ]
+}

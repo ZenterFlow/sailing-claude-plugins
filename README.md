@@ -72,7 +72,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (8 plugins, 26 skills)
+### ✅ Ready for Testing (7 plugins, 30 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
@@ -81,10 +81,10 @@ Each plugin contains:
 | **03. Positioning** | Positioning Tutor | 3 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor | ✅ Ready |
 | **04. Course to Steer** | Course to Steer Tutor | 2 skills: cts-calculator, velocity-triangle-plotter | ✅ Ready |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
-| **08. Visual Aids** | Visual Aids Tutor | 1 skill: direction-of-buoyage-reminder | ✅ Ready |
+| **08. Visual Aids** | Visual Aids Tutor | 5 skills: direction-of-buoyage-reminder, light-characteristics-quiz, cardinal-marks-identifier, ranges-and-transits-guide, dipping-distance-calculator | ✅ Ready |
 | **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Ready |
 
-### 🚧 In Development (6 plugins)
+### 🚧 In Development (7 plugins)
 
 | Plugin | Agent | Topics Covered |
 |--------|-------|----------------|
@@ -317,21 +317,26 @@ https://github.com/ZenterFlow/claude-skills-library
 ## 📊 Statistics
 
 - **Total Plugins**: 14
-- **Ready for Testing**: 8 (57%)
-- **Total Skills**: 26 (with 15+ more planned)
+- **Ready for Testing**: 7 (50%)
+- **Total Skills**: 30 (with 10+ more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 12,000+
+- **Lines of Documentation**: 14,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
 
+**v0.4.0** (2025-11-09)
+- Added 4 new visual aids skills to Plugin 08
+- Plugin 08 (Visual Aids) now complete: 5 skills (lights, cardinal marks, ranges, dipping distance)
+- 7 plugins now ready for testing (50% complete)
+- 30 total skills implemented
+- Complete visual navigation aids coverage
+
 **v0.3.0** (2025-11-09)
 - Added 4 new pilotage skills to Plugin 09
-- Plugin 09 (Pilotage) now complete: 6 skills (clearing bearings, leading lines, harbor entry, fog navigation)
-- 8 plugins now ready for testing (57% complete)
-- 26 total skills implemented
+- Plugin 09 (Pilotage) complete: 6 skills
 - Safety-critical pilotage procedures complete
 
 **v0.2.0** (2025-11-09)
@@ -371,4 +376,4 @@ Skills consolidated from:
 &copy; ZenterFlow
 
 *Last Updated: 2025-11-09*
-*Version: 0.3.0 (Beta)*
+*Version: 0.4.0 (Beta)*
