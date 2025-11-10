@@ -1,0 +1,57 @@
+Yachtmaster Ocean Theory Syllabus
+1. The earth and the celestial sphere
+• Definition of observer’s zenith and position of a heavenly body in terms of latitude,
+longitude, GHA and declination
+• Right angle relationships, latitude and co-lat, declination and polar distance
+• Relationship between GHA, longitude and LHA
+• Tabulation of declination in nautical almanac
+• Rate of increase of hour angle with time
+2. The PZX triangle
+• The tabulated components of the triangle, LHA, co-lat and polar distance
+• The calculable components, zenith distance and azimuth
+• Relationship between zenith distance and altitude
+• Introduction to the tabular method of solution in the Air Navigation Tables and the
+basic sight form
+• The use of calculators for the solution of the PZX triangle
+3. The sextant
+• Practical guide to the use and care of a sextant at sea
+• Conversion of sextant altitude to true altitude
+• Application of dip, index error and refraction
+• Correction of side error, perpendicularity, index error and collimation error
+4. Measurement of time
+• Definition of, and relationship between, UT, LMT, standard time and zone time
+• Rating of chronometers and watches
+5. Meridian altitudes
+• Forecasting time of meridian altitude
+• Reduction of meridian altitude sights
+6. Sun, star and other sights
+• Reduction and plotting of sun sights using
+• Air Navigation Tables
+• Awareness of use of calculator for sight reduction
+• The plotting of sun-run-sun meridian altitude
+• Awareness of the reduction and plotting of sights obtained from stars, moon and
+planets
+7. Compass checking
+• Use of amplitude and azimuth tables systems and/or calculator
+8. Satellite Navigation Systems
+• Principles and limitations of use of all systems
+9. Great circle sailing
+• Comparison of rhomb lines and great circles
+• Vertices and composite tracks
+• The computation of a series of rhomb lines approximating to a great circle by use of
+gnomonic and Mercator projections
+10. Meteorology
+• General pressure distribution and prevailing winds over the oceans of the world
+• Tropical revolving storms, seasonal occurrence and forecasting by observation
+11. Passage planning
+• Publications available to assist with planning of long passages (routing charts, ocean
+passages of the world and other publications)
+• Preparation for ocean passage including survival equipment, victualling, water and
+fuel management, chafe protection, spares and maintenance
+12. Passage making
+• Navigational routine
+• Watchkeeping
+• Crew management
+13. Communications
+• Satellite and terrestrial systems
+• Weather information
