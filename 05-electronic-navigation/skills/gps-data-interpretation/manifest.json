@@ -1,0 +1,6 @@
+{
+  "name": "gps-data-interpretation",
+  "description": "Interpret SOG, COG, XTE, TTG, VMG data fields.",
+  "version": "1.0",
+  "triggers": ["what is SOG", "what is XTE", "GPS data fields", "velocity made good", "cross track error"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ais-target-interpretation",
+  "description": "AIS target symbols, CPA/TCPA collision assessment, and limitations.",
+  "version": "1.0",
+  "triggers": ["what is AIS", "AIS target symbols", "CPA and TCPA", "AIS collision assessment"]
+}

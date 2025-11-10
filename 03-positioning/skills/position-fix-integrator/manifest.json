@@ -1,0 +1,6 @@
+{
+  "name": "position-fix-integrator",
+  "description": "Complete position fixing workflow integration.",
+  "version": "1.0",
+  "triggers": ["complete position fix", "fix workflow", "position management"]
+}

@@ -24,14 +24,15 @@ Install the plugins you need:
 /plugin install tides@sailing-curriculum
 /plugin install positioning@sailing-curriculum
 /plugin install course-to-steer@sailing-curriculum
+/plugin install electronic-navigation@sailing-curriculum
+/plugin install ec-plotting@sailing-curriculum
 /plugin install passage-making@sailing-curriculum
 /plugin install visual-aids@sailing-curriculum
 /plugin install pilotage@sailing-curriculum
 
 # In development (skeleton agents, no skills yet)
-/plugin install electronic-navigation@sailing-curriculum
-/plugin install ec-plotting@sailing-curriculum
-# ... and 5 more
+/plugin install meteorology@sailing-curriculum
+# ... and 4 more
 ```
 
 ### Or Install All at Once
@@ -72,30 +73,24 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (5 plugins, 32 skills)
+### ✅ Ready for Testing (9 plugins, 58 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
-| **01. Chart Basics** | Chart Basics Tutor | **18 skills** (13 original + 5 compass): datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader, chart-symbol-spotter, chart-update-checker, chartwork-mercator-projection, longitude-latitude, symbol-quiz-flashcards, **magnetic-variation-calculator, compass-error-correction, compass-deviation-table, hand-bearing-compass, compass-dip-heeling** | ✅ Ready |
-| **02. Tides** | Tides Tutor | **10 skills** (5 original + 5 theory): tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, **tidal-theory, tidal-terminology, time-zone-converter, computation-rates-graph, multi-hour-stream** | ✅ Ready |
-### ✅ Ready for Testing (8 plugins, 26 skills)
-
-| Plugin | Agent | Skills | Status |
-|--------|-------|--------|--------|
-| **01. Chart Basics** | Chart Basics Tutor | 8 skills: datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader | ✅ Ready |
-| **02. Tides** | Tides Tutor | 5 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver | ✅ Ready |
-| **03. Positioning** | Positioning Tutor | 3 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor | ✅ Ready |
-| **04. Course to Steer** | Course to Steer Tutor | 2 skills: cts-calculator, velocity-triangle-plotter | ✅ Ready |
+| **01. Chart Basics** | Chart Basics Tutor | 17 skills: datum-guardian, charted-height-interpreter, longitude-latitude, chartwork-mercator-projection, symbol-spotter, symbol-quiz-flashcards, chart-symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-update-checker, chart-safe-go-nogo, photo-correction-reader, magnetic-variation-calculator, compass-error-corrector, deviation-table-reader, hand-bearing-compass-guide | ✅ Complete |
+| **02. Tides** | Tides Tutor | 8 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, tidal-terminology-guide, time-zone-converter, tidal-theory-explainer | ✅ Complete |
+| **03. Positioning** | Positioning Tutor | 6 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor, visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator | ✅ Complete |
+| **04. Course to Steer** | Course to Steer Tutor | 7 skills: cts-calculator, velocity-triangle-plotter, vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator | ✅ Complete |
+| **05. Electronic Nav** | Electronic Navigation Tutor | 11 skills: gps-gnss-fundamentals, gps-data-interpretation, depth-sounder-configuration, radar-basics-limitations, ais-target-interpretation, integrated-electronic-navigation, electronic-navigation-limitations, waypoint-management-safety, navigation-instrument-calibration, radar-pilotage-techniques, marpa-collision-assessment | ✅ Complete |
+| **06. EC Plotting** | EC Plotting Tutor | 2 skills: electronic-chart-types, chart-plotter-operation | ✅ Complete |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
-| **08. Visual Aids** | Visual Aids Tutor | 1 skill: direction-of-buoyage-reminder | ✅ Ready |
-| **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Ready |
+| **08. Visual Aids** | Visual Aids Tutor | 5 skills: direction-of-buoyage-reminder, light-characteristics-quiz, cardinal-marks-identifier, ranges-and-transits-guide, dipping-distance-calculator | ✅ Complete |
+| **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Complete |
 
-### 🚧 In Development (6 plugins)
+### 🚧 In Development (5 plugins)
 
 | Plugin | Agent | Topics Covered |
 |--------|-------|----------------|
-| **05. Electronic Nav** | Electronic Nav Tutor | GPS/GNSS, radar, AIS, instruments |
-| **06. EC Plotting** | EC Plotting Tutor | Chart plotter operation, ENC/RNC, validation |
 | **10. Meteorology** | Meteorology Tutor | Forecasts, clouds, pressure systems, sea state |
 | **11. IRPCS** | IRPCS Tutor | Collision regulations, rules, case studies |
 | **12. Safety & Environment** | Safety & Environment Tutor | Safety briefs, Mayday, stability, MARPOL |
@@ -323,21 +318,49 @@ https://github.com/ZenterFlow/claude-skills-library
 ## 📊 Statistics
 
 - **Total Plugins**: 14
-- **Ready for Testing**: 8 (57%)
-- **Total Skills**: 26 (with 15+ more planned)
+- **Ready for Testing**: 9 (64%)
+- **Total Skills**: 58 (with more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 12,000+
+- **Lines of Documentation**: 15,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
 
+**v0.7.0** (2025-11-10)
+- Added 13 electronic navigation skills across 2 plugins
+- Plugin 05 (Electronic Navigation) now complete with 11 skills: GPS/GNSS fundamentals, GPS data interpretation, depth sounder configuration, radar basics, AIS target interpretation, integrated navigation, system limitations, waypoint management, instrument calibration, radar pilotage, MARPA collision assessment
+- Plugin 06 (EC Plotting) now complete with 2 skills: electronic chart types (RNC vs ENC), chart plotter operation
+- 58 total skills implemented (13 new)
+- 9 plugins now ready for testing (64% complete)
+- Complete electronic navigation and chart plotter coverage
+
+**v0.6.0** (2025-11-10)
+- Added 11 new advanced navigation skills across 3 plugins
+- Plugin 02 (Tides) expanded to 8 skills: Added tidal-terminology-guide, time-zone-converter, tidal-theory-explainer
+- Plugin 03 (Positioning) expanded to 6 skills: Added visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator
+- Plugin 04 (Course to Steer) expanded to 7 skills: Added vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator
+- 45 total skills implemented (11 new)
+- Complete foundational navigation and CTS workflow coverage
+
+**v0.5.0** (2025-11-10)
+- Added 4 compass error skills to Plugin 01 (Chart Basics)
+- Plugin 01 now complete with 17 skills (100% RYA/ASA chart basics syllabus)
+- Compass workflow: variation calculation → deviation tables → CADET conversions → hand bearing techniques
+- 34 total skills implemented across 7 ready plugins
+- Complete navigation fundamentals coverage
+
+**v0.4.0** (2025-11-09)
+- Added 4 new visual aids skills to Plugin 08
+- Plugin 08 (Visual Aids) now complete: 5 skills (lights, cardinal marks, ranges, dipping distance)
+- 7 plugins now ready for testing (50% complete)
+- 30 total skills implemented
+- Complete visual navigation aids coverage
+
 **v0.3.0** (2025-11-09)
 - Added 4 new pilotage skills to Plugin 09
-- Plugin 09 (Pilotage) now complete: 6 skills (clearing bearings, leading lines, harbor entry, fog navigation)
-- 8 plugins now ready for testing (57% complete)
-- 26 total skills implemented
+- Plugin 09 (Pilotage) complete: 6 skills
 - Safety-critical pilotage procedures complete
 
 **v0.2.0** (2025-11-09)
@@ -349,7 +372,7 @@ https://github.com/ZenterFlow/claude-skills-library
 **v0.1.0** (2025-11-01)
 - Initial marketplace release
 - 5 plugins ready: Chart Basics, Tides, Passage Making, Visual Aids, Pilotage
-- 22 skills implemented and tested
+- 17 skills implemented and tested
 - 14 agent frameworks established
 - Complete documentation structure
 
@@ -376,5 +399,5 @@ Skills consolidated from:
 
 &copy; ZenterFlow
 
-*Last Updated: 2025-11-09*
-*Version: 0.3.0 (Beta)*
+*Last Updated: 2025-11-10*
+*Version: 0.7.0 (Beta)*

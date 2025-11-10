@@ -1,0 +1,6 @@
+{
+  "name": "radar-pilotage-techniques",
+  "description": "Radar fixes, harbor identification, and pilotage applications.",
+  "version": "1.0",
+  "triggers": ["radar fix", "radar navigation", "parallel indexing", "clearing range"]
+}

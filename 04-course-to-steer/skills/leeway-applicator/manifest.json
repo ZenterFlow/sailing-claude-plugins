@@ -1,0 +1,6 @@
+{
+  "name": "leeway-applicator",
+  "description": "Apply leeway correction to True CTS.",
+  "version": "1.0",
+  "triggers": ["apply leeway", "leeway correction", "wind effect CTS"]
+}

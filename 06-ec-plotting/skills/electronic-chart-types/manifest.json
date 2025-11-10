@@ -1,0 +1,6 @@
+{
+  "name": "electronic-chart-types",
+  "description": "RNC vs ENC comparison, quality indicators, and limitations.",
+  "version": "1.0",
+  "triggers": ["RNC vs ENC", "raster charts", "vector charts", "electronic chart types"]
+}

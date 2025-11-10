@@ -1,0 +1,13 @@
+{
+  "name": "deviation-table-reader",
+  "description": "Read and interpolate ship's compass deviation table for any heading.",
+  "version": "1.0",
+  "triggers": [
+    "deviation table",
+    "find deviation",
+    "interpolate deviation",
+    "compass deviation",
+    "deviation for heading",
+    "ship's compass error"
+  ]
+}

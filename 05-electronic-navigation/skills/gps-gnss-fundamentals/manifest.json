@@ -1,0 +1,6 @@
+{
+  "name": "gps-gnss-fundamentals",
+  "description": "GPS/GNSS principles, HDOP interpretation, accuracy factors.",
+  "version": "1.0",
+  "triggers": ["how does GPS work", "what is HDOP", "GPS accuracy", "satellite navigation"]
+}

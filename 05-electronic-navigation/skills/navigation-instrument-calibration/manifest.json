@@ -1,0 +1,6 @@
+{
+  "name": "navigation-instrument-calibration",
+  "description": "Log, depth, and wind instrument calibration procedures.",
+  "version": "1.0",
+  "triggers": ["log calibration", "depth sounder accuracy", "instrument calibration", "measured mile"]
+}

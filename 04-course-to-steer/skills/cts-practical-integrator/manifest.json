@@ -1,0 +1,6 @@
+{
+  "name": "cts-practical-integrator",
+  "description": "Complete end-to-end CTS workflow integration.",
+  "version": "1.0",
+  "triggers": ["complete CTS", "full CTS workflow", "CTS start to finish"]
+}

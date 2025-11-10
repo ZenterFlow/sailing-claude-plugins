@@ -1,0 +1,13 @@
+{
+  "name": "ranges-and-transits-guide",
+  "description": "Calculate and use visual ranges and transits for accurate position fixing.",
+  "version": "1.0",
+  "triggers": [
+    "range",
+    "transit",
+    "visual range",
+    "objects in line",
+    "distance off",
+    "range finder"
+  ]
+}

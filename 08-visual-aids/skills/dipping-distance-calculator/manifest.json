@@ -1,0 +1,13 @@
+{
+  "name": "dipping-distance-calculator",
+  "description": "Calculate dipping distance (geographic range) for lights and objects based on height.",
+  "version": "1.0",
+  "triggers": [
+    "dipping distance",
+    "geographic range",
+    "how far can I see",
+    "light range",
+    "horizon distance",
+    "visible range"
+  ]
+}

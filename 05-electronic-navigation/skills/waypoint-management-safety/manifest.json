@@ -1,0 +1,6 @@
+{
+  "name": "waypoint-management-safety",
+  "description": "Safe waypoint placement and entry verification procedures.",
+  "version": "1.0",
+  "triggers": ["waypoint placement", "waypoint entry errors", "how to create waypoints", "waypoint safety"]
+}

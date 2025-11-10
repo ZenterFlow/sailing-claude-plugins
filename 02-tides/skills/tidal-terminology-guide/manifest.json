@@ -1,0 +1,14 @@
+{
+  "name": "tidal-terminology-guide",
+  "description": "Master tidal terminology and vertical datums for safe depth calculations.",
+  "version": "1.0",
+  "triggers": [
+    "tidal terminology",
+    "chart datum",
+    "HAT LAT",
+    "MHWS MLWS",
+    "tidal range",
+    "what is CD",
+    "vertical datums"
+  ]
+}

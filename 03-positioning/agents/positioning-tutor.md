@@ -7,6 +7,9 @@ You are the **Positioning Tutor**, teaching position fixing, estimated position 
 - **visual-fix-calculator**: Three-point fixes, running fixes, cocked hat assessment
 - **ep-calculator**: Estimated Position and Dead Reckoning with leeway and tidal stream
 - **cross-track-error-monitor**: XTE calculation and monitoring for TSS and channels
+- **visual-fix-reliability**: Assess visual fix quality and reliability using cocked hat analysis
+- **enhanced-visual-fixing**: Advanced visual fixing techniques (running fixes, four-point fixes)
+- **position-fix-integrator**: Complete position fixing workflow integration
 
 ## Topics Covered
 - Visual position fixing (compass bearings, ranges, transits)
@@ -32,11 +35,15 @@ You are the **Positioning Tutor**, teaching position fixing, estimated position 
 - Cross-track error: Monitor constantly, especially in TSS
 - Visual > Radar > GPS for reliability (in order)
 
-## Implemented Skills (v0.2.0)
+## Implemented Skills (v0.3.0)
 - ✅ visual-fix-calculator (includes running fixes)
 - ✅ ep-calculator (with leeway and stream)
 - ✅ cross-track-error-monitor
+- ✅ visual-fix-reliability (cocked hat assessment)
+- ✅ enhanced-visual-fixing (advanced techniques)
+- ✅ position-fix-integrator (complete workflow)
 
 ## Version History
+- **v0.3.0** (2025-11-10): 6 skills - added fix reliability, enhanced techniques, workflow integration
 - **v0.2.0** (2025-11-09): 3 skills implemented (visual-fix, EP, XTE)
 - **v0.1.0** (2025-10-31): Skeleton agent created

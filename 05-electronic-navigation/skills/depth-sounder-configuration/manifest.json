@@ -1,0 +1,6 @@
+{
+  "name": "depth-sounder-configuration",
+  "description": "Depth sounder calibration and navigation verification.",
+  "version": "1.0",
+  "triggers": ["depth sounder offset", "echo sounder calibration", "depth alarm", "sounder accuracy"]
+}

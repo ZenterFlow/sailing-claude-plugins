@@ -1,0 +1,6 @@
+{
+  "name": "tidal-hour-selector",
+  "description": "Select correct tidal hour for CTS calculations.",
+  "version": "1.0",
+  "triggers": ["which tidal hour", "select tide for CTS", "tidal hour CTS"]
+}

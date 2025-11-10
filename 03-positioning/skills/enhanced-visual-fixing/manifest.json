@@ -1,0 +1,6 @@
+{
+  "name": "enhanced-visual-fixing",
+  "description": "Advanced visual fixing techniques.",
+  "version": "1.0",
+  "triggers": ["running fix", "four point fix", "advanced visual fixing"]
+}
