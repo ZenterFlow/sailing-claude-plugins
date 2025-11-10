@@ -1,8 +1,12 @@
-# Plugin 06: 
+# Plugin 06: Electronic Chart Plotting
 
-**Status**: 🚧 Skeleton - Skills to be developed
+**Status**: ✅ Ready - 2 skills implemented
 
-See agent.md for topics covered and future skills planned.
+Master electronic chart plotters, understand RNC vs ENC differences, and configure safety alarms for safe passage planning.
+
+## Skills Included (2)
+1. **electronic-chart-types** - RNC vs ENC comparison, quality indicators, limitations
+2. **chart-plotter-operation** - Menu navigation, alarm configuration, safety settings
 
 ## Version
-v0.1.0 (2025-10-31)
+v1.0.0 (2025-11-10)

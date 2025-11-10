@@ -4,11 +4,11 @@
 
 This repository contains **14 sailing/navigation education plugins** organized as RYA/ASA YachtMaster training tools. Currently:
 
-- **6 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 08, 09)
+- **8 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 05, 06, 08, 09)
 - **1 plugin** has partial implementation (Plugin 07)
-- **7 plugins** are skeleton frameworks ready for skill development (Plugins 05, 06, 10-14)
+- **5 plugins** are skeleton frameworks ready for skill development (Plugins 10-14)
 
-**Total Skills Implemented**: 45
+**Total Skills Implemented**: 58
 **Total Future Skills Listed**: 10+ (remaining)
 
 ---
@@ -163,16 +163,24 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 ---
 
-### Plugin 05: Electronic Navigation 🚧 SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 05: Electronic Navigation ✅ COMPLETE
+**Status**: Production Ready (v0.7.0)
+**Total Skills**: 11 implemented
 
-**Future Skills Listed in Agent**:
-1. gps-accuracy-checker - GPS accuracy, HDOP, PDOP assessment
-2. radar-range-calculator - Radar range ring calculations
-3. ais-interpreter - AIS target symbol and data interpretation
+**Implemented Skills**:
+1. gps-gnss-fundamentals - GPS/GNSS principles, HDOP, accuracy metrics
+2. gps-data-interpretation - SOG, COG, XTE, TTG, VMG data interpretation
+3. depth-sounder-configuration - Offset calibration (keel, waterline, transducer)
+4. radar-basics-limitations - Radar principles, beam width, range vs bearing accuracy
+5. ais-target-interpretation - AIS symbols, CPA/TCPA, target classification
+6. integrated-electronic-navigation - Multi-system integration and cross-checking
+7. electronic-navigation-limitations - System limitations and backup procedures
+8. waypoint-management-safety - Safe waypoint placement and entry validation
+9. navigation-instrument-calibration - Log, depth, and wind instrument calibration
+10. radar-pilotage-techniques - Radar fixes, parallel indexing, clearing ranges
+11. marpa-collision-assessment - MARPA target tracking and CPA/TCPA interpretation
 
-**Topics Defined** (from agent file):
+**Topics Covered**:
 - GPS/GNSS principles and limitations
 - Radar operation and interpretation
 - AIS targets and symbols
@@ -181,22 +189,17 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - MOB procedures using electronics
 - SART and EPIRB
 
-**Implementation Priority**: MEDIUM
-- Less mathematically intense than positioning/course calculations
-- More educational/explanatory in nature
-- Could benefit from sample radar/AIS scenarios
-
 ---
 
-### Plugin 06: Electronic Chart Plotting 🚧 SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 06: Electronic Chart Plotting ✅ COMPLETE
+**Status**: Production Ready (v0.7.0)
+**Total Skills**: 2 implemented
 
-**Future Skills Listed in Agent**:
-1. chart-plotter-validator - Validation against paper charts
-2. enc-layer-explainer - ENC layer types and display options
+**Implemented Skills**:
+1. electronic-chart-types - RNC vs ENC comparison, quality indicators, limitations
+2. chart-plotter-operation - Menu navigation, alarm configuration, safety settings
 
-**Topics Defined** (from agent file):
+**Topics Covered**:
 - ENC vs RNC chart types
 - Chart plotter operation
 - Route planning on plotters
@@ -204,14 +207,6 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - Chart updates and corrections
 - Validation against paper charts
 - ECDIS principles (commercial)
-
-**Implementation Priority**: MEDIUM-HIGH
-- Practical skill for modern navigation
-- Related to chart corrections (Plugin 01) and chart validation
-
-**Potential Resource Sharing**:
-- Chart correction logic from Plugin 01
-- ENC/RNC standards documentation needed
 
 ---
 
@@ -479,8 +474,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 02 | Tides | 8 | ✅ Complete | None | N/A |
 | 03 | Positioning | 6 | ✅ Complete | None | N/A |
 | 04 | Course to Steer | 7 | ✅ Complete | None | N/A |
-| 05 | Electronic Navigation | 0 | 🚧 Skeleton | 3 | MEDIUM |
-| 06 | EC Plotting | 0 | 🚧 Skeleton | 2 | MEDIUM-HIGH |
+| 05 | Electronic Navigation | 11 | ✅ Complete | None | N/A |
+| 06 | EC Plotting | 2 | ✅ Complete | None | N/A |
 | 07 | Passage Making | 1 | ⚠️ Partial | 3+ | MEDIUM |
 | 08 | Visual Aids | 5 | ✅ Complete | None | N/A |
 | 09 | Pilotage | 6 | ✅ Complete | None | N/A |
@@ -491,11 +486,11 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 45
+- Implemented Skills: 58
 - Future/Planned Skills: 10+ (remaining)
-- Complete Plugins: 6 (Plugins 01, 02, 03, 04, 08, 09)
+- Complete Plugins: 8 (Plugins 01, 02, 03, 04, 05, 06, 08, 09)
 - Partial Plugins: 1 (Plugin 07)
-- Skeleton Plugins: 7 (Plugins 05, 06, 10, 11, 12, 13, 14)
+- Skeleton Plugins: 5 (Plugins 10, 11, 12, 13, 14)
 
 ---
 
