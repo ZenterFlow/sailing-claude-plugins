@@ -1,0 +1,13 @@
+{
+  "name": "general-rules-watchkeeping",
+  "description": "Master fundamental watchkeeping requirements, blind arc identification, risk of collision assessment, and stand-on/give-way actions under IRPCS.",
+  "version": "1.0.0",
+  "triggers": [
+    "watchkeeping",
+    "blind arcs",
+    "rule 5 lookout",
+    "risk of collision",
+    "give way stand on",
+    "narrow channel rules"
+  ]
+}

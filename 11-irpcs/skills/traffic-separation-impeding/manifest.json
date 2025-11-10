@@ -1,0 +1,14 @@
+{
+  "name": "traffic-separation-impeding",
+  "description": "Navigate Traffic Separation Schemes correctly, understand impede vs give-way distinctions, and apply vessel hierarchy rules under IRPCS Rule 10 and 18.",
+  "version": "1.0.0",
+  "triggers": [
+    "traffic separation",
+    "TSS",
+    "impede",
+    "vessel hierarchy",
+    "inshore zone",
+    "constrained by draught",
+    "restricted in ability to manoeuvre"
+  ]
+}

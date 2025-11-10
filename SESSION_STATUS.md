@@ -2,7 +2,7 @@
 
 **Last Updated**: 2025-11-10
 **Branch**: `claude/continue-from-session-status-011CUzLWRjyhgc6qV77BRtNY`
-**Version**: v1.2.0
+**Version**: v1.3.0
 
 ---
 
@@ -10,11 +10,11 @@
 
 ### Current Statistics
 - **Total Plugins**: 14
-- **Complete Plugins**: 9 (64%)
+- **Complete Plugins**: 10 (71%)
 - **Partial Plugins**: 1 (Plugin 07)
-- **Skeleton Plugins**: 4 (Plugins 11-14)
-- **Total Skills Implemented**: 87
-- **Core Navigation Skills**: 100% complete (all SKILL_15-90 processed)
+- **Skeleton Plugins**: 3 (Plugins 12-14)
+- **Total Skills Implemented**: 94
+- **Core Navigation Skills**: 100% complete (all SKILL_15-97 processed)
 
 ### Repository Health
 - ✅ All changes committed and pushed
@@ -25,7 +25,46 @@
 
 ---
 
-## ✅ Recently Completed (v1.2.0)
+## ✅ Recently Completed (v1.3.0)
+
+### Plugin 11: IRPCS - IMPLEMENTED (0 → 7 skills)
+**Status**: Complete with comprehensive collision regulations coverage
+
+**New Skills Added (7)**:
+1. **general-rules-watchkeeping** - Rule 5 lookout by all available means, blind arcs, risk assessment, stand-on/give-way basics, narrow channels (Rule 9)
+2. **traffic-separation-impeding** - TSS navigation (Rule 10), vessel hierarchy (Rule 18), impede vs give-way distinction, CBD/RAM/NUC identification
+3. **navigation-lights-sound-signals** - Light configurations, arc calculations (112.5°/135°/225°), fog signals, maneuvering signals (Rules 20-37)
+4. **day-shapes-identification** - All day shapes (ball, cone, diamond, cylinder), combined displays, vessel type identification from shapes (Rules 20-31)
+5. **collision-avoidance-decisions** - Turn-to-starboard principle, head-on/crossing/overtaking situations, restricted visibility rules (Rules 13-19)
+6. **light-arcs-vessel-length** - Arc calculations, vessel length from lights, aspect determination, underway vs making way distinctions
+7. **risk-assessment-stand-on-actions** - Systematic risk assessment (constant bearing), stand-on responsibilities, last-resort action (Rules 6, 7, 17)
+
+**Coverage**: Complete IRPCS/ColRegs from fundamentals through practical application
+- General principles (Rules 1-3: application, responsibility, departures)
+- Fundamental requirements (Rules 4-10: lookout, safe speed, risk assessment, TSS)
+- Steering and sailing rules (Rules 11-19: overtaking, head-on, crossing, stand-on/give-way, restricted visibility)
+- Lights and shapes (Rules 20-31: all vessel types, power, sail, fishing, NUC, RAM, CBD, anchor, aground)
+- Sound and light signals (Rules 32-37: maneuvering, fog signals, attention, distress)
+- Vessel hierarchy (NUC > RAM > CBD > Fishing > Sail > Power)
+- Critical distinctions: impede vs give-way, underway vs making way, tricolour restrictions
+- Risk assessment methods: visual bearings (constant bearing = risk), radar CPA/TCPA, auditory (fog signals), AIS
+- Stand-on vessel obligations: maintain course/speed, last-resort action when necessary
+- Safe speed factors: visibility, traffic density, maneuverability, hazards
+- Light arc calculations and vessel length identification
+- Complete collision avoidance decision-making framework
+
+**Significance**: Second skeleton plugin transformed to complete production ready status, completing all collision regulations training
+
+### Git History
+```
+[pending commit] - Release v1.3.0: Implement Plugin 11 IRPCS (7 skills) (2025-11-10)
+0d4b459 - Release v1.2.0: Implement Plugin 10 Meteorology (6 skills) (2025-11-10)
+1210041 - Release v1.1.0: Expand Plugin 09 Pilotage (6→13 skills) (2025-11-10)
+```
+
+---
+
+## ✅ Previously Completed (v1.2.0)
 
 ### Plugin 10: Meteorology - IMPLEMENTED (0 → 6 skills)
 **Status**: Complete with comprehensive weather forecasting coverage
@@ -229,14 +268,15 @@ d05616e - Update documentation for Plugins 05 & 06 completion (v0.7.0) (2025-11-
 | **08. Visual Aids** | 11 | ✅ Complete | v1.0.0 (EXPANDED) |
 | **09. Pilotage** | 13 | ✅ Complete | v1.1.0 (EXPANDED) |
 | **10. Meteorology** | 6 | ✅ Complete | v1.2.0 (NEW) |
+| **11. IRPCS** | 7 | ✅ Complete | v1.3.0 (NEW) |
 
-**Total Implemented**: 87 skills (counting Plugin 07's 1 skill)
+**Total Implemented**: 94 skills (counting Plugin 07's 1 skill)
 
 ---
 
 ## 📋 Completed Skills Summary
 
-### SKILL_15-90 - ✅ ALL PROCESSED
+### SKILL_15-97 - ✅ ALL PROCESSED
 **Status**: All core navigation skills reviewed and implemented
 
 **Processing Summary**:
@@ -245,8 +285,9 @@ d05616e - Update documentation for Plugins 05 & 06 completion (v0.7.0) (2025-11-
 - **SKILL_69-77**: Implemented in v1.0.0 (Plugin 08: Visual Aids)
 - **SKILL_78-84**: Implemented in v1.1.0 (Plugin 09: Pilotage)
 - **SKILL_85-90**: Implemented in v1.2.0 (Plugin 10: Meteorology)
+- **SKILL_91-97**: Implemented in v1.3.0 (Plugin 11: IRPCS)
 
-**Result**: All 76 unique core navigation skills now implemented across 10 plugins
+**Result**: All 83 unique core navigation skills now implemented across 11 plugins
 
 ---
 
@@ -415,6 +456,7 @@ git push
 ## 📊 Progress Tracking
 
 ### Version History
+- **v1.3.0** (2025-11-10): Added 7 IRPCS skills (Plugin 11 complete 0→7) - Complete collision regulations implementation
 - **v1.2.0** (2025-11-10): Added 6 meteorology skills (Plugin 10 complete 0→6) - First skeleton plugin implemented
 - **v1.1.0** (2025-11-10): Added 7 pilotage skills (Plugin 09 expanded 6→13) - Comprehensive pilotage complete
 - **v1.0.0** (2025-11-10): Added 6 visual aids skills (Plugin 08 expanded 5→11) - IALA buoyage system complete
@@ -429,13 +471,14 @@ git push
 - **v0.1.0** (2025-11-01): Initial marketplace release (17 skills)
 
 ### Completion Percentage
-- **Skills**: 87 implemented
-- **Plugins**: 9 complete + 1 partial / 14 = **71%** (counting partial as complete)
-- **Core Navigation**: 100% (Plugins 01-10 cover all core navigation skills)
+- **Skills**: 94 implemented
+- **Plugins**: 10 complete + 1 partial / 14 = **79%** (counting partial as complete)
+- **Core Navigation**: 100% (Plugins 01-11 cover all core navigation skills)
 - **Electronic Navigation**: 100% (Plugins 05-06 complete with advanced integration)
 - **Visual Navigation**: 100% (Plugins 08-09 complete)
 - **Meteorology**: 100% (Plugin 10 complete)
-- **Safety/Rules**: 0% (Plugins 11-13 skeleton only)
+- **Collision Regulations**: 100% (Plugin 11 complete - IRPCS/ColRegs)
+- **Safety/Rules**: 0% (Plugins 12-13 skeleton only)
 
 ---
 

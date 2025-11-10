@@ -1,0 +1,14 @@
+{
+  "name": "risk-assessment-stand-on-actions",
+  "description": "Master systematic risk of collision assessment methods and proper stand-on vessel responsibilities including when and how to take last-resort avoiding action.",
+  "version": "1.0.0",
+  "triggers": [
+    "risk assessment",
+    "constant bearing",
+    "CPA TCPA",
+    "stand on vessel",
+    "last resort action",
+    "safe speed",
+    "rule 17"
+  ]
+}

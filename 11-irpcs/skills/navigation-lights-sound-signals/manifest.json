@@ -1,0 +1,14 @@
+{
+  "name": "navigation-lights-sound-signals",
+  "description": "Interpret navigation light configurations, calculate light arc coverage, and execute correct sound signals for various vessel operations and visibility conditions.",
+  "version": "1.0.0",
+  "triggers": [
+    "navigation lights",
+    "sidelights",
+    "tricolour",
+    "motor sailing lights",
+    "fog signals",
+    "sound signals",
+    "maneuvering signals"
+  ]
+}

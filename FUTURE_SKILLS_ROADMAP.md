@@ -4,11 +4,11 @@
 
 This repository contains **14 sailing/navigation education plugins** organized as RYA/ASA YachtMaster training tools. Currently:
 
-- **9 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10)
+- **10 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11)
 - **1 plugin** has partial implementation (Plugin 07)
-- **4 plugins** are skeleton frameworks ready for skill development (Plugins 11-14)
+- **3 plugins** are skeleton frameworks ready for skill development (Plugins 12-14)
 
-**Total Skills Implemented**: 87
+**Total Skills Implemented**: 94
 **Total Future Skills Listed**: 0 (all core navigation skills complete)
 
 ---
@@ -409,31 +409,33 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 ---
 
-### Plugin 11: IRPCS ⚠️ SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 11: IRPCS ✅ COMPLETE
+**Status**: Production Ready (v1.3.0)
+**Total Skills**: 7 implemented
 
-**Future Skills Listed in Agent**:
-1. colreg-scenario-tester - Collision scenario analyzer
-2. lights-and-shapes-quiz - Navigation lights and day shapes quiz
-3. sound-signal-identifier - Fog signal identification
+**Implemented Skills**:
+1. **general-rules-watchkeeping** - Rule 5 lookout by all available means, blind arcs, risk assessment, stand-on/give-way basics, narrow channels (Rule 9)
+2. **traffic-separation-impeding** - TSS navigation (Rule 10), vessel hierarchy (Rule 18), impede vs give-way distinction, CBD/RAM/NUC identification
+3. **navigation-lights-sound-signals** - Light configurations, arc calculations (112.5°/135°/225°), fog signals, maneuvering signals (Rules 20-37)
+4. **day-shapes-identification** - All day shapes (ball, cone, diamond, cylinder), combined displays, vessel type identification from shapes (Rules 20-31)
+5. **collision-avoidance-decisions** - Turn-to-starboard principle, head-on/crossing/overtaking situations, restricted visibility rules (Rules 13-19)
+6. **light-arcs-vessel-length** - Arc calculations, vessel length from lights, aspect determination, underway vs making way distinctions
+7. **risk-assessment-stand-on-actions** - Systematic risk assessment (constant bearing), stand-on responsibilities, last-resort action (Rules 6, 7, 17)
 
-**Topics Defined** (from agent file):
-- General rules (Rules 1-3: Application, Responsibility)
-- Steering and sailing rules (Rules 4-19)
-- Lights and shapes (Rules 20-31)
-- Sound and light signals (Rules 32-37)
-- Collision scenarios and case studies
-- Special circumstances rule
-
-**Implementation Priority**: MEDIUM-HIGH
-- Heavily tested on RYA/ASA exams
-- Clear rule-based structure (IRPCS/ColRegs)
-- Overlaps with Plugin 14 (Nav Lights)
-
-**Note**: Overlapping coverage with:
-- Plugin 13 (Collision Regulations - Rules 11-18)
-- Plugin 14 (Nav Lights Flip - navigation lights and day shapes)
+**Topics Fully Covered**:
+- General principles (Rules 1-3: application, responsibility, departures)
+- Fundamental requirements (Rules 4-10: lookout, safe speed, risk assessment, TSS)
+- Steering and sailing rules (Rules 11-19: overtaking, head-on, crossing, stand-on/give-way, restricted visibility)
+- Lights and shapes (Rules 20-31: all vessel types, power, sail, fishing, NUC, RAM, CBD, anchor, aground)
+- Sound and light signals (Rules 32-37: maneuvering, fog signals, attention, distress)
+- Vessel hierarchy (NUC > RAM > CBD > Fishing > Sail > Power)
+- Critical distinctions: impede vs give-way, underway vs making way, tricolour restrictions
+- Risk assessment methods: visual bearings (constant bearing = risk), radar CPA/TCPA, auditory (fog signals), AIS
+- Stand-on vessel obligations: maintain course/speed, last-resort action when necessary
+- Safe speed factors: visibility, traffic density, maneuverability, hazards
+- Light arc calculations: port/starboard 112.5°, stern 135°, steaming 225°
+- Vessel length identification from light configurations
+- Complete collision avoidance decision-making framework
 
 ---
 
@@ -541,17 +543,17 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 08 | Visual Aids | 11 | ✅ Complete | None | N/A |
 | 09 | Pilotage | 13 | ✅ Complete | None | N/A |
 | 10 | Meteorology | 6 | ✅ Complete | None | N/A |
-| 11 | IRPCS | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
+| 11 | IRPCS | 7 | ✅ Complete | None | N/A |
 | 12 | Safety & Environment | 0 | 🚧 Skeleton | 3 | HIGH |
 | 13 | Collision Regulations | 0 | 🚧 Skeleton | 2 | HIGH |
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 87
-- Future/Planned Skills: 11 (remaining)
-- Complete Plugins: 9 (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10)
+- Implemented Skills: 94
+- Future/Planned Skills: 8 (remaining)
+- Complete Plugins: 10 (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11)
 - Partial Plugins: 1 (Plugin 07)
-- Skeleton Plugins: 4 (Plugins 11, 12, 13, 14)
+- Skeleton Plugins: 3 (Plugins 12, 13, 14)
 
 ---
 
