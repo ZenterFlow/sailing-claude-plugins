@@ -2,7 +2,7 @@
 
 **Last Updated**: 2025-11-10
 **Branch**: `claude/continue-from-session-status-011CUzLWRjyhgc6qV77BRtNY`
-**Version**: v0.8.0
+**Version**: v0.9.0
 
 ---
 
@@ -13,8 +13,8 @@
 - **Complete Plugins**: 8 (57%)
 - **Partial Plugins**: 1 (Plugin 07)
 - **Skeleton Plugins**: 5 (Plugins 10-14)
-- **Total Skills Implemented**: 66
-- **Pending Skills Ready**: 45 (SKILL_15-47, minus already implemented SKILL_48-68)
+- **Total Skills Implemented**: 68
+- **Pending Skills Reviewed**: All SKILL_15-47 audited (31 duplicates, 2 implemented)
 
 ### Repository Health
 - ✅ All changes committed and pushed
@@ -25,7 +25,36 @@
 
 ---
 
-## ✅ Recently Completed (v0.8.0)
+## ✅ Recently Completed (v0.9.0)
+
+### Plugin 03: Positioning - EXPANDED (6 → 8 skills)
+**Status**: Complete with specialized navigation techniques
+
+**New Skills Added (2)**:
+1. **navigation-web-constructor** - Pre-plotted bearing/distance grids for rapid GPS monitoring and tacking decisions
+2. **angle-off-bow-fix** - 45°/90° relative bearing method for quick distance-off estimation
+
+**Duplicate Audit Complete**:
+- Reviewed all SKILL_15-47 (33 skills)
+- Found 31 duplicates already implemented in Plugins 01-04
+- Identified and implemented 2 unique skills
+- **Chart Basics (SKILL_15-24)**: All 10 already exist
+- **Tides (SKILL_25-33)**: All 9 already exist
+- **Positioning (SKILL_34-42)**: 7 exist, 2 new added
+- **Course to Steer (SKILL_43-47)**: All 5 already exist
+
+**Coverage**: Complete specialized navigation techniques
+
+### Git History
+```
+900591a - Add 2 specialized positioning skills (v0.9.0) (2025-11-10)
+a64a527 - Update SESSION_STATUS.md for v0.8.0 completion (2025-11-10)
+1916eb1 - Add 8 advanced electronic navigation skills (v0.8.0) (2025-11-10)
+```
+
+---
+
+## ✅ Previously Completed (v0.8.0)
 
 ### Plugin 05: Electronic Navigation - EXPANDED (11 → 16 skills)
 **Status**: Complete with advanced integration
@@ -113,7 +142,7 @@ d05616e - Update documentation for Plugins 05 & 06 completion (v0.7.0) (2025-11-
 |--------|--------|--------|--------------|
 | **01. Chart Basics** | 17 | ✅ Complete | v0.5.0 |
 | **02. Tides** | 8 | ✅ Complete | v0.6.0 |
-| **03. Positioning** | 6 | ✅ Complete | v0.6.0 |
+| **03. Positioning** | 8 | ✅ Complete | v0.9.0 (EXPANDED) |
 | **04. Course to Steer** | 7 | ✅ Complete | v0.6.0 |
 | **05. Electronic Navigation** | 16 | ✅ Complete | v0.8.0 (EXPANDED) |
 | **06. EC Plotting** | 5 | ✅ Complete | v0.8.0 (EXPANDED) |
@@ -121,71 +150,61 @@ d05616e - Update documentation for Plugins 05 & 06 completion (v0.7.0) (2025-11-
 | **08. Visual Aids** | 5 | ✅ Complete | v0.4.0 |
 | **09. Pilotage** | 6 | ✅ Complete | v0.3.0 |
 
-**Total Implemented**: 71 skills (counting Plugin 07's 1 skill)
+**Total Implemented**: 73 skills (counting Plugin 07's 1 skill)
 
 ---
 
 ## 📋 Pending Skills Available for Implementation
 
-### Priority 1: SKILL_15-47 (Core Navigation Foundation)
-**Location**: `pending-skills/SKILL_15-47`
-**Count**: 33 skills
-**Target Plugins**: 01, 02, 03, 04
+### Priority 1: SKILL_15-47 - ✅ AUDIT COMPLETE
+**Status**: All 33 skills reviewed and processed
+**Result**: 31 duplicates identified, 2 new skills implemented
 
-**Breakdown by Topic**:
-- **Chart Basics (SKILL_15-24)**: 10 skills
-  - Chart symbols, Mercator projection, lat/long, compass errors, deviation tables
-  - Target: Plugin 01 (Chart Basics)
+**Audit Results**:
+- **Chart Basics (SKILL_15-24)**: ✅ All 10 already implemented
+- **Tides (SKILL_25-33)**: ✅ All 9 already implemented
+- **Positioning (SKILL_34-42)**: ✅ 7 existed, 2 new added (SKILL_37, SKILL_39)
+- **Course to Steer (SKILL_43-47)**: ✅ All 5 already implemented
 
-- **Tides (SKILL_25-33)**: 9 skills
-  - Tidal theory, terminology, curves, secondary ports, tidal streams
-  - Target: Plugin 02 (Tides)
-
-- **Positioning (SKILL_34-42)**: 9 skills
-  - DR vs EP, running fixes, leeway, visual fix reliability, XTE ladders
-  - Target: Plugin 03 (Positioning)
-
-- **Course to Steer (SKILL_43-47)**: 5 skills
-  - Vector triangles, leeway application, CTS integration
-  - Target: Plugin 04 (Course to Steer)
-
-**Implementation Status**: Ready but not started
-- Specifications complete
-- Plugins already have some skills implemented
-- Would expand existing plugins with additional depth
+**Conclusion**: No further work needed on SKILL_15-47
 
 ---
 
 ## 🎯 Recommended Next Steps
 
-### Option A: Expand Core Navigation Plugins (SKILL_15-47)
-**Effort**: 6-8 hours (33 skills)
-**Impact**: Very High - deepens foundational coverage
-**Rationale**:
-- Fills gaps in core plugins
-- Chart Basics, Tides, Positioning, CTS are heavily tested topics
-- Large number of skills means significant progress
+### Option A: Start Skeleton Plugins (HIGH PRIORITY)
+**Effort**: 3-5 hours per plugin
+**Impact**: High - adds new capability areas and diversifies coverage
+**Target Plugins**:
+- **Plugin 12: Safety & Environment** (HIGH - safety-critical)
+- **Plugin 13: Collision Regulations** (HIGH - exam-critical)
+- **Plugin 11: IRPCS** (MEDIUM-HIGH - heavily tested)
+- **Plugin 10: Meteorology** (MEDIUM - practical weather skills)
+- **Plugin 14: Nav Lights Flip** (MEDIUM-HIGH - flashcard quiz format)
 
 **Implementation Plan**:
-1. Batch by plugin (10 chart + 9 tides + 9 positioning + 5 CTS)
-2. Implement in groups of 8-10 skills at a time
-3. Update documentation after each batch
-4. Commit frequently to avoid losing work
-
-### Option B: Start New Plugin (Meteorology, IRPCS, Safety)
-**Effort**: 3-4 hours per plugin
-**Impact**: Medium - adds new capability areas
-**Rationale**:
-- Diversifies plugin offerings
-- Safety & Environment (Plugin 12) is high priority
-- IRPCS/Collision Regs (Plugins 11, 13) are exam-critical
-
-**Implementation Plan**:
-1. Choose target plugin (12 recommended for safety-critical content)
+1. Choose target plugin (recommend Plugin 12 for safety priority)
 2. Design 3-5 foundational skills
-3. Create skill specifications if needed
+3. Create skill specifications
 4. Implement and document
-5. Mark plugin as "Partial" or "Ready"
+5. Mark plugin as "Partial" or "Complete"
+
+### Option B: Expand Plugin 07 (Passage Making)
+**Effort**: 2-3 hours
+**Impact**: Medium - completes partial plugin
+**Current**: 1 skill (almanac-navigator)
+**Needed**: 3-4 additional passage planning skills
+
+**Rationale**:
+- Only partial plugin remaining
+- Passage planning is integrative (ties many topics together)
+- Completes the "core navigation" suite
+
+**Implementation Plan**:
+1. Review existing passage making concepts
+2. Design 3-4 complementary skills (route planning, pilotage notes, etc.)
+3. Implement and document
+4. Mark plugin as "Complete"
 
 ---
 
@@ -316,6 +335,7 @@ git push
 ## 📊 Progress Tracking
 
 ### Version History
+- **v0.9.0** (2025-11-10): Added 2 specialized positioning skills (Plugin 03 expanded), completed SKILL_15-47 duplicate audit
 - **v0.8.0** (2025-11-10): Added 8 advanced electronic navigation skills (Plugins 05 & 06 expanded)
 - **v0.7.0** (2025-11-10): Added 13 electronic navigation skills (Plugins 05 & 06 complete)
 - **v0.6.0** (2025-11-10): Added 11 skills across Plugins 02, 03, 04
@@ -326,7 +346,7 @@ git push
 - **v0.1.0** (2025-11-01): Initial marketplace release (17 skills)
 
 ### Completion Percentage
-- **Skills**: 66 / ~120 estimated = **55%**
+- **Skills**: 68 / ~120 estimated = **57%**
 - **Plugins**: 8 complete + 1 partial / 14 = **64%** (counting partial as complete)
 - **Core Navigation**: 100% (Plugins 01-04 all complete)
 - **Electronic Navigation**: 100% (Plugins 05-06 complete with advanced integration)
@@ -341,14 +361,14 @@ git push
 "Continue implementing sailing navigation skills. I'd like to work on [Option A/B/C from Recommended Next Steps]. Let me know if you need any clarification on the skill specifications."
 ```
 
-### If Starting Option A (SKILL_61-68)
+### If Starting Option A (Skeleton Plugins)
 ```
-"Let's implement the 8 advanced electronic navigation skills (SKILL_61-68) that were just added. These build on the electronic navigation foundation we completed in v0.7.0."
+"Let's start implementing Plugin 12 (Safety & Environment) with 3-5 foundational skills. This is high priority safety-critical content."
 ```
 
-### If Starting Option B (SKILL_15-47)
+### If Starting Option B (Passage Making)
 ```
-"Let's expand the core navigation plugins by implementing SKILL_15-47. Start with the 10 chart basics skills (SKILL_15-24) to expand Plugin 01."
+"Let's expand Plugin 07 (Passage Making) from 1 to 4-5 skills to complete this partial plugin. Focus on passage planning workflow."
 ```
 
 ### If You Want Me to Decide
