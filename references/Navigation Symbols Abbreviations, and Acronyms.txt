@@ -1,0 +1,33 @@
+Navigation Symbols, Abbreviations, and Acronyms
+AC (ACo):	 	Altered Course. This is a standard short hand format that is commonly used in logbooks to confirm a change in course.
+ 	 	 
+COG:	 	Course over the ground This term describes the ground track or the proposed ground track of a vessel.
+ 	 	 
+DMG:	 	Distance made good. Used to determine the actual distance a vessel has travelled in a straight line when tacking.
+ 	 	 
+DR:	dr	Dead reckoning position. A position found using speed, time and a heading or heading and distance run.
+Not considered accurate.
+ 	 	 
+DTW:	 	Distance to waypoint. The distance to the next waypoint or destination.
+ 	 	 
+EP:	EP	Estimated position of the vessel. Used when a position is worked out from the course, speed and leeway.
+ 	 	 
+ETA:	 	Estimated time of arrival.
+ 	 	 
+FIX:	fix	An accurate position of the vessel plotted on a chart of electronic display.
+ 	 	 
+GNSS:		Global Navigation Satellite System. Commonly called GPS, there are however a variety of systems in use.
+ 	 	 
+GMDSS:		Global Maritime Distress and Safety System. The network of satellites and ground stations used to detect transmissions from an EPIRB.
+ 	 	 
+GT:	Ground Track	Ground track. A line marked drawn on the chart denoting the proposed or completed course over the ground of a vessel.
+ 	 	 
+XTE:	 	Cross track error. Used to denote how far a vessel has strayed from the plotted ground track
+ 	 	 
+SOG:	 	Speed over the ground. Describes the speed of a vessel over the ground including the effect of tide.
+ 	 	 
+TMG:	 	Track made good. Gives the average course over the ground a vessel has made from the start point it's current position.
+ 	 	 
+TTG:	 	Time to go. Time to the next waypoint or the destination.
+ 	 	 
+WP:	WP	Waypoint. A small box plotted along the proposed course of a vessel. Usually marking a destination or change of course.
