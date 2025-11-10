@@ -10,20 +10,33 @@
 - Compass errors (variation & deviation)
 - Chart corrections and currency (Notices to Mariners, updating charts)
 
-## Skills Included
-1. **chart-correction-decoder** - Read and explain chart correction panels
+## Skills Included (18 total)
+
+**Chart Fundamentals & Datums (4)**
+1. **datum-guardian** - GPS/chart datum compatibility and shift calculations
 2. **charted-height-interpreter** - Vertical datum reference guide
-3. **chart-safe-go-nogo** - Quick safety call on chart currency
-4. **chart-symbol-spotter** - Identify chart symbols by name or photo
-5. **chart-update-checker** - Verify chart currency and identify required corrections
-6. **chart-update-checklist** - Shopping list and steps for hand-correcting charts
-7. **chartwork-mercator-projection** - Explains Mercator projection principles
-8. **corrections-mini-quiz** - Interactive quiz on reading correction panels
-9. **datum-guardian** - GPS/chart datum compatibility and shift calculations
-10. **longitude-latitude** - How to read and use lat/long scales correctly
-11. **photo-correction-reader** - OCR and decode correction photos
-12. **symbol-quiz-flashcards** - Rapid-fire flashcard quiz on chart symbols
-13. **symbol-spotter** - Interactive chart symbol quiz with 100+ symbols
+3. **chartwork-mercator-projection** - Explains Mercator projection principles
+4. **longitude-latitude** - How to read and use lat/long scales correctly
+
+**Chart Symbols & Quizzes (3)**
+5. **symbol-spotter** - Interactive chart symbol quiz with 100+ symbols
+6. **chart-symbol-spotter** - Identify chart symbols by name or photo
+7. **symbol-quiz-flashcards** - Rapid-fire flashcard quiz on chart symbols
+
+**Chart Corrections & Currency (5)**
+8. **chart-correction-decoder** - Read and explain chart correction panels
+9. **chart-update-checker** - Verify chart currency and identify required corrections
+10. **chart-update-checklist** - Shopping list and steps for hand-correcting charts
+11. **chart-safe-go-nogo** - Quick safety call on chart currency
+12. **corrections-mini-quiz** - Interactive quiz on reading correction panels
+13. **photo-correction-reader** - OCR and decode correction photos
+
+**Compass Errors & Corrections (5)** ✨ NEW
+14. **magnetic-variation-calculator** - Calculate current variation from compass rose with annual change
+15. **compass-error-correction** - True ↔ Magnetic ↔ Compass conversion using CADET
+16. **compass-deviation-table** - Use ship's deviation table with interpolation
+17. **hand-bearing-compass** - Position fixing and collision avoidance techniques
+18. **compass-dip-heeling** - Magnetic dip, hemisphere balancing, heeling error awareness
 
 ## Agent
 **Chart Basics Tutor** - Patient instructor focusing on precision and safety
@@ -39,7 +52,7 @@ Activate by asking chart-related questions:
 - "How do I update my chart?"
 
 ## Status
-✅ **Ready for Testing** - 13 skills fully implemented
+✅ **Ready for Testing** - 18 skills fully implemented (13 original + 5 compass skills added)
 
 ## Example Session
 ```
@@ -58,4 +71,5 @@ Always check chart title block for datum before plotting.
 ```
 
 ## Version
-v0.1.2 (2025-11-02) - Added 5 new skills: chart-symbol-spotter, chart-update-checker, chartwork-mercator-projection, longitude-latitude, symbol-quiz-flashcards
+v0.2.0 (2025-11-10) - Added 5 compass skills: magnetic-variation-calculator, compass-error-correction, compass-deviation-table, hand-bearing-compass, compass-dip-heeling
+v0.1.2 (2025-11-02) - Added 5 chart skills: chart-symbol-spotter, chart-update-checker, chartwork-mercator-projection, longitude-latitude, symbol-quiz-flashcards

@@ -1,0 +1,15 @@
+{
+  "name": "tidal-theory",
+  "description": "Educational skill explaining astronomical causes of tides, spring/neap cycles, and tidal patterns for RYA exam preparation.",
+  "version": "1.0",
+  "triggers": [
+    "explain tides",
+    "spring vs neap tides",
+    "why do tides happen",
+    "tidal patterns",
+    "diurnal vs semidiurnal",
+    "lunar influence",
+    "24 hour 50 minutes",
+    "tidal theory"
+  ]
+}

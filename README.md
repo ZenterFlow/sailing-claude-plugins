@@ -70,12 +70,12 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (5 plugins, 17 skills)
+### ✅ Ready for Testing (5 plugins, 32 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
-| **01. Chart Basics** | Chart Basics Tutor | 8 skills: datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader | ✅ Ready |
-| **02. Tides** | Tides Tutor | 5 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver | ✅ Ready |
+| **01. Chart Basics** | Chart Basics Tutor | **18 skills** (13 original + 5 compass): datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader, chart-symbol-spotter, chart-update-checker, chartwork-mercator-projection, longitude-latitude, symbol-quiz-flashcards, **magnetic-variation-calculator, compass-error-correction, compass-deviation-table, hand-bearing-compass, compass-dip-heeling** | ✅ Ready |
+| **02. Tides** | Tides Tutor | **10 skills** (5 original + 5 theory): tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, **tidal-theory, tidal-terminology, time-zone-converter, computation-rates-graph, multi-hour-stream** | ✅ Ready |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
 | **08. Visual Aids** | Visual Aids Tutor | 1 skill: direction-of-buoyage-reminder | ✅ Ready |
 | **09. Pilotage** | Pilotage Tutor | 2 skills: chart-update-checker, almanac-navigator | ✅ Ready |
@@ -316,22 +316,28 @@ https://github.com/ZenterFlow/claude-skills-library
 
 - **Total Plugins**: 14
 - **Ready for Testing**: 5 (36%)
-- **Total Skills**: 17 (with 20+ more planned)
+- **Total Skills**: 32 implemented
 - **Total Agents**: 14
-- **Lines of Documentation**: 5,000+
+- **Lines of Documentation**: 8,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
 
+**v0.2.0** (2025-11-10)
+- **10 new skills added**: 5 compass skills + 5 tidal theory/planning skills
+- Chart Basics expanded to 18 skills (added compass: variation calculator, CADET conversion, deviation tables, hand-bearing techniques, dip/heeling awareness)
+- Tides expanded to 10 skills (added theory, terminology, time zones, rates graph, multi-hour stream integration)
+- Total: 32 skills across 5 plugins
+- Comprehensive YachtMaster exam preparation coverage
+
 **v0.1.0** (2025-11-01)
 - Initial marketplace release
 - 5 plugins ready: Chart Basics, Tides, Passage Making, Visual Aids, Pilotage
-- 17 skills implemented and tested
+- 22 skills implemented and tested
 - 14 agent frameworks established
 - Complete documentation structure
-- Added 5 chart correction skills to chart-basics plugin
 
 ---
 
