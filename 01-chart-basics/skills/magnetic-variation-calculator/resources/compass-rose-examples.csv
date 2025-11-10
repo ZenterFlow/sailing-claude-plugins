@@ -1,0 +1,9 @@
+location,base_year,variation_deg,variation_min,variation_dir,annual_change_min,change_dir
+"English Channel",2005,7,25,W,8,E
+"North Sea",2010,3,10,E,5,W
+"Caribbean",2015,12,30,W,3,E
+"Mediterranean",2008,1,45,E,4,E
+"US East Coast",2012,15,0,W,6,W
+"Pacific Northwest",2018,18,20,E,7,E
+"Solent",2007,4,15,W,9,E
+"Irish Sea",2011,6,0,W,8,E

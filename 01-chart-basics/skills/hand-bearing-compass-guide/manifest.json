@@ -1,0 +1,14 @@
+{
+  "name": "hand-bearing-compass-guide",
+  "description": "Hand bearing compass techniques for position fixing and collision avoidance.",
+  "version": "1.0",
+  "triggers": [
+    "hand bearing compass",
+    "take a bearing",
+    "position fix",
+    "cross bearing",
+    "collision avoidance",
+    "steady bearing",
+    "three point fix"
+  ]
+}

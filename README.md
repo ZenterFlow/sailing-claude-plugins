@@ -72,11 +72,11 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (7 plugins, 30 skills)
+### ✅ Ready for Testing (7 plugins, 34 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
-| **01. Chart Basics** | Chart Basics Tutor | 8 skills: datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader | ✅ Ready |
+| **01. Chart Basics** | Chart Basics Tutor | 17 skills: datum-guardian, charted-height-interpreter, longitude-latitude, chartwork-mercator-projection, symbol-spotter, symbol-quiz-flashcards, chart-symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-update-checker, chart-safe-go-nogo, photo-correction-reader, magnetic-variation-calculator, compass-error-corrector, deviation-table-reader, hand-bearing-compass-guide | ✅ Complete |
 | **02. Tides** | Tides Tutor | 5 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver | ✅ Ready |
 | **03. Positioning** | Positioning Tutor | 3 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor | ✅ Ready |
 | **04. Course to Steer** | Course to Steer Tutor | 2 skills: cts-calculator, velocity-triangle-plotter | ✅ Ready |
@@ -318,14 +318,21 @@ https://github.com/ZenterFlow/claude-skills-library
 
 - **Total Plugins**: 14
 - **Ready for Testing**: 7 (50%)
-- **Total Skills**: 30 (with 10+ more planned)
+- **Total Skills**: 34 (with more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 14,000+
+- **Lines of Documentation**: 15,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
+
+**v0.5.0** (2025-11-10)
+- Added 4 compass error skills to Plugin 01 (Chart Basics)
+- Plugin 01 now complete with 17 skills (100% RYA/ASA chart basics syllabus)
+- Compass workflow: variation calculation → deviation tables → CADET conversions → hand bearing techniques
+- 34 total skills implemented across 7 ready plugins
+- Complete navigation fundamentals coverage
 
 **v0.4.0** (2025-11-09)
 - Added 4 new visual aids skills to Plugin 08
@@ -375,5 +382,5 @@ Skills consolidated from:
 
 &copy; ZenterFlow
 
-*Last Updated: 2025-11-09*
-*Version: 0.4.0 (Beta)*
+*Last Updated: 2025-11-10*
+*Version: 0.5.0 (Beta)*

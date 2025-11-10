@@ -4,30 +4,39 @@
 
 This repository contains **14 sailing/navigation education plugins** organized as RYA/ASA YachtMaster training tools. Currently:
 
-- **3 plugins** are feature-complete with implemented skills (Plugins 01, 02)
-- **1 plugin** has partial implementation (Plugin 07-09)
-- **10 plugins** are skeleton frameworks ready for skill development (Plugins 03-06, 10-14)
+- **5 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 08)
+- **2 plugins** have partial implementation (Plugin 07, 09)
+- **7 plugins** are skeleton frameworks ready for skill development (Plugins 05, 06, 10-14)
 
-**Total Skills Implemented**: 22
-**Total Future Skills Listed**: 18+ (remaining)
+**Total Skills Implemented**: 34
+**Total Future Skills Listed**: 10+ (remaining)
 
 ---
 
 ## Plugin Development Status by Number
 
 ### Plugin 01: Chart Basics ✅ COMPLETE
-**Status**: Production Ready  
-**Total Skills**: 8 implemented
+**Status**: Production Ready (100% RYA/ASA chart basics syllabus)
+**Total Skills**: 17 implemented
 
 **Implemented Skills**:
 1. datum-guardian - GPS/chart datum compatibility
 2. charted-height-interpreter - Vertical datum reference
-3. symbol-spotter - Chart symbol interactive quiz (100+ symbols)
-4. chart-correction-decoder - Read chart correction panels
-5. corrections-mini-quiz - Correction reading quiz
-6. chart-update-checklist - Hand-correction shopping list
-7. chart-safe-go-nogo - Chart currency safety checks
-8. photo-correction-reader - OCR chart correction photos
+3. longitude-latitude - Lat/long scale reading
+4. chartwork-mercator-projection - Mercator projection principles
+5. symbol-spotter - Chart symbol interactive quiz (100+ symbols)
+6. symbol-quiz-flashcards - Rapid-fire flashcard quiz
+7. chart-symbol-spotter - Symbol identification by name/photo
+8. chart-correction-decoder - Read chart correction panels
+9. corrections-mini-quiz - Correction reading quiz
+10. chart-update-checklist - Hand-correction shopping list
+11. chart-update-checker - Verify chart currency
+12. chart-safe-go-nogo - Chart currency safety checks
+13. photo-correction-reader - OCR chart correction photos
+14. magnetic-variation-calculator - Calculate variation from compass rose (NEW v0.5.0)
+15. compass-error-corrector - T ↔ M ↔ C conversions with CADET (NEW v0.5.0)
+16. deviation-table-reader - Read and interpolate deviation tables (NEW v0.5.0)
+17. hand-bearing-compass-guide - Position fixing and collision avoidance (NEW v0.5.0)
 
 **Resources Available**:
 - `datum-table.csv` - Geodetic datum reference data
@@ -231,47 +240,46 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 ---
 
-### Plugin 08: Visual Aids ✅ PARTIAL
-**Status**: 1 of many skills implemented  
-**Total Skills**: 1 implemented
+### Plugin 08: Visual Aids ✅ COMPLETE
+**Status**: Production Ready (v0.4.0)
+**Total Skills**: 5 implemented
 
 **Implemented Skills**:
 1. direction-of-buoyage-reminder - IALA A/B buoyage systems
+2. light-characteristics-quiz - Interactive quiz for navigation lights
+3. cardinal-marks-identifier - N/E/S/W cardinal marks identification
+4. ranges-and-transits-guide - Visual position fixing with ranges and transits
+5. dipping-distance-calculator - Geographic range calculations
 
-**Topics Covered**:
+**Topics Fully Covered**:
 - IALA A/B buoyage systems
 - Lateral marks (port/starboard)
 - Cardinal marks (N/E/S/W danger marking)
 - Isolated danger and safe water marks
 - Special marks (yellow)
 - Light characteristics (Fl, Oc, Iso, Q, VQ, etc.)
-- Ranges and transits
+- Ranges and transits for position fixing
 - Leading lines
-- Dipping distance calculations
+- Dipping distance calculations (geographic range)
 
-**Teaching Methodology** (from agent):
+**Teaching Methodology**:
 - Visual learner's best friend, pattern recognition focus
 - Color coding and memory aids
-
-**Future Skills Implied** (not explicitly listed):
-- light-characteristics-quiz - Testing rhythm identification
-- cardinal-marks-identifier - North/East/South/West marks with topmarks
-- ranges-and-transits-guide - Leading line calculations
-- dipping-distance-calculator - Line-of-sight range calculations
-
-**Implementation Priority**: MEDIUM
-- Well-structured visual content
-- Builds on existing symbol/visual teaching approach from Plugin 01
+- Interactive quizzes
 
 ---
 
-### Plugin 09: Pilotage ✅ PARTIAL
-**Status**: 2 of many skills implemented  
-**Total Skills**: 2 implemented
+### Plugin 09: Pilotage ✅ COMPLETE
+**Status**: Production Ready (v0.3.0)
+**Total Skills**: 6 implemented
 
 **Implemented Skills**:
 1. chart-update-checker - Verify chart currency and legality (SOLAS V)
 2. almanac-navigator - Harbor entry notes, pilotage directions (shared with Plugin 07)
+3. clearing-bearing-calculator - NMT/NLT danger bearings
+4. leading-line-plotter - Transits and range calculations
+5. harbor-entry-planner - Plan A/B/C with abort criteria
+6. restricted-visibility-navigator - Fog procedures and COLREGS
 
 **Resources Available**:
 - `port-db.yml` - Harbor-specific pilotage notes
@@ -293,16 +301,13 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - Plan A, B, C + abort criteria clearly defined
 - Conservative and thorough approach
 
-**Future Skills Implied** (not explicitly listed):
-- clearing-bearing-calculator - NMT/NLT danger bearing calculations
-- leading-line-plotter - Transit and range calculations
-- harbor-entry-planner - Pre-approach checklists
-- restricted-visibility-navigator - Fog procedures and sound signals
-
-**Implementation Priority**: HIGH
-- Foundation skills already exist (chart-update-checker, almanac-navigator)
-- Rich procedural content in agent file
-- Clear teaching methodology for safety-critical skills
+**Topics Fully Covered**:
+- Clearing bearings (NMT/NLT) for danger avoidance
+- Leading lines and transits for safe passage
+- Harbor entry planning with contingencies
+- Restricted visibility procedures (fog, COLREGS Rule 19 & 35)
+- Chart currency verification
+- Pilotage notes and harbor-specific information
 
 ---
 
@@ -459,15 +464,15 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 | Plugin | Name | Skills | Status | Future Skills | Priority |
 |--------|------|--------|--------|----------------|----------|
-| 01 | Chart Basics | 8 | ✅ Complete | None | N/A |
+| 01 | Chart Basics | 17 | ✅ Complete | None | N/A |
 | 02 | Tides | 5 | ✅ Complete | None | N/A |
 | 03 | Positioning | 3 | ✅ Complete | None | N/A |
 | 04 | Course to Steer | 2 | ✅ Complete | None | N/A |
 | 05 | Electronic Navigation | 0 | 🚧 Skeleton | 3 | MEDIUM |
 | 06 | EC Plotting | 0 | 🚧 Skeleton | 2 | MEDIUM-HIGH |
 | 07 | Passage Making | 1 | ⚠️ Partial | 3+ | MEDIUM |
-| 08 | Visual Aids | 1 | ⚠️ Partial | 4+ | MEDIUM |
-| 09 | Pilotage | 2 | ⚠️ Partial | 4+ | HIGH |
+| 08 | Visual Aids | 5 | ✅ Complete | None | N/A |
+| 09 | Pilotage | 6 | ✅ Complete | None | N/A |
 | 10 | Meteorology | 0 | 🚧 Skeleton | 3 | MEDIUM |
 | 11 | IRPCS | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 | 12 | Safety & Environment | 0 | 🚧 Skeleton | 3 | HIGH |
@@ -475,10 +480,10 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 22
-- Future/Planned Skills: 18+ (remaining)
-- Complete Plugins: 4 (Plugins 01, 02, 03, 04)
-- Partial Plugins: 3 (Plugins 07, 08, 09)
+- Implemented Skills: 34
+- Future/Planned Skills: 10+ (remaining)
+- Complete Plugins: 6 (Plugins 01, 02, 03, 04, 08, 09)
+- Partial Plugins: 1 (Plugin 07)
 - Skeleton Plugins: 7 (Plugins 05, 06, 10, 11, 12, 13, 14)
 
 ---

@@ -1,0 +1,14 @@
+{
+  "name": "compass-error-corrector",
+  "description": "Convert between True, Magnetic, and Compass bearings using CADET mnemonic.",
+  "version": "1.0",
+  "triggers": [
+    "true to magnetic",
+    "compass to true",
+    "CADET",
+    "convert bearing",
+    "apply variation",
+    "apply deviation",
+    "T M C conversion"
+  ]
+}
