@@ -73,13 +73,13 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (9 plugins, 66 skills)
+### ✅ Ready for Testing (9 plugins, 68 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
 | **01. Chart Basics** | Chart Basics Tutor | 17 skills: datum-guardian, charted-height-interpreter, longitude-latitude, chartwork-mercator-projection, symbol-spotter, symbol-quiz-flashcards, chart-symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-update-checker, chart-safe-go-nogo, photo-correction-reader, magnetic-variation-calculator, compass-error-corrector, deviation-table-reader, hand-bearing-compass-guide | ✅ Complete |
 | **02. Tides** | Tides Tutor | 8 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, tidal-terminology-guide, time-zone-converter, tidal-theory-explainer | ✅ Complete |
-| **03. Positioning** | Positioning Tutor | 6 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor, visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator | ✅ Complete |
+| **03. Positioning** | Positioning Tutor | 8 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor, visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator, navigation-web-constructor, angle-off-bow-fix | ✅ Complete |
 | **04. Course to Steer** | Course to Steer Tutor | 7 skills: cts-calculator, velocity-triangle-plotter, vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator | ✅ Complete |
 | **05. Electronic Nav** | Electronic Navigation Tutor | 16 skills: gps-gnss-fundamentals, gps-data-interpretation, depth-sounder-configuration, radar-basics-limitations, ais-target-interpretation, integrated-electronic-navigation, electronic-navigation-limitations, waypoint-management-safety, navigation-instrument-calibration, radar-pilotage-techniques, marpa-collision-assessment, electronic-navigation-integration, radar-overlay-verification, feature-radar-appearance, restricted-visibility-decision, ais-data-source-distinction | ✅ Complete |
 | **06. EC Plotting** | EC Plotting Tutor | 5 skills: electronic-chart-types, chart-plotter-operation, auto-route-verification, mobile-device-repeater, waypoint-positioning-adjustment | ✅ Complete |
@@ -319,14 +319,21 @@ https://github.com/ZenterFlow/claude-skills-library
 
 - **Total Plugins**: 14
 - **Ready for Testing**: 9 (64%)
-- **Total Skills**: 66 (with more planned)
+- **Total Skills**: 68 (with more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 16,000+
+- **Lines of Documentation**: 17,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
+
+**v0.9.0** (2025-11-10)
+- Added 2 specialized positioning skills to Plugin 03
+- Plugin 03 (Positioning) expanded to 8 skills: Added navigation-web-constructor (pre-plotted bearing/distance grids for rapid GPS monitoring and tacking decisions), angle-off-bow-fix (45°/90° relative bearing method for quick distance-off estimation)
+- 68 total skills implemented (2 new)
+- Complete specialized navigation techniques coverage
+- Comprehensive duplicate check: All SKILL_15-47 reviewed, identified only 2 non-duplicate skills
 
 **v0.8.0** (2025-11-10)
 - Added 8 advanced electronic navigation and chart plotter skills
@@ -408,4 +415,4 @@ Skills consolidated from:
 &copy; ZenterFlow
 
 *Last Updated: 2025-11-10*
-*Version: 0.8.0 (Beta)*
+*Version: 0.9.0 (Beta)*

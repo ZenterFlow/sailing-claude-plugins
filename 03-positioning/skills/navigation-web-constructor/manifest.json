@@ -1,0 +1,13 @@
+{
+  "name": "navigation-web-constructor",
+  "description": "Pre-plot bearing and distance grids from waypoints for instant GPS position monitoring and tacking decisions",
+  "version": "1.0.0",
+  "triggers": [
+    "navigation web",
+    "bearing grid",
+    "distance arcs",
+    "tacking grid",
+    "radial bearings",
+    "pre-plotted grid"
+  ]
+}
