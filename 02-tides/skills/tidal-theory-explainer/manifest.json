@@ -1,0 +1,14 @@
+{
+  "name": "tidal-theory-explainer",
+  "description": "Understand astronomical causes of tides, spring/neap cycles, and tidal patterns.",
+  "version": "1.0",
+  "triggers": [
+    "tidal theory",
+    "why do tides happen",
+    "spring and neap tides",
+    "lunar day",
+    "tidal patterns",
+    "semidiurnal diurnal",
+    "moon and tides"
+  ]
+}

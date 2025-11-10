@@ -1,0 +1,14 @@
+{
+  "name": "time-zone-converter",
+  "description": "Convert between UT, maritime zones, and DST for tide calculations.",
+  "version": "1.0",
+  "triggers": [
+    "time zone conversion",
+    "UT to local time",
+    "zone time",
+    "DST conversion",
+    "maritime time zones",
+    "convert to GMT",
+    "Zulu time"
+  ]
+}

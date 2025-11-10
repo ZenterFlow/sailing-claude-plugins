@@ -1,0 +1,19 @@
+zone_letter,zone_number,offset_from_ut,example_location,dst_common
+Z,0,0,"UK, Portugal, West Africa",No
+A,+1,+1,"West Atlantic",No
+B,+2,+2,"Mid Atlantic",No
+N,-1,-1,"Central Europe, France, Spain",Yes
+O,-2,-2,"East Atlantic, Azores",Yes
+P,-3,-3,"Brazil, Greenland",Yes
+Q,-4,-4,"Atlantic Canada",Yes
+R,-5,-5,"US East Coast, Caribbean",Yes
+S,-6,-6,"US Central",Yes
+T,-7,-7,"US Mountain",Yes
+U,-8,-8,"US Pacific, Alaska",Yes
+V,-9,-9,"Alaska West",No
+W,-10,-10,"Hawaii",No
+H,+8,+8,"Singapore, Hong Kong, Perth",No
+I,+9,+9,"Japan, Korea",No
+K,+10,+10,"East Australia, Guam",Yes
+L,+11,+11,"Solomon Islands",No
+M,+12,+12,"New Zealand, Fiji",Yes

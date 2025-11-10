@@ -1,0 +1,6 @@
+moon_phase,days_from_new_moon,typical_range_uk,tide_type,tidal_stream_strength,passage_planning_note
+New Moon,0,4.5m,Springs (lag 1-2 days),Strong,Larger range + stronger streams
+Waxing Crescent,7,3.5m,Transition to Neaps,Moderate,Range decreasing
+First Quarter,14,2.5m,Neaps (lag 1-2 days),Weak,Smaller range + weaker streams
+Waxing Gibbous,21,3.5m,Transition to Springs,Moderate,Range increasing
+Full Moon,28,4.5m,Springs (lag 1-2 days),Strong,Larger range + stronger streams
