@@ -1,0 +1,13 @@
+{
+  "name": "moire-lights",
+  "description": "Use Moire lights for precise bridge and entrance alignment with directional indicators",
+  "version": "1.0.0",
+  "triggers": [
+    "moire lights",
+    "moire light",
+    "bridge alignment",
+    "directional light",
+    "narrow sector light",
+    "alignment aid"
+  ]
+}

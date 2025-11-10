@@ -8,8 +8,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - **1 plugin** has partial implementation (Plugin 07)
 - **5 plugins** are skeleton frameworks ready for skill development (Plugins 10-14)
 
-**Total Skills Implemented**: 74
-**Total Future Skills Listed**: 4+ (remaining)
+**Total Skills Implemented**: 81
+**Total Future Skills Listed**: 0 (all core navigation skills complete)
 
 ---
 
@@ -301,31 +301,69 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 09: Pilotage ✅ COMPLETE
-**Status**: Production Ready (v0.3.0)
-**Total Skills**: 6 implemented
+**Status**: Production Ready (v1.1.0)
+**Total Skills**: 13 implemented
 
 **Implemented Skills**:
-1. chart-update-checker - Verify chart currency and legality (SOLAS V)
-2. almanac-navigator - Harbor entry notes, pilotage directions (shared with Plugin 07)
-3. clearing-bearing-calculator - NMT/NLT danger bearings
-4. leading-line-plotter - Transits and range calculations
-5. harbor-entry-planner - Plan A/B/C with abort criteria
-6. restricted-visibility-navigator - Fog procedures and COLREGS
+1. pilotage-fundamentals - Core concept: visible objects avoid invisible dangers, information sources (NEW v1.1.0)
+2. chart-update-checker - Verify chart currency and legality (SOLAS V)
+3. leading-lines-transit - Charted transits, leading lights, lower light rule, compass deviation checks (NEW v1.1.0)
+4. clearing-bearings - NMT/NLT danger bearings for safe corridors between hazards (NEW v1.1.0)
+5. moire-lights - Precise bridge and entrance alignment with directional narrow-sector lights (NEW v1.1.0)
+6. pilotage-planning - Create pictorial and rolling road plans for deck execution (NEW v1.1.0)
+7. almanac-navigator - Harbor entry notes, pilotage directions (shared with Plugin 07)
+8. harbor-entry-planner - Plan A/B/C with abort criteria
+9. restricted-visibility - Fog pilotage using depth contours, radar, GPS with proper watchkeeping (NEW v1.1.0)
+10. leading-line-plotter - Transit range calculations and position fixing
+11. integrated-pilotage - Synthesize all techniques into comprehensive passage plans (NEW v1.1.0)
+12. clearing-bearing-calculator - Calculate and verify clearing bearing corridors
+13. restricted-visibility-navigator - COLREGS fog procedures and sound signals
 
 **Resources Available**:
 - `port-db.yml` - Harbor-specific pilotage notes
 - `nm-log.csv` - Notices to Mariners tracking log
 - Templates for harbor entry procedures
 
-**Topics Covered**:
-- Pilotage planning (pre-approach preparation)
-- Leading lines and transits
-- Clearing bearings (danger bearings - NMT/NLT)
-- Depth contour navigation
-- Harbor entry procedures
-- Restricted visibility techniques
-- Traffic separation schemes (TSS)
-- Port entry signals and VHF protocols
+**Topics Fully Covered**:
+- Pilotage fundamentals (visible objects to avoid invisible dangers)
+- Information sources (almanacs, pilot books, charts)
+- GPS limitations and cockpit navigation
+- Variation application (True to Magnetic conversion)
+- Leading lines and charted transits (magenta lines)
+- Leading lights operation and lower light rule (universal)
+- Clearing bearings (NMT/NLT danger bearing corridors)
+- Improvised transits from charted objects
+- Compass deviation checks using known transits
+- Moire lights for precise bridge/entrance alignment
+- Pictorial/sketch plans (bird's eye view format)
+- Rolling road plans and tram lines (linear track format)
+- Required information checklist (tides, ports, visual aids, routes)
+- Standard leg format specification
+- Chart protection (never take originals on deck)
+- Hand bearing compass continuous monitoring
+- Depth contour navigation and following
+- Tacking at clearing bearing limits
+- Night pilotage with entrance lights
+- Visual verification at waypoints
+- Height of Tide (HOT) calculations and application
+- Fog pilotage using depth contours (primary method)
+- 10% circle of error rule for buoy location
+- Radar and GPS as secondary navigation tools
+- Proper watchkeeping discipline (all available means)
+- COLREGS fog signals (Rule 35)
+- Buoy search patterns on depth contours
+- Comprehensive passage plans (open water to mooring)
+- Multiple technique synthesis in single plan
+- Tidal height integration throughout passage
+- Hazard avoidance strategy combinations
+- Contingency planning for all critical legs
+- Night departures from anchorage with multiple routes
+- Plan execution discipline (cockpit-based, when in doubt stop)
+- Chart currency requirements (SOLAS V Regulation 19)
+- Port entry protocols and VHF communications
+- Traffic separation scheme (TSS) navigation
+- Emergency procedures (if lost, if uncertain)
+- Abort criteria definition before approach
 
 **Teaching Philosophy** (from agent):
 - "Pilotage is navigation with consequences measured in boat lengths, not miles"

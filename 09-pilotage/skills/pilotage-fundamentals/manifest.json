@@ -1,0 +1,13 @@
+{
+  "name": "pilotage-fundamentals",
+  "description": "Master pilotage concept: using visible objects to avoid invisible dangers with proper information sources",
+  "version": "1.0.0",
+  "triggers": [
+    "pilotage fundamentals",
+    "pilotage information",
+    "almanac contents",
+    "cockpit navigation",
+    "visual pilotage",
+    "visible objects invisible dangers"
+  ]
+}
