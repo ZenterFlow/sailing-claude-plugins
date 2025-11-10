@@ -1,0 +1,12 @@
+{
+  "name": "Navigation Lights Flashcard Quiz",
+  "description": "Interactive rapid-fire quiz testing recognition of navigation light configurations for all vessel types under COLREGS Rules 20-31",
+  "version": "1.0.0",
+  "triggers": [
+    "quiz me on navigation lights",
+    "test my knowledge of vessel lights",
+    "lights flashcard",
+    "what lights does a",
+    "navigation lights quiz"
+  ]
+}

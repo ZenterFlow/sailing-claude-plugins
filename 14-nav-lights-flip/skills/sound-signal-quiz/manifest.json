@@ -1,0 +1,12 @@
+{
+  "name": "Sound Signal Quiz",
+  "description": "Interactive quiz on COLREGS sound signals including fog signals, maneuvering signals, warning signals, and attention signals",
+  "version": "1.0.0",
+  "triggers": [
+    "sound signals quiz",
+    "fog signals",
+    "maneuvering signals",
+    "sound signal flashcard",
+    "what sound does a"
+  ]
+}

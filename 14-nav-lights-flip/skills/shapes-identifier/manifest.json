@@ -1,0 +1,12 @@
+{
+  "name": "Day Shapes Identifier",
+  "description": "Interactive quiz and identification tool for COLREGS day shapes displayed by vessels during daylight to indicate special status or operations",
+  "version": "1.0.0",
+  "triggers": [
+    "day shapes quiz",
+    "identify day shape",
+    "what shape does a",
+    "day shapes flashcard",
+    "vessel day shape"
+  ]
+}
