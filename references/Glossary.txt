@@ -1,0 +1,502 @@
+# Sailing Terms Glossary
+
+Complete definitions for nautical and sailing terminology.
+
+---
+
+## **A**
+**Abaft**: Toward or at the stern of a vessel; behind.
+**Abeam**: At a right angle to the length of the ship, on either side.
+**Aboard**: On or in a vessel.
+**About**: On the opposite tack (e.g., "tack about").
+**Abandon**: To leave a vessel, typically due to emergency.
+**Adrift**: Floating without being moored or steered; loose at sea.
+**Aft**: At or toward the stern (rear) of a vessel.
+**Aground**: When the hull has touched the bottom and is stuck.
+**Ahead**: In front of the vessel; forward direction.
+**Air Draught**: The vertical distance from waterline to the highest point on the vessel.
+**Aloft**: Up in the rigging or mast; above the deck.
+**Amidships**: In the middle portion of the vessel.
+**Anchor**: A heavy device attached to chain/rope that holds a vessel to the seabed.
+**Anchor Ball**: A black circular shape displayed by a vessel at anchor during daylight.
+**Anchorage**: A suitable place for anchoring; designated anchoring area.
+**Anchoring**: The act of deploying an anchor to secure a vessel.
+**Anchor Chain**: Heavy chain connecting anchor to vessel.
+**Anemometer**: Instrument measuring wind speed.
+**Anti Fouling**: Protective coating on hull to prevent marine growth.
+**Apparent Wind**: The wind experienced on a moving vessel (true wind + vessel motion).
+**Astern**: Behind the vessel; backward direction.
+**Astro Navigation**: Position fixing using celestial bodies.
+**Autopilot**: Self-steering system for vessels.
+
+---
+
+## **B**
+**Back**: To turn the sail/backwind it; to row backward.
+**Backing**: Wind shifting counter-clockwise (or direction opposite to veering).
+**Backstay**: Stay supporting the mast from aft, preventing forward movement.
+**Baggywrinkle**: Chafe protection made of old rope strands on rigging.
+**Bail**: To remove water from a vessel; also a bail (handle).
+**Ballast**: Weight in the hull for stability (often lead or iron).
+**Bar**: Shallow sandbank or obstruction; also a sandbar.
+**Bar - Pub**: Establishment serving drinks (shore term).
+**Batten**: Flexible strip in sail leech to maintain shape.
+**Beam or Abeam**: The width of a vessel; at right angles to centerline.
+**Beat or Beating**: Sailing upwind by tacking back and forth.
+**Beaufort Force**: Wind speed scale from 0-12.
+**Berth**: Sleeping quarters; also a mooring place.
+**Bilge/Bilge Pump**: Lowest interior part of hull; pump to remove water.
+**Bitter End**: The very end of an anchor cable.
+**Block**: Pulley system for rope.
+**Bollard**: Strong post on quay for mooring lines.
+**Boltrope**: Rope sewn into sail edge for reinforcement.
+**Boom**: Horizontal spar supporting foot of sail.
+**Boom - Floating**: Floating barrier to contain oil spills.
+**Bottlescrew**: Tensioning device for rigging (turnbuckle).
+**Bow**: Front of the vessel.
+**Bowthruster**: Lateral propulsion device at bow for maneuvering.
+**Bowline**: Type of knot forming a fixed loop; also a headsail type.
+**Bowsprit**: Spar extending forward from bow for headsails.
+**Breakwater**: Structure protecting harbor from waves.
+**Broach**: When vessel turns uncontrollably broadside to waves/wind.
+**Bulkhead**: Interior wall/partition in vessel.
+**Bumpkin**: Short spar projecting from stern for sheets.
+**Buoy**: Floating navigation mark.
+
+---
+
+## **C**
+**Cable**: Heavy anchor rope/chain; also nautical unit of distance (0.1 nm).
+**Cannard**: Forward-mounted foil or sail configuration (canard).
+**Capsize**: To overturn in water.
+**Capstan**: Vertical winch for hauling anchor/heavy lines.
+**Catamaran**: Twin-hulled vessel.
+**Centreboard**: Retractable keel for lateral resistance.
+**Chain Locker**: Storage compartment for anchor chain.
+**Chart Datum**: Reference level for chart soundings (usually lowest tide).
+**Chronometer**: Highly accurate timepiece for navigation.
+**Clew**: Lower aft corner of a sail.
+**Close-Hauled**: Sailing as close to the wind as possible.
+**Cockpit**: Recessed area for steering and crew.
+**Companionway**: Steps/ladder leading below deck.
+**Compass Fluxgate**: Electronic compass sensor.
+**Compass - Handheld**: Portable magnetic compass.
+**Compass - Ships**: Main vessel compass.
+**Convergence**: Meeting of air masses; also lines meeting on chart.
+**Cringle**: Reinforced eyelet in sail for attaching lines.
+**Crosstrees**: Horizontal supports near masthead.
+**Cunningham**: Tensioning line to adjust sail shape at luff.
+
+---
+
+## **D**
+**Danbuoy**: Emergency marker buoy with flag and light.
+**Daggerboard**: Retractable centreboard that lifts vertically.
+**Davit**: Crane for launching lifeboats/dinghies.
+**Dead ahead**: Directly forward.
+**Dead Reckoning (DR)**: Position calculated from course and speed.
+**Dead run**: Sailing directly downwind.
+**Decks**: Horizontal surfaces/platforms of vessel.
+**Derrick**: Hoisting device/crane.
+**Deviation**: Compass error caused by vessel's magnetic fields.
+**Differential GPS**: Enhanced GPS accuracy using reference stations.
+**Dinghy**: Small boat, often tender or sailing dinghy.
+**Directional Light**: Navigation light with specific arc.
+**Divergence**: Separating of air masses; lines diverging on chart.
+**Direction of Buoyage**: Indicated direction for safe navigation.
+**Displacement**: Weight of water displaced by hull; hull shape.
+**Dock**: Enclosed water area for mooring; also the act of mooring.
+**Dodger**: Canvas screen protecting cockpit from spray.
+**Dog Watch**: 2-hour watch (1600-1800 or 1800-2000).
+**Doldrums**: Calm equatorial region with light winds.
+**Dolphin**: Cluster of piles for mooring.
+**Douglas Protractor**: Navigation plotting tool.
+**Downhaul**: Line to tension downward (e.g., on sail or spar).
+**Draught**: Depth of hull below waterline.
+**Drogue**: Sea anchor dragged to slow drift.
+
+---
+
+## **E**
+**Ebb Tide**: Tide going out, water level falling.
+**ECDIS**: Electronic Chart Display and Information System.
+**Echo Sounder**: Device measuring water depth using sound.
+**EGNOS**: European Geostationary Navigation Overlay Service (GPS augmentation).
+**Engine**: Propulsion machinery.
+**Ensign**: National flag flown on vessel.
+**EPIRB**: Emergency Position Indicating Radio Beacon.
+**Eye splice**: Permanent loop in rope end.
+
+---
+
+## **F**
+**Fairway**: Navigable channel.
+**Fairlead**: Guide for rope to reduce chafe.
+**Fender**: Protective cushion between vessel and dock/other vessel.
+**Fetch**: Distance wind travels over water; also to bring in a line.
+**Fid**: Tool for splicing rope.
+**Fix (position)**: Determined position of vessel.
+**Flake**: To lay rope in overlapping coils.
+**Flank**: To sail too close to wind (pinching).
+**Flares**: Emergency signaling pyrotechnics.
+**Flood Tide**: Tide coming in, water level rising.
+**Fluke**: Holding part of anchor.
+**Folding Propeller**: Prop with blades that fold when not in use.
+**Following Sea**: Waves from astern.
+**Foot**: Lower edge of sail.
+**Force**: Strength (wind, etc.).
+**Fore Forward**: Toward the bow.
+**Forecastle (fo'c'sle)**: Forward crew quarters.
+**Forestay**: Stay supporting mast from forward.
+**Foul**: Entangled or obstructed.
+**Foulies**: Waterproof clothing (oilskins).
+**Freeboard**: Height of deck above waterline.
+**Full and By**: Sailing close-hauled with sails full.
+**Furl**: To roll or fold sail.
+
+---
+
+## **G**
+**Gaff rig**: Rig with four-sided mainsail on spar (gaff).
+**Galley**: Kitchen area on vessel.
+**Gangplank**: Board for boarding from dock.
+**Gangway**: Passage; also boarding ramp.
+**Gennaker**: Large lightweight headsail for reaching/downwind.
+**Genoa**: Large overlapping headsail.
+**Gimble**: Pivoting mount keeping object level.
+**Give Way**: Vessel required to yield (ColRegs).
+**Glass**: Barometer; also telescope.
+**GPS**: Global Positioning System.
+**Going about**: Tacking (changing direction through wind).
+**Gooseneck**: Fitting attaching boom to mast.
+**Goosewinged**: Sailing downwind with jib opposite mainsail.
+**Grounding**: Vessel touching bottom.
+**Gybe**: Turning stern through wind (downwind turn).
+
+---
+
+## **H**
+**Halyard**: Line for raising/lowering sails.
+**Hammock**: Canvas bed, often suspended.
+**Handy billy**: Portable tackle for various uses.
+**Hank**: Clip attaching headsail to stay.
+**Harbour**: Sheltered body of water for mooring.
+**Hard**: Become steady (e.g., "hard alee").
+**Harden up**: To trim sails closer to wind.
+**HAT**: Highest Astronomical Tide.
+**HDOP**: Horizontal Dilution of Precision (GPS accuracy).
+**Head heads**: Toilet; also top of sail.
+**Headsail**: Sail forward of mast (jib, genoa).
+**Heaving To**: Setting sails to maintain position with minimal movement.
+**Heeling**: Leaning over due to wind pressure.
+**Helm Helmsman**: Steering position/person steering.
+**Hitch**: Knot for attaching to a ring or post.
+**HOT**: Head-on traffic (radar/navigation).
+**Hounds**: Attachment points for shrouds on mast.
+**Hull**: Main body of the vessel.
+**Hull speed**: Theoretical maximum speed based on waterline length.
+**Hydrofoil**: Wing-like structure lifting hull out of water at speed.
+
+---
+
+## **I**
+**IALA-A**: International Association of Lighthouse Authorities Region A (red port hand marks).
+**IALA-B**: IALA Region B (red starboard hand marks).
+**In Irons**: Stalled facing into wind, unable to tack.
+**Icing**: Ice buildup on vessel.
+**Inboard Engine**: Engine mounted inside hull.
+**Inboard - Outboard**: Sterndrive system.
+
+---
+
+## **J**
+**Jackstays**: Safety lines along deck for harness attachment.
+**Jammers**: Rope holding cleats.
+**Jetsam**: Goods thrown overboard.
+**Jetty**: Pier or structure projecting into water.
+**Jib**: Triangular headsail.
+**Jigger-mast**: After mast on ketch/yawl.
+**Junk**: Old rope; also Chinese sailing vessel type.
+**Jury rig**: Temporary/emergency rigging.
+
+---
+
+## **K**
+**Kedge**: Secondary anchor; also to warp vessel using anchor.
+**Keel**: Main structural element along bottom for stability.
+**Ketch**: Two-masted vessel with mizzen aft of mainmast.
+**Kicker**: Boom vang (downward tension on boom).
+**Kill cord**: Safety cord that cuts engine if detached.
+**Knockdown**: Extreme heeling, often to horizontal.
+**Knot**: Speed unit (1 nautical mile per hour); also a tying method.
+
+---
+
+## **L**
+**Laid up**: Vessel out of commission.
+**Lanby**: Large automatic navigation buoy.
+**Land lubber**: Person unfamiliar with sea.
+**Lanyard**: Short cord for securing items.
+**LAT**: Lowest Astronomical Tide.
+**Lateral (mark)**: Navigation mark indicating safe side of channel.
+**Latitude**: Angular distance north/south of equator.
+**Launch**: To put vessel in water; also a large boat.
+**Lazaret**: Storage locker at stern.
+**Lazyjacks**: Lines to contain sail when lowered.
+**Lee cloth**: Cloth preventing falling from berth.
+**Lee shore**: Shore toward which wind blows.
+**Leeboard**: Pivoting board on lee side for shallow draft vessels.
+**Leech**: After edge of sail.
+**Lee-oh**: Command to tack.
+**Leeward**: Downwind side.
+**Leeway**: Sideways drift due to wind.
+**Length Overall (LOA)**: Total length of vessel.
+**Life jacket**: Personal flotation device.
+**Liferaft**: Emergency inflatable raft.
+**Life ring**: Buoyant ring for rescue.
+**Line**: Rope on board vessel.
+**Loose footed**: Sail not attached to boom along foot.
+**Luff**: Forward edge of sail; also to sail too close to wind.
+**Luffing up**: Turning toward wind.
+
+---
+
+## **M**
+**Magnetic Compass**: Compass using Earth's magnetic field.
+**Magnitude**: Brightness of celestial body.
+**Mainmast**: Principal mast.
+**Mainsail**: Principal sail on mainmast.
+**Mainsheet**: Control line for mainsail angle.
+**Make fast**: To secure a line.
+**Making way**: Vessel moving through water.
+**Man Overboard**: Emergency when person falls in water.
+**Marina**: Berthing facility with services.
+**Marlinspike**: Tool for rope work.
+**Mast**: Vertical spar supporting sails.
+**Masthead rig**: Forestay attached at mast top.
+**Mayday**: Distress call.
+**Mercator projection**: Chart projection method.
+**Meridian**: Line of longitude.
+**Minor / Major light**: Lighthouse classification.
+**Mizzen**: After mast on ketch/yawl; also its sail.
+**Moire light**: Light with special characteristic (distinguishing pattern).
+**Mole**: Massive breakwater structure.
+**Monkey fist**: Weighted knot in heaving line.
+**Moor**: To secure vessel to anchor or buoys.
+**Morse Code**: Signal code using dots/dashes.
+**Morse Control**: Engine throttle/gear lever system.
+
+---
+
+## **N**
+**Nautical Almanac**: Tables for celestial navigation.
+**Nautical Mile**: 1,852 meters (approximately 1.15 statute miles).
+**Nautical Twilight**: Period when sun is 6-12° below horizon.
+**Navigable**: Safe for navigation.
+**Navigable Semi-Circle**: Safer part of tropical storm to navigate.
+**Navigation Lights**: Required lights for vessel identification at night.
+**Neaps**: Neap tides with lower range (smaller tidal variation).
+
+---
+
+## **O**
+**Oar**: Pole for rowing.
+**Offshore (wind)**: Wind blowing from land to sea.
+**Off the Wind**: Sailing downwind.
+**Oilies or Oilskins**: Waterproof protective clothing.
+**Onshore (wind)**: Wind blowing from sea to land.
+**Outboard**: External motor; also toward the side of vessel.
+**Outdrive (Inboard-Outboard)**: Stern drive unit combining engine and propeller.
+**Outhaul**: Tensioning line for sail foot.
+**Overboard**: Over the side into water.
+**Overfalls**: Turbulent water over shallow area or tide race.
+
+---
+
+## **P**
+**Paddle**: Short oar; also to propel by hand.
+**Painter**: Towing line on dinghy.
+**Palm**: Leather pad for sewing canvas/sails.
+**Parallel rule**: Navigation tool for plotting courses.
+**Pay off**: To let out line; also vessel falling away from wind.
+**Pennant**: Triangular flag.
+**Phonetic alphabet**: Spelling alphabet (Alpha, Bravo, Charlie...).
+**Pier**: Structure projecting into water for mooring.
+**Pile Mooring**: Mooring to driven piles in seabed.
+**Pilot**: Local navigation expert; also guidance system.
+**Pilotage**: Navigation by visual references.
+**Pilothouse**: Enclosed steering position.
+**Pinch**: To sail too close to wind (flanking).
+**Pitch**: Bow up/down motion; also propeller pitch.
+**Plane**: To skim over water at high speed (hydroplaning).
+**Plotter**: Navigation instrument; also person plotting.
+**Point up**: To sail closer to wind direction.
+**Points of sail**: Different sailing angles relative to wind direction.
+**Polaris**: North Star.
+**Polars**: Performance data for vessel speed at various wind angles.
+**Pontoon**: Floating platform; also buoyancy tube on RIB.
+**Port**: Left side of vessel; harbor; also fortified wine.
+**Port of entry**: Official customs entry point for vessels.
+**Port Hand Lateral Mark**: Red buoy/mark (IALA A) indicating port side of channel.
+**Port tack**: Sailing with wind from port side (starboard side to wind).
+**Porthole**: Window in hull/superstructure.
+**Preferred Channel Mark**: Buoy indicating main channel at junction.
+**Preventer**: Line preventing accidental gybe.
+**Propeller**: Rotating device propelling vessel through water.
+**Prop walk**: Sideways thrust from propeller when in gear.
+**Pulpit**: Safety rail at bow.
+**Purse seine**: Fishing net method using drawstring closure.
+
+---
+
+## **Q**
+**Quadrant**: 90° arc; instrument for measuring celestial altitude.
+**Quarter**: Side of vessel between beam and stern.
+**Quarter berth**: Bunk located at quarter of vessel.
+**Quarter deck**: Aft deck area traditionally for officers.
+**Quay**: Solid structure parallel to shore for mooring.
+
+---
+
+## **R**
+**RACON**: Radar transponder beacon.
+**RADAR**: Radio Detection and Ranging system.
+**RADAR reflector**: Device to enhance vessel's radar return.
+**Rafting**: Mooring vessels side by side.
+**Reach**: Sailing across wind (beam reach, close reach, broad reach).
+**Ready About**: Command before tacking ("Ready about").
+**Reciprocal**: Opposite direction (180° from current course).
+**Reef**: To reduce sail area; also shallow underwater area.
+**Reefing pennants**: Lines for securing reefed sail.
+**Reef knot**: Square knot for joining two lines.
+**Reeve**: To pass rope through a block or eye.
+**Relative bearing**: Bearing relative to vessel's heading.
+**Rhumb line**: Constant compass course line crossing all meridians at same angle.
+**RIB**: Rigid Inflatable Boat.
+**Riding turns**: Turns of rope on winch drum.
+**Rigging**: All ropes and cables supporting masts and sails.
+**Roach**: Curved leech of sail extending beyond straight line.
+**Roller reefing**: System for rolling sail around boom or stay.
+**Round up**: To turn into wind; also to gather crew.
+**Rudder**: Underwater steering surface.
+**Running**: Sailing downwind.
+**Running backstays**: Adjustable stays for mast support when running.
+**Running fix**: Position from multiple bearing lines taken at different times.
+**Running rigging**: Adjustable lines (halyards, sheets) for sail control.
+
+---
+
+## **S**
+**Safewater**: Navigable water; also center-channel mark (red/white).
+**Sail**: Fabric device for capturing wind for propulsion.
+**Sailing free**: Sailing with wind aft (not close-hauled).
+**Sail drive**: Engine drive system with integrated saildrive leg.
+**Sail makers needle**: Large triangular needle for canvas work.
+**Sail makers palm**: Leather sewing pad worn on hand.
+**Saloon**: Main cabin/living area below deck.
+**Schooner**: Multi-masted vessel with forward mast shorter or same height.
+**Screw**: Propeller; also threaded fastener.
+**Sea anchor**: Drogue deployed from bow to stabilize vessel.
+**Sea breeze**: Onshore wind from land/sea temperature differential.
+**Seacock**: Valve for underwater through-hull fitting.
+**Sea level**: Average ocean surface height reference.
+**Self bailing**: Drains automatically by gravity (e.g., cockpit).
+**Self righting**: Ability to return upright after capsizing.
+**Semidiurnal**: Twice daily (tides).
+**Sextant**: Instrument measuring angle between celestial objects and horizon.
+**Shackle**: U-shaped connector secured with pin.
+**Shaft Drive**: Propeller shaft directly from engine.
+**Sheets**: Control lines for adjusting sail angle.
+**Sheet bend**: Knot for joining two lines of different thickness.
+**Ship's log**: Device measuring speed/distance through water; also official record.
+**Shoal**: Shallow underwater area; also group of fish.
+
+---
+
+## **T**
+**Tachometer**: Engine RPM gauge.
+**Tack**: To change direction through wind; also lower forward corner of sail; also course relative to wind.
+**Tailwind**: Wind from astern.
+**Telltale**: Streamer showing wind/air flow direction.
+**Tender**: Small boat for transport to shore.
+**Territorial waters**: Waters under national jurisdiction (typically 12 nm).
+**Throttle**: Engine speed control.
+**Tidal Diamond**: Chart symbol giving tidal stream data for specific location.
+**Tide**: Vertical water movement due to celestial bodies.
+**Tidal Gate**: Constricted area with strong tidal flow.
+**Tiller**: Lever arm for steering (attached to rudder head).
+**Toerail**: Rail at deck edge for footing and strength.
+**Topgallant**: Mast section above topsail; also sail flown there.
+**Topping Lift (topper)**: Line supporting boom when mainsail lowered.
+**Topsail**: Sail above lower sail (e.g., above mainsail).
+**Tow**: To pull another vessel.
+**Track**: Course over ground; also groove for sail slide.
+**Tradewinds**: Reliable easterly winds in tropics.
+**Traffic Separation**: Shipping lanes separating opposing traffic.
+**Transit**: Passing; also pair of marks forming line of sight.
+**Transom**: Flat stern surface of vessel.
+**Traveller**: Adjustable slide for sheet block on track.
+**Trawler**: Fishing vessel dragging nets.
+**Trim**: Adjust sail angle; also vessel attitude in water fore/aft.
+
+---
+
+## **U**
+**Under sail**: Propelled by sails.
+**Under way**: Vessel moving through water (not anchored or aground).
+**UTC (Universal time)**: Coordinated Universal Time (formerly GMT).
+**Upper shrouds**: Rigging from masthead to sides of vessel.
+**Up wind**: Toward wind direction (windward).
+
+---
+
+## **V**
+**Vang**: Device pulling boom down (boom vang/kicker).
+**Vanishing Angle Stability**: Angle of heel at which vessel capsizes.
+**Variation**: Difference between magnetic and true north.
+**V berth**: V-shaped berth in bow of vessel.
+**Vector**: Quantity with direction and magnitude (e.g., wind, current).
+**Veer**: Wind shifting clockwise; also to pay out rope/anchor.
+**Very Light (Very Pistol)**: Flare gun for distress signals.
+**VHF**: Very High Frequency radio (marine communication).
+**VMG**: Velocity Made Good (progress toward destination).
+
+---
+
+## **W**
+**WAAS**: Wide Area Augmentation System (GPS accuracy enhancement).
+**Wake**: Disturbed water behind moving vessel.
+**Wash**: Waves from vessel's propeller or hull.
+**Warp**: To move vessel by lines; also rope used for this purpose.
+**Watch**: Duty period for crew (typically 4 hours).
+**Waterline**: Where hull meets water surface.
+**Waypoint**: Navigational coordinate in planned route.
+**Weigh anchor**: To raise anchor.
+**Wharf**: Structure for mooring alongside.
+**Wheel**: Steering wheel connected to rudder.
+**Whipping**: Binding rope end to prevent fraying.
+**White horses**: Whitecaps on wave crests.
+**Winch**: Mechanical device for hauling lines under load.
+**Windex**: Wind direction indicator at masthead.
+**Windlass**: Mechanical device for raising anchor.
+**Wind vane**: Device showing wind direction.
+**Windward**: Toward wind (upwind side).
+
+---
+
+## **X**
+**XTE**: Cross Track Error (deviation from planned course).
+
+---
+
+## **Y**
+**Yacht**: Recreational sailing or motor vessel.
+**Yankee**: Headsail type (between jib and genoa in size).
+**Yaw**: Deviating off course side-to-side.
+**Yawl**: Two-masted vessel with mizzen aft of rudderpost.
+**Yoke**: Steering connection; also control handle.
+
+---
+
+## **Z**
+**Zodiac**: Inflatable boat (often refers to brand/type).
