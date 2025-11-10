@@ -1,0 +1,14 @@
+{
+  "name": "radar-overlay-verification",
+  "description": "Use radar overlay to verify GPS position and navigate in restricted visibility",
+  "version": "1.0.0",
+  "triggers": [
+    "radar overlay",
+    "verify GPS position",
+    "radar chart overlay",
+    "position verification radar",
+    "fog navigation",
+    "restricted visibility",
+    "radar features"
+  ]
+}

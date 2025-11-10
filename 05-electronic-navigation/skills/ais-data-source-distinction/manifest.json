@@ -1,0 +1,14 @@
+{
+  "name": "ais-data-source-distinction",
+  "description": "Distinguish between direct VHF and internet AIS data sources for safe navigation",
+  "version": "1.0.0",
+  "triggers": [
+    "AIS data source",
+    "direct AIS",
+    "internet AIS",
+    "AIS delay",
+    "VHF AIS",
+    "AIS real-time",
+    "AIS apps"
+  ]
+}

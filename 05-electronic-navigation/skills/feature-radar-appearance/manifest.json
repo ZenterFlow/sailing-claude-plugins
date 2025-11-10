@@ -1,0 +1,15 @@
+{
+  "name": "feature-radar-appearance",
+  "description": "Predict how coastal features will appear on radar based on composition, height, and location",
+  "version": "1.0.0",
+  "triggers": [
+    "radar appearance",
+    "radar return",
+    "radar target",
+    "predict radar",
+    "radar features",
+    "radar shadow",
+    "cliffs on radar",
+    "beach on radar"
+  ]
+}

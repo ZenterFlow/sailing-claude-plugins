@@ -1,0 +1,15 @@
+{
+  "name": "electronic-navigation-integration",
+  "description": "Integrate all electronic navigation systems with paper chart backup for comprehensive passage execution",
+  "version": "1.0.0",
+  "triggers": [
+    "electronic navigation integration",
+    "integrate systems",
+    "passage plan",
+    "backup navigation",
+    "cross-check position",
+    "paper chart backup",
+    "electronic failure",
+    "navigation loop"
+  ]
+}

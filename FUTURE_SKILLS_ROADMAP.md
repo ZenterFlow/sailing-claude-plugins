@@ -8,7 +8,7 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - **1 plugin** has partial implementation (Plugin 07)
 - **5 plugins** are skeleton frameworks ready for skill development (Plugins 10-14)
 
-**Total Skills Implemented**: 58
+**Total Skills Implemented**: 66
 **Total Future Skills Listed**: 10+ (remaining)
 
 ---
@@ -164,8 +164,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 05: Electronic Navigation ✅ COMPLETE
-**Status**: Production Ready (v0.7.0)
-**Total Skills**: 11 implemented
+**Status**: Production Ready (v0.8.0)
+**Total Skills**: 16 implemented
 
 **Implemented Skills**:
 1. gps-gnss-fundamentals - GPS/GNSS principles, HDOP, accuracy metrics
@@ -179,6 +179,11 @@ This repository contains **14 sailing/navigation education plugins** organized a
 9. navigation-instrument-calibration - Log, depth, and wind instrument calibration
 10. radar-pilotage-techniques - Radar fixes, parallel indexing, clearing ranges
 11. marpa-collision-assessment - MARPA target tracking and CPA/TCPA interpretation
+12. electronic-navigation-integration - Comprehensive system integration with paper chart backup (NEW v0.8.0)
+13. radar-overlay-verification - Position verification using radar overlay in fog (NEW v0.8.0)
+14. feature-radar-appearance - Predict how coastal features appear on radar (NEW v0.8.0)
+15. restricted-visibility-decision - Fog navigation continue/stand-off decision making (NEW v0.8.0)
+16. ais-data-source-distinction - Direct VHF vs internet AIS data comparison (NEW v0.8.0)
 
 **Topics Covered**:
 - GPS/GNSS principles and limitations
@@ -192,12 +197,15 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 06: Electronic Chart Plotting ✅ COMPLETE
-**Status**: Production Ready (v0.7.0)
-**Total Skills**: 2 implemented
+**Status**: Production Ready (v0.8.0)
+**Total Skills**: 5 implemented
 
 **Implemented Skills**:
 1. electronic-chart-types - RNC vs ENC comparison, quality indicators, limitations
 2. chart-plotter-operation - Menu navigation, alarm configuration, safety settings
+3. auto-route-verification - Verify auto-routed courses against paper charts and warning icons (NEW v0.8.0)
+4. mobile-device-repeater - Use tablets/phones as plotter repeaters with understanding of limitations (NEW v0.8.0)
+5. waypoint-positioning-adjustment - Adjust waypoints for fog navigation using depth contours (NEW v0.8.0)
 
 **Topics Covered**:
 - ENC vs RNC chart types
@@ -474,8 +482,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 02 | Tides | 8 | ✅ Complete | None | N/A |
 | 03 | Positioning | 6 | ✅ Complete | None | N/A |
 | 04 | Course to Steer | 7 | ✅ Complete | None | N/A |
-| 05 | Electronic Navigation | 11 | ✅ Complete | None | N/A |
-| 06 | EC Plotting | 2 | ✅ Complete | None | N/A |
+| 05 | Electronic Navigation | 16 | ✅ Complete | None | N/A |
+| 06 | EC Plotting | 5 | ✅ Complete | None | N/A |
 | 07 | Passage Making | 1 | ⚠️ Partial | 3+ | MEDIUM |
 | 08 | Visual Aids | 5 | ✅ Complete | None | N/A |
 | 09 | Pilotage | 6 | ✅ Complete | None | N/A |
@@ -486,7 +494,7 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 58
+- Implemented Skills: 66
 - Future/Planned Skills: 10+ (remaining)
 - Complete Plugins: 8 (Plugins 01, 02, 03, 04, 05, 06, 08, 09)
 - Partial Plugins: 1 (Plugin 07)

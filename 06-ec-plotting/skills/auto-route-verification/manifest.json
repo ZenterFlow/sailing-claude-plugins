@@ -1,0 +1,13 @@
+{
+  "name": "auto-route-verification",
+  "description": "Verify automatically-generated plotter routes against paper charts and interpret warning icons",
+  "version": "1.0.0",
+  "triggers": [
+    "auto route",
+    "automatic route",
+    "verify auto route",
+    "auto-route warnings",
+    "check auto route",
+    "plotter auto routing"
+  ]
+}
