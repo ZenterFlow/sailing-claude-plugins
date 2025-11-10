@@ -1,0 +1,6 @@
+{
+  "name": "multi-factor-converter",
+  "description": "Complete True to Compass CTS conversion.",
+  "version": "1.0",
+  "triggers": ["full CTS conversion", "True to Compass CTS", "apply all corrections"]
+}

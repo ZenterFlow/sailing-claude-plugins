@@ -72,17 +72,17 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (7 plugins, 34 skills)
+### ✅ Ready for Testing (7 plugins, 45 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
 | **01. Chart Basics** | Chart Basics Tutor | 17 skills: datum-guardian, charted-height-interpreter, longitude-latitude, chartwork-mercator-projection, symbol-spotter, symbol-quiz-flashcards, chart-symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-update-checker, chart-safe-go-nogo, photo-correction-reader, magnetic-variation-calculator, compass-error-corrector, deviation-table-reader, hand-bearing-compass-guide | ✅ Complete |
-| **02. Tides** | Tides Tutor | 5 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver | ✅ Ready |
-| **03. Positioning** | Positioning Tutor | 3 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor | ✅ Ready |
-| **04. Course to Steer** | Course to Steer Tutor | 2 skills: cts-calculator, velocity-triangle-plotter | ✅ Ready |
+| **02. Tides** | Tides Tutor | 8 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, tidal-terminology-guide, time-zone-converter, tidal-theory-explainer | ✅ Complete |
+| **03. Positioning** | Positioning Tutor | 6 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor, visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator | ✅ Complete |
+| **04. Course to Steer** | Course to Steer Tutor | 7 skills: cts-calculator, velocity-triangle-plotter, vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator | ✅ Complete |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
-| **08. Visual Aids** | Visual Aids Tutor | 5 skills: direction-of-buoyage-reminder, light-characteristics-quiz, cardinal-marks-identifier, ranges-and-transits-guide, dipping-distance-calculator | ✅ Ready |
-| **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Ready |
+| **08. Visual Aids** | Visual Aids Tutor | 5 skills: direction-of-buoyage-reminder, light-characteristics-quiz, cardinal-marks-identifier, ranges-and-transits-guide, dipping-distance-calculator | ✅ Complete |
+| **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Complete |
 
 ### 🚧 In Development (7 plugins)
 
@@ -318,7 +318,7 @@ https://github.com/ZenterFlow/claude-skills-library
 
 - **Total Plugins**: 14
 - **Ready for Testing**: 7 (50%)
-- **Total Skills**: 34 (with more planned)
+- **Total Skills**: 45 (with more planned)
 - **Total Agents**: 14
 - **Lines of Documentation**: 15,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
@@ -326,6 +326,14 @@ https://github.com/ZenterFlow/claude-skills-library
 ---
 
 ## 📝 Version History
+
+**v0.6.0** (2025-11-10)
+- Added 11 new advanced navigation skills across 3 plugins
+- Plugin 02 (Tides) expanded to 8 skills: Added tidal-terminology-guide, time-zone-converter, tidal-theory-explainer
+- Plugin 03 (Positioning) expanded to 6 skills: Added visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator
+- Plugin 04 (Course to Steer) expanded to 7 skills: Added vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator
+- 45 total skills implemented (11 new)
+- Complete foundational navigation and CTS workflow coverage
 
 **v0.5.0** (2025-11-10)
 - Added 4 compass error skills to Plugin 01 (Chart Basics)
@@ -383,4 +391,4 @@ Skills consolidated from:
 &copy; ZenterFlow
 
 *Last Updated: 2025-11-10*
-*Version: 0.5.0 (Beta)*
+*Version: 0.6.0 (Beta)*

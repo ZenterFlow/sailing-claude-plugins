@@ -1,0 +1,6 @@
+{
+  "name": "visual-fix-reliability",
+  "description": "Assess visual fix quality and reliability.",
+  "version": "1.0",
+  "triggers": ["fix quality", "cocked hat assessment", "is my fix good"]
+}

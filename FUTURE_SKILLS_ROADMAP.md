@@ -4,11 +4,11 @@
 
 This repository contains **14 sailing/navigation education plugins** organized as RYA/ASA YachtMaster training tools. Currently:
 
-- **5 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 08)
-- **2 plugins** have partial implementation (Plugin 07, 09)
+- **6 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 08, 09)
+- **1 plugin** has partial implementation (Plugin 07)
 - **7 plugins** are skeleton frameworks ready for skill development (Plugins 05, 06, 10-14)
 
-**Total Skills Implemented**: 34
+**Total Skills Implemented**: 45
 **Total Future Skills Listed**: 10+ (remaining)
 
 ---
@@ -55,8 +55,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 02: Tides ✅ COMPLETE
-**Status**: Production Ready  
-**Total Skills**: 5 implemented
+**Status**: Production Ready (v0.6.0)
+**Total Skills**: 8 implemented
 
 **Implemented Skills**:
 1. tide-calculator - Tidal height/time calculations (primary & secondary ports)
@@ -64,6 +64,9 @@ This repository contains **14 sailing/navigation education plugins** organized a
 3. diamond-dispatcher - Quick tidal diamond lookup by hour
 4. depth-datum-flipper - Depth safety (UKC) and drying height calculations
 5. vertical-clearance-solver - Bridge/overhead cable clearance checks
+6. tidal-terminology-guide - Vertical datums (HAT, MHWS, CD, LAT) (NEW v0.6.0)
+7. time-zone-converter - UT/maritime zone/DST conversions (NEW v0.6.0)
+8. tidal-theory-explainer - Astronomical causes of tides, spring/neap cycles (NEW v0.6.0)
 
 **Resources Available**:
 - `datum-rules.yml` - Tidal datum reference rules
@@ -88,13 +91,16 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 03: Positioning ✅ COMPLETE
-**Status**: Production Ready (v0.2.0)
-**Total Skills**: 3 implemented
+**Status**: Production Ready (v0.3.0)
+**Total Skills**: 6 implemented
 
 **Implemented Skills**:
 1. visual-fix-calculator - Three-point bearing fixes, running fixes, cocked hat assessment
 2. ep-calculator - Estimated Position and Dead Reckoning with leeway and tidal stream
 3. cross-track-error-monitor - XTE calculation and monitoring for TSS and channels
+4. visual-fix-reliability - Assess visual fix quality and reliability using cocked hat analysis (NEW v0.3.0)
+5. enhanced-visual-fixing - Advanced visual fixing techniques (running fixes, four-point fixes) (NEW v0.3.0)
+6. position-fix-integrator - Complete position fixing workflow integration (NEW v0.3.0)
 
 **Topics Defined** (from agent file):
 - Visual position fixing (compass bearings, ranges, transits)
@@ -122,12 +128,17 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 04: Course to Steer ✅ COMPLETE
-**Status**: Production Ready (v0.2.0)
-**Total Skills**: 2 implemented
+**Status**: Production Ready (v0.3.0)
+**Total Skills**: 7 implemented
 
 **Implemented Skills**:
 1. cts-calculator - Course To Steer calculations with leeway, stream, and magnetic corrections
 2. velocity-triangle-plotter - Graphical velocity triangle solutions for CTS and TMG problems
+3. vector-triangle-plotter - Complete CTS vector triangle plotting on chart (NEW v0.3.0)
+4. leeway-applicator - Apply leeway correction to True CTS (port/starboard tack rules) (NEW v0.3.0)
+5. multi-factor-converter - Complete T→M→C conversion sequence with variation and deviation (NEW v0.3.0)
+6. tidal-hour-selector - Determine correct tidal hour for CTS based on trip timing (NEW v0.3.0)
+7. cts-practical-integrator - Complete end-to-end CTS workflow integration (NEW v0.3.0)
 
 **Topics Defined** (from agent file):
 - Course to Steer (CTS) calculations
@@ -465,9 +476,9 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | Plugin | Name | Skills | Status | Future Skills | Priority |
 |--------|------|--------|--------|----------------|----------|
 | 01 | Chart Basics | 17 | ✅ Complete | None | N/A |
-| 02 | Tides | 5 | ✅ Complete | None | N/A |
-| 03 | Positioning | 3 | ✅ Complete | None | N/A |
-| 04 | Course to Steer | 2 | ✅ Complete | None | N/A |
+| 02 | Tides | 8 | ✅ Complete | None | N/A |
+| 03 | Positioning | 6 | ✅ Complete | None | N/A |
+| 04 | Course to Steer | 7 | ✅ Complete | None | N/A |
 | 05 | Electronic Navigation | 0 | 🚧 Skeleton | 3 | MEDIUM |
 | 06 | EC Plotting | 0 | 🚧 Skeleton | 2 | MEDIUM-HIGH |
 | 07 | Passage Making | 1 | ⚠️ Partial | 3+ | MEDIUM |
@@ -480,7 +491,7 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 34
+- Implemented Skills: 45
 - Future/Planned Skills: 10+ (remaining)
 - Complete Plugins: 6 (Plugins 01, 02, 03, 04, 08, 09)
 - Partial Plugins: 1 (Plugin 07)

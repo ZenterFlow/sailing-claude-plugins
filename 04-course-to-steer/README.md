@@ -1,13 +1,21 @@
 # Plugin 04: Course to Steer
 
-**Status**: ✅ Ready for Testing (2 skills implemented)
+**Status**: ✅ Ready for Testing (7 skills implemented)
 
 The Course to Steer Tutor teaches CTS calculations incorporating leeway, tidal stream, velocity triangles, and magnetic corrections.
 
-## Skills (2 total)
+## Skills (7 total)
 
+### Core Calculations
 1. **cts-calculator** - Course To Steer calculations with leeway, stream, and magnetic corrections
 2. **velocity-triangle-plotter** - Graphical velocity triangle solutions for CTS and TMG problems
+
+### Advanced Techniques
+3. **vector-triangle-plotter** - Complete CTS vector triangle plotting on chart
+4. **leeway-applicator** - Apply leeway correction to True CTS (port/starboard tack rules)
+5. **multi-factor-converter** - Complete T→M→C conversion sequence with variation and deviation
+6. **tidal-hour-selector** - Determine correct tidal hour for CTS based on trip timing
+7. **cts-practical-integrator** - Complete end-to-end CTS workflow integration
 
 ## Installation
 
@@ -49,4 +57,4 @@ Agent: Draws ASCII vector diagram showing heading, water track,
 - Vector navigation
 
 ## Version
-v0.2.0 (2025-11-09)
+v0.3.0 (2025-11-10)

@@ -1,0 +1,6 @@
+{
+  "name": "vector-triangle-plotter",
+  "description": "Plot CTS vector triangle with tidal vector and water track.",
+  "version": "1.0",
+  "triggers": ["vector triangle", "plot CTS triangle", "water track", "tidal vector plotting"]
+}
