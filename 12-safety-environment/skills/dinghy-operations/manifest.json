@@ -1,0 +1,13 @@
+{
+  "name": "dinghy-operations",
+  "description": "Execute safe dinghy operations including boarding, loading, engine management, and shore transfers.",
+  "version": "1.0.0",
+  "triggers": [
+    "dinghy",
+    "tender",
+    "painter",
+    "dinghy safety",
+    "shore transfer",
+    "dinghy loading"
+  ]
+}

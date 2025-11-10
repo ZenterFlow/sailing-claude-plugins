@@ -73,7 +73,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (11 plugins, 94 skills)
+### ✅ Ready for Testing (12 plugins, 105 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
@@ -88,12 +88,12 @@ Each plugin contains:
 | **09. Pilotage** | Pilotage Tutor | 13 skills: pilotage-fundamentals, chart-update-checker, leading-lines-transit, clearing-bearings, moire-lights, pilotage-planning, almanac-navigator, harbor-entry-planner, restricted-visibility, leading-line-plotter, integrated-pilotage, clearing-bearing-calculator, restricted-visibility-navigator | ✅ Complete |
 | **10. Meteorology** | Meteorology Tutor | 6 skills: meteorology-fundamentals, global-weather-systems, weather-interactions, cloud-types, local-weather-fog, pressure-forecast-application | ✅ Complete |
 | **11. IRPCS** | IRPCS Tutor | 7 skills: general-rules-watchkeeping, traffic-separation-impeding, navigation-lights-sound-signals, day-shapes-identification, collision-avoidance-decisions, light-arcs-vessel-length, risk-assessment-stand-on-actions | ✅ Complete |
+| **12. Safety & Environment** | Safety & Environment Tutor | 11 skills: pre-departure-safety-briefing, life-jacket-management, lpg-gas-safety, fire-safety-management, passage-planning-leeway, dinghy-operations, drogue-deployment, epirb-plb-operation, distress-communication, fog-navigation, radar-reflector-integration | ✅ Complete |
 
-### 🚧 In Development (3 plugins)
+### 🚧 In Development (2 plugins)
 
 | Plugin | Agent | Topics Covered |
 |--------|-------|----------------|
-| **12. Safety & Environment** | Safety & Environment Tutor | Safety briefs, Mayday, stability, MARPOL |
 | **13. Collision Regs** | Collision Regs Tutor | Conduct in sight, restricted visibility |
 | **14. Nav Lights Flip** | Nav Lights Quiz Master | Lights, shapes, signals flashcard quiz |
 

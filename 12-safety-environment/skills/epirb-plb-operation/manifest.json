@@ -1,0 +1,13 @@
+{
+  "name": "epirb-plb-operation",
+  "description": "Activate and deploy EPIRBs, PLBs, and personal AIS beacons for emergency position transmission, understanding coverage and registration.",
+  "version": "1.0.0",
+  "triggers": [
+    "epirb",
+    "plb",
+    "personal locator beacon",
+    "sart",
+    "personal ais",
+    "406 mhz"
+  ]
+}

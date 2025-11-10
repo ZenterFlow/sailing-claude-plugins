@@ -1,0 +1,13 @@
+{
+  "name": "passage-planning-leeway",
+  "description": "Develop comprehensive passage plans considering tidal effects, vessel leeway characteristics, and regulatory requirements.",
+  "version": "1.0.0",
+  "triggers": [
+    "passage planning",
+    "leeway calculation",
+    "eta calculation",
+    "shore contact",
+    "latest arrival",
+    "solas v"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fire-safety-management",
+  "description": "Implement comprehensive fire prevention strategies, execute emergency fire response protocols, and maintain fire fighting equipment.",
+  "version": "1.0.0",
+  "triggers": [
+    "fire safety",
+    "fire extinguisher",
+    "engine fire",
+    "galley fire",
+    "fire blanket",
+    "fire prevention"
+  ]
+}

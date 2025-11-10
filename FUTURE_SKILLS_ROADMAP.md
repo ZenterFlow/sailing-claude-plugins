@@ -4,11 +4,11 @@
 
 This repository contains **14 sailing/navigation education plugins** organized as RYA/ASA YachtMaster training tools. Currently:
 
-- **10 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11)
+- **11 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11, 12)
 - **1 plugin** has partial implementation (Plugin 07)
-- **3 plugins** are skeleton frameworks ready for skill development (Plugins 12-14)
+- **2 plugins** are skeleton frameworks ready for skill development (Plugins 13-14)
 
-**Total Skills Implemented**: 94
+**Total Skills Implemented**: 105
 **Total Future Skills Listed**: 0 (all core navigation skills complete)
 
 ---
@@ -439,34 +439,53 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 ---
 
-### Plugin 12: Safety & Environment 🚧 SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 12: Safety & Environment ✅ COMPLETE
+**Status**: Production Ready (v1.4.0)
+**Total Skills**: 11 implemented
 
-**Future Skills Listed in Agent**:
-1. safety-brief-generator - Safety briefing templates
-2. mayday-script-builder - Mayday and distress procedures
-3. stability-calculator - Vessel stability calculations
+**Implemented Skills**:
+1. **pre-departure-safety-briefing** - Comprehensive safety brief delivery, systematic equipment verification for all vessel types
+2. **life-jacket-management** - Life jacket inspection, maintenance, crotch strap adjustment, harness integration, RYA usage policy
+3. **lpg-gas-safety** - LPG system safety, leak detection, emergency ventilation, proper storage, fire prevention
+4. **fire-safety-management** - Fire prevention strategies, extinguisher deployment, engine/galley/cabin fire protocols, maintenance
+5. **passage-planning-leeway** - Passage plans with leeway calculation, tidal effects, shore contact establishment, SOLAS V compliance
+6. **dinghy-operations** - Safe dinghy operations, boarding, loading, painter management, alcohol prohibition
+7. **drogue-deployment** - Drogue and sea anchor deployment for engine failure, strong wind, life raft stabilization
+8. **epirb-plb-operation** - EPIRB, PLB, and personal AIS activation, coverage limitations, registration requirements
+9. **distress-communication** - Mayday call sequences (DSC and voice), visual distress signals (flares), alternative signals
+10. **fog-navigation** - Fog navigation procedures, radar reflector deployment, safe speed determination, sound signals
+11. **radar-reflector-integration** - Radar reflector installation, AIS integration, ARPA/MARPA capabilities, target tracking
 
-**Topics Defined** (from agent file):
-- Safety briefings and checklists
-- Mayday and distress procedures
-- GMDSS radio protocols
-- Vessel stability principles
-- Man overboard (MOB) procedures
-- Fire fighting and damage control
-- Environmental regulations (MARPOL)
-- Waste disposal at sea
-
-**Implementation Priority**: HIGH
-- Safety-critical content
-- Well-defined procedural content (Mayday, safety briefings)
-- Could use template-based generation approach
-
-**Potential Skills Expansion**:
-- mob-procedure-guide (mentioned in topics but not listed)
-- damage-control-planner (mentioned but not listed)
-- gmdss-radio-guide (mentioned but not listed)
+**Topics Fully Covered**:
+- Pre-departure briefing and equipment verification (life jackets, flares, fire extinguishers, gas systems)
+- Safety equipment inspection (bladder, gas bottle, crotch strap, harness, light, whistle, spray hood)
+- Shore contact establishment (route, ETA, "latest arrival" time, refuge ports)
+- RYA SafeTrx app registration
+- LPG storage and safety (external-draining locker, approved hoses, galley shut-off valve)
+- Gas leak detection and emergency response (ventilate, NO electrical switches)
+- Fire prevention and response (engine compartment protocol: NEVER open bay)
+- Extinguisher selection by fire type (AFFF for fuel, dry powder for electrical/general)
+- Passage planning with leeway calculation and SOLAS V Regulation 34 compliance
+- Life jacket inspection and usage policy (mandatory for non-swimmers, night ops, fog, reefing)
+- Dinghy operations safety (loading, boarding, engine management, alcohol prohibition)
+- Drogue types (sea anchor bow-to-wind 10:1 scope, stern drogue brake 5:1 scope)
+- Strong wind preparation checklist (F7+ sailing, F6+ motor)
+- EPIRB activation (406 MHz, global satellite, registered to vessel)
+- PLB activation (406 MHz, global satellite, registered to person, portable)
+- Personal AIS (VHF-based, 4nm range, MOB alert)
+- SART operation (X-band radar, 5-10nm, 12-dot homing pattern)
+- Mayday call procedure (DSC activation + voice format on Channel 16)
+- Visual distress signals (rocket parachute flares, hand-held flares, orange smoke)
+- Flare deployment tactics (first to alert, second for direction confirmation)
+- Out-of-date flare disposal (coastguard or chandlers)
+- Fog encounter procedures (establish position, don life jackets, deploy reflector)
+- Safe speed determination (stop within half visible distance)
+- Radar reflector deployment (fixed vs collapsible, material-specific requirements)
+- Radar operation in fog (target acquisition, CPA/TCPA assessment)
+- Sound signal requirements (power making way, stopped, sailing)
+- Radar reflector installation optimization (minimum 4m height, clear line of sight)
+- AIS integration for collision avoidance (CPA/TCPA, vessel identification)
+- ARPA/MARPA capabilities (automatic target tracking, trial maneuver)
 
 ---
 
@@ -544,16 +563,16 @@ This repository contains **14 sailing/navigation education plugins** organized a
 | 09 | Pilotage | 13 | ✅ Complete | None | N/A |
 | 10 | Meteorology | 6 | ✅ Complete | None | N/A |
 | 11 | IRPCS | 7 | ✅ Complete | None | N/A |
-| 12 | Safety & Environment | 0 | 🚧 Skeleton | 3 | HIGH |
+| 12 | Safety & Environment | 11 | ✅ Complete | None | N/A |
 | 13 | Collision Regulations | 0 | 🚧 Skeleton | 2 | HIGH |
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 94
-- Future/Planned Skills: 8 (remaining)
-- Complete Plugins: 10 (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11)
+- Implemented Skills: 105
+- Future/Planned Skills: 5 (remaining)
+- Complete Plugins: 11 (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11, 12)
 - Partial Plugins: 1 (Plugin 07)
-- Skeleton Plugins: 3 (Plugins 12, 13, 14)
+- Skeleton Plugins: 2 (Plugins 13, 14)
 
 ---
 

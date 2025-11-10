@@ -1,0 +1,13 @@
+{
+  "name": "fog-navigation",
+  "description": "Navigate safely in fog or restricted visibility using systematic procedures, radar reflectors, and sound signals.",
+  "version": "1.0.0",
+  "triggers": [
+    "fog navigation",
+    "restricted visibility",
+    "radar reflector",
+    "fog signals",
+    "safe speed fog",
+    "lookout fog"
+  ]
+}

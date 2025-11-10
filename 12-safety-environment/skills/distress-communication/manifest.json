@@ -1,0 +1,13 @@
+{
+  "name": "distress-communication",
+  "description": "Execute proper Mayday call sequences using DSC VHF and voice procedures, deploy visual distress signals correctly.",
+  "version": "1.0.0",
+  "triggers": [
+    "mayday",
+    "distress call",
+    "flares",
+    "dsc vhf",
+    "pan pan",
+    "distress signals"
+  ]
+}
