@@ -73,7 +73,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (9 plugins, 81 skills)
+### ✅ Ready for Testing (10 plugins, 87 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
@@ -86,12 +86,12 @@ Each plugin contains:
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
 | **08. Visual Aids** | Visual Aids Tutor | 11 skills: iala-buoyage-system, lateral-marks-identifier, cardinal-marks-identifier, special-purpose-marks, light-characteristics-quiz, light-ranges-beacons, admiralty-list-lights, ranges-and-transits-guide, dipping-distance-calculator, direction-of-buoyage-reminder, visual-aids-quiz | ✅ Complete |
 | **09. Pilotage** | Pilotage Tutor | 13 skills: pilotage-fundamentals, chart-update-checker, leading-lines-transit, clearing-bearings, moire-lights, pilotage-planning, almanac-navigator, harbor-entry-planner, restricted-visibility, leading-line-plotter, integrated-pilotage, clearing-bearing-calculator, restricted-visibility-navigator | ✅ Complete |
+| **10. Meteorology** | Meteorology Tutor | 6 skills: meteorology-fundamentals, global-weather-systems, weather-interactions, cloud-types, local-weather-fog, pressure-forecast-application | ✅ Complete |
 
-### 🚧 In Development (5 plugins)
+### 🚧 In Development (4 plugins)
 
 | Plugin | Agent | Topics Covered |
 |--------|-------|----------------|
-| **10. Meteorology** | Meteorology Tutor | Forecasts, clouds, pressure systems, sea state |
 | **11. IRPCS** | IRPCS Tutor | Collision regulations, rules, case studies |
 | **12. Safety & Environment** | Safety & Environment Tutor | Safety briefs, Mayday, stability, MARPOL |
 | **13. Collision Regs** | Collision Regs Tutor | Conduct in sight, restricted visibility |

@@ -1,0 +1,13 @@
+{
+  "name": "cloud-types",
+  "description": "Identify cloud types and predict weather from cloud sequences",
+  "version": "1.0.0",
+  "triggers": [
+    "cloud types",
+    "cloud identification",
+    "cumulus stratus",
+    "cumulonimbus",
+    "cloud sequences",
+    "weather forecasting clouds"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "global-weather-systems",
+  "description": "Understand global pressure patterns, Coriolis effect, and wind systems",
+  "version": "1.0.0",
+  "triggers": [
+    "global weather",
+    "pressure systems",
+    "Coriolis effect",
+    "Buys Ballot law",
+    "high low pressure",
+    "trade winds"
+  ]
+}

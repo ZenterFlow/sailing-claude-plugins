@@ -1,0 +1,13 @@
+{
+  "name": "weather-interactions",
+  "description": "Analyze system interactions, frontal passages, and low pressure lifecycle",
+  "version": "1.0.0",
+  "triggers": [
+    "weather interactions",
+    "frontal passage",
+    "warm front cold front",
+    "depression lifecycle",
+    "squeeze zone",
+    "system progression"
+  ]
+}
