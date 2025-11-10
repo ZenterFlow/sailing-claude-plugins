@@ -73,7 +73,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (9 plugins, 58 skills)
+### ✅ Ready for Testing (9 plugins, 66 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
@@ -81,8 +81,8 @@ Each plugin contains:
 | **02. Tides** | Tides Tutor | 8 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, tidal-terminology-guide, time-zone-converter, tidal-theory-explainer | ✅ Complete |
 | **03. Positioning** | Positioning Tutor | 6 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor, visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator | ✅ Complete |
 | **04. Course to Steer** | Course to Steer Tutor | 7 skills: cts-calculator, velocity-triangle-plotter, vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator | ✅ Complete |
-| **05. Electronic Nav** | Electronic Navigation Tutor | 11 skills: gps-gnss-fundamentals, gps-data-interpretation, depth-sounder-configuration, radar-basics-limitations, ais-target-interpretation, integrated-electronic-navigation, electronic-navigation-limitations, waypoint-management-safety, navigation-instrument-calibration, radar-pilotage-techniques, marpa-collision-assessment | ✅ Complete |
-| **06. EC Plotting** | EC Plotting Tutor | 2 skills: electronic-chart-types, chart-plotter-operation | ✅ Complete |
+| **05. Electronic Nav** | Electronic Navigation Tutor | 16 skills: gps-gnss-fundamentals, gps-data-interpretation, depth-sounder-configuration, radar-basics-limitations, ais-target-interpretation, integrated-electronic-navigation, electronic-navigation-limitations, waypoint-management-safety, navigation-instrument-calibration, radar-pilotage-techniques, marpa-collision-assessment, electronic-navigation-integration, radar-overlay-verification, feature-radar-appearance, restricted-visibility-decision, ais-data-source-distinction | ✅ Complete |
+| **06. EC Plotting** | EC Plotting Tutor | 5 skills: electronic-chart-types, chart-plotter-operation, auto-route-verification, mobile-device-repeater, waypoint-positioning-adjustment | ✅ Complete |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
 | **08. Visual Aids** | Visual Aids Tutor | 5 skills: direction-of-buoyage-reminder, light-characteristics-quiz, cardinal-marks-identifier, ranges-and-transits-guide, dipping-distance-calculator | ✅ Complete |
 | **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Complete |
@@ -319,14 +319,22 @@ https://github.com/ZenterFlow/claude-skills-library
 
 - **Total Plugins**: 14
 - **Ready for Testing**: 9 (64%)
-- **Total Skills**: 58 (with more planned)
+- **Total Skills**: 66 (with more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 15,000+
+- **Lines of Documentation**: 16,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
+
+**v0.8.0** (2025-11-10)
+- Added 8 advanced electronic navigation and chart plotter skills
+- Plugin 05 (Electronic Navigation) expanded to 16 skills: Added electronic-navigation-integration (complete system integration with paper backup), radar-overlay-verification (fog position verification), feature-radar-appearance (predict radar returns), restricted-visibility-decision (continue/stand-off decision making), ais-data-source-distinction (direct vs internet AIS)
+- Plugin 06 (EC Plotting) expanded to 5 skills: Added auto-route-verification (verify auto-routes against paper charts), mobile-device-repeater (tablet/phone plotter usage), waypoint-positioning-adjustment (fog navigation waypoint offsets)
+- 66 total skills implemented (8 new)
+- Complete restricted visibility and fog navigation coverage
+- Comprehensive electronic navigation integration
 
 **v0.7.0** (2025-11-10)
 - Added 13 electronic navigation skills across 2 plugins
@@ -400,4 +408,4 @@ Skills consolidated from:
 &copy; ZenterFlow
 
 *Last Updated: 2025-11-10*
-*Version: 0.7.0 (Beta)*
+*Version: 0.8.0 (Beta)*

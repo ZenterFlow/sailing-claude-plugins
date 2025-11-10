@@ -1,0 +1,13 @@
+{
+  "name": "mobile-device-repeater",
+  "description": "Use mobile devices as chart plotter repeaters with understanding of advantages and limitations",
+  "version": "1.0.0",
+  "triggers": [
+    "mobile repeater",
+    "tablet plotter",
+    "phone chart plotter",
+    "plotter app",
+    "repeater display",
+    "mobile plotter"
+  ]
+}

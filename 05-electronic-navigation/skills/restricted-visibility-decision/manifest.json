@@ -1,0 +1,14 @@
+{
+  "name": "restricted-visibility-decision",
+  "description": "Decision-making framework for continuing navigation or standing off in fog and restricted visibility",
+  "version": "1.0.0",
+  "triggers": [
+    "fog decision",
+    "continue or wait",
+    "stand off",
+    "restricted visibility",
+    "should I continue",
+    "navigate in fog",
+    "visibility decision"
+  ]
+}

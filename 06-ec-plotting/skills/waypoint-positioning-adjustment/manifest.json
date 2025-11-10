@@ -1,0 +1,13 @@
+{
+  "name": "waypoint-positioning-adjustment",
+  "description": "Adjust waypoints from channel center to safer offsets for fog navigation using depth contours",
+  "version": "1.0.0",
+  "triggers": [
+    "waypoint offset",
+    "channel center waypoint",
+    "fog waypoint",
+    "depth contour navigation",
+    "waypoint positioning",
+    "safe waypoint placement"
+  ]
+}
