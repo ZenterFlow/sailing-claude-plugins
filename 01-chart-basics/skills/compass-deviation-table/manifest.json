@@ -1,0 +1,14 @@
+{
+  "name": "compass-deviation-table",
+  "description": "Read and apply ship's compass deviation table with interpolation for headings between table values.",
+  "version": "1.0",
+  "triggers": [
+    "deviation table",
+    "read deviation",
+    "interpolate deviation",
+    "deviation for heading",
+    "ship's compass deviation",
+    "what's the deviation",
+    "compass deviation lookup"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "compass-dip-heeling",
+  "description": "Understand magnetic dip and heeling error effects on compass accuracy, with mitigation strategies.",
+  "version": "1.0",
+  "triggers": [
+    "magnetic dip",
+    "compass dip",
+    "heeling error",
+    "compass balance hemisphere",
+    "northern hemisphere compass",
+    "southern hemisphere compass",
+    "sluggish compass",
+    "isoclinic lines"
+  ]
+}
