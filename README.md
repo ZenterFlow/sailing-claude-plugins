@@ -73,7 +73,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (12 plugins, 108 skills)
+### ✅ Ready for Testing (13 plugins, 108 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
@@ -83,12 +83,12 @@ Each plugin contains:
 | **04. Course to Steer** | Course to Steer Tutor | 7 skills: cts-calculator, velocity-triangle-plotter, vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator | ✅ Complete |
 | **05. Electronic Nav** | Electronic Navigation Tutor | 16 skills: gps-gnss-fundamentals, gps-data-interpretation, depth-sounder-configuration, radar-basics-limitations, ais-target-interpretation, integrated-electronic-navigation, electronic-navigation-limitations, waypoint-management-safety, navigation-instrument-calibration, radar-pilotage-techniques, marpa-collision-assessment, electronic-navigation-integration, radar-overlay-verification, feature-radar-appearance, restricted-visibility-decision, ais-data-source-distinction | ✅ Complete |
 | **06. EC Plotting** | EC Plotting Tutor | 5 skills: electronic-chart-types, chart-plotter-operation, auto-route-verification, mobile-device-repeater, waypoint-positioning-adjustment | ✅ Complete |
-| **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
+| **07. Passage Making** | Passage Making Tutor | 5 skills: almanac-navigator, pre-departure-safety-briefing, lpg-gas-safety, fire-safety-management, passage-planning-leeway | ✅ Complete |
 | **08. Visual Aids** | Visual Aids Tutor | 11 skills: iala-buoyage-system, lateral-marks-identifier, cardinal-marks-identifier, special-purpose-marks, light-characteristics-quiz, light-ranges-beacons, admiralty-list-lights, ranges-and-transits-guide, dipping-distance-calculator, direction-of-buoyage-reminder, visual-aids-quiz | ✅ Complete |
 | **09. Pilotage** | Pilotage Tutor | 13 skills: pilotage-fundamentals, chart-update-checker, leading-lines-transit, clearing-bearings, moire-lights, pilotage-planning, almanac-navigator, harbor-entry-planner, restricted-visibility, leading-line-plotter, integrated-pilotage, clearing-bearing-calculator, restricted-visibility-navigator | ✅ Complete |
 | **10. Meteorology** | Meteorology Tutor | 6 skills: meteorology-fundamentals, global-weather-systems, weather-interactions, cloud-types, local-weather-fog, pressure-forecast-application | ✅ Complete |
 | **11. IRPCS** | IRPCS Tutor | 7 skills: general-rules-watchkeeping, traffic-separation-impeding, navigation-lights-sound-signals, day-shapes-identification, collision-avoidance-decisions, light-arcs-vessel-length, risk-assessment-stand-on-actions | ✅ Complete |
-| **12. Safety & Environment** | Safety & Environment Tutor | 11 skills: pre-departure-safety-briefing, life-jacket-management, lpg-gas-safety, fire-safety-management, passage-planning-leeway, dinghy-operations, drogue-deployment, epirb-plb-operation, distress-communication, fog-navigation, radar-reflector-integration | ✅ Complete |
+| **12. Safety & Environment** | Safety & Environment Tutor | 7 skills: life-jacket-management, dinghy-operations, drogue-deployment, epirb-plb-operation, distress-communication, fog-navigation, radar-reflector-integration | ✅ Complete |
 | **14. Nav Lights Flip** | Nav Lights Quiz Master | 3 skills: lights-flashcard-quiz, shapes-identifier, sound-signal-quiz | ✅ Complete |
 
 ### 🚧 In Development (1 plugin)
