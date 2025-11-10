@@ -1,0 +1,14 @@
+{
+  "name": "magnetic-variation-calculator",
+  "description": "Calculate current magnetic variation from chart compass rose data using base year and annual change rate.",
+  "version": "1.0",
+  "triggers": [
+    "Calculate variation",
+    "variation was",
+    "annual change",
+    "Update variation from compass rose",
+    "What's the current variation",
+    "Variation calculation",
+    "Apply annual change"
+  ]
+}

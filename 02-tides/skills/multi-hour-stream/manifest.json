@@ -1,0 +1,13 @@
+{
+  "name": "multi-hour-stream",
+  "description": "Integrates multiple hourly tidal stream vectors into a single resultant for efficient passage planning and EP calculations.",
+  "version": "1.0",
+  "triggers": [
+    "integrate tidal streams",
+    "multiple hour tide calculation",
+    "combine tidal vectors",
+    "resultant tidal stream",
+    "long passage tide",
+    "EP with multiple hours of tide"
+  ]
+}

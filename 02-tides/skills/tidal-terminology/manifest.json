@@ -1,0 +1,16 @@
+{
+  "name": "tidal-terminology",
+  "description": "Educational skill explaining tidal terminology (MHWS, MLWS, MHWN, MLWN, HAT, LAT, Chart Datum) and vertical datums for RYA exam preparation.",
+  "version": "1.0",
+  "triggers": [
+    "what is MHWS",
+    "chart datum",
+    "HAT LAT",
+    "drying height",
+    "tidal terminology",
+    "vertical datums",
+    "bridge clearance datum",
+    "mean high water springs",
+    "tidal range"
+  ]
+}

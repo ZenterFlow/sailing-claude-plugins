@@ -1,0 +1,13 @@
+{
+  "name": "computation-rates-graph",
+  "description": "Interpolates tidal stream rates between spring and neap values using the computation of rates graph method from Admiralty tidal atlases.",
+  "version": "1.0",
+  "triggers": [
+    "computation of rates",
+    "interpolate tidal stream rate",
+    "tidal range between spring and neap",
+    "calculate stream rate for range",
+    "use rates graph",
+    "spring rate neap rate interpolation"
+  ]
+}

@@ -72,6 +72,12 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
+### ✅ Ready for Testing (5 plugins, 32 skills)
+
+| Plugin | Agent | Skills | Status |
+|--------|-------|--------|--------|
+| **01. Chart Basics** | Chart Basics Tutor | **18 skills** (13 original + 5 compass): datum-guardian, charted-height-interpreter, symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-safe-go-nogo, photo-correction-reader, chart-symbol-spotter, chart-update-checker, chartwork-mercator-projection, longitude-latitude, symbol-quiz-flashcards, **magnetic-variation-calculator, compass-error-correction, compass-deviation-table, hand-bearing-compass, compass-dip-heeling** | ✅ Ready |
+| **02. Tides** | Tides Tutor | **10 skills** (5 original + 5 theory): tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, **tidal-theory, tidal-terminology, time-zone-converter, computation-rates-graph, multi-hour-stream** | ✅ Ready |
 ### ✅ Ready for Testing (8 plugins, 26 skills)
 
 | Plugin | Agent | Skills | Status |
@@ -343,7 +349,7 @@ https://github.com/ZenterFlow/claude-skills-library
 **v0.1.0** (2025-11-01)
 - Initial marketplace release
 - 5 plugins ready: Chart Basics, Tides, Passage Making, Visual Aids, Pilotage
-- 17 skills implemented and tested
+- 22 skills implemented and tested
 - 14 agent frameworks established
 - Complete documentation structure
 

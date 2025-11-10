@@ -1,0 +1,15 @@
+{
+  "name": "hand-bearing-compass",
+  "description": "Take accurate magnetic bearings of charted objects for position fixing and collision avoidance using hand-bearing compass.",
+  "version": "1.0",
+  "triggers": [
+    "hand bearing compass",
+    "take a bearing",
+    "cross bearings",
+    "position fix",
+    "three point fix",
+    "steady bearing",
+    "collision avoidance bearing",
+    "cocked hat"
+  ]
+}

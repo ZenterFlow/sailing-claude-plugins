@@ -1,0 +1,14 @@
+{
+  "name": "time-zone-converter",
+  "description": "Converts between Universal Time (UT), maritime zone times, and Daylight Saving Time using RYA/Admiralty notation.",
+  "version": "1.0",
+  "triggers": [
+    "convert to UT",
+    "zone time to UTC",
+    "what time is this in BST",
+    "time zone conversion",
+    "Zone -1 DST to UT",
+    "maritime time zones",
+    "UTC to zone time"
+  ]
+}

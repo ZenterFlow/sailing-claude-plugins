@@ -10,12 +10,21 @@
 - Vertical clearance calculations (bridges)
 - Drying height conversions
 
-## Skills Included
+## Skills Included (10 total)
+
+**Tidal Calculations (5)**
 1. **tide-calculator** - Tidal height/time calculations using curves and twelfths
 2. **tidal-diamond-reader** - Full diamond table display (HW-3 to HW+3)
 3. **diamond-dispatcher** - Quick diamond lookup for specific hours
 4. **depth-datum-flipper** - Depth safety calculations, drying heights, UKC checks
 5. **vertical-clearance-solver** - Bridge/wire clearance calculations
+
+**Tidal Theory & Planning (5)** ✨ NEW
+6. **tidal-theory** - Spring/neap cycles, lunar/solar influences, tidal patterns
+7. **tidal-terminology** - Chart Datum, LAT, HAT, MHWS, MLWS, MHWN, MLWN explained
+8. **time-zone-converter** - Maritime time zone conversion (UT/UTC, zone time, DST)
+9. **computation-rates-graph** - Interpolate stream rates using spring/neap range
+10. **multi-hour-stream** - Integrate multiple tidal stream vectors for passage planning
 
 ## Agent
 **Tides Tutor** - Methodical, safety-focused, shows all workings
@@ -29,7 +38,7 @@ Activate by asking tidal questions:
 - "Drying 1.2m, tide 2.5m, can I pass?"
 
 ## Status
-✅ **Ready for Testing** - 5 skills fully implemented
+✅ **Ready for Testing** - 10 skills fully implemented (5 original + 5 theory/planning skills added)
 
 ## Example Session
 ```
@@ -50,4 +59,5 @@ Wait until tide reaches at least 2.7m CD
 ```
 
 ## Version
-v0.1.0 (2025-10-31)
+v0.2.0 (2025-11-10) - Added 5 theory/planning skills: tidal-theory, tidal-terminology, time-zone-converter, computation-rates-graph, multi-hour-stream
+v0.1.0 (2025-10-31) - Initial release with 5 tidal calculation skills
