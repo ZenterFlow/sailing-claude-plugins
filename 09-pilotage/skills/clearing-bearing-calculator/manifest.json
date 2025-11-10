@@ -1,0 +1,15 @@
+{
+  "name": "clearing-bearing-calculator",
+  "description": "Calculate clearing bearings (danger bearings) using NMT and NLT rules for safe hazard avoidance.",
+  "version": "1.0",
+  "triggers": [
+    "clearing bearing",
+    "danger bearing",
+    "NMT bearing",
+    "NLT bearing",
+    "no more than",
+    "no less than",
+    "safe bearing",
+    "hazard avoidance bearing"
+  ]
+}

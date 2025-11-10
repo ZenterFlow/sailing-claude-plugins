@@ -1,0 +1,14 @@
+{
+  "name": "cross-track-error-monitor",
+  "description": "Calculate and monitor Cross-Track Error (XTE) for safe passage in TSS and channels.",
+  "version": "1.0",
+  "triggers": [
+    "cross track error",
+    "XTE",
+    "how far off track",
+    "distance from track",
+    "TSS navigation",
+    "am I in my lane",
+    "track deviation"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cts-calculator",
+  "description": "Calculate Course To Steer (CTS) accounting for leeway, tidal stream, and magnetic variation.",
+  "version": "1.0",
+  "triggers": [
+    "course to steer",
+    "CTS",
+    "what course should I steer",
+    "calculate CTS",
+    "water triangle",
+    "track with stream",
+    "account for tide and leeway"
+  ]
+}

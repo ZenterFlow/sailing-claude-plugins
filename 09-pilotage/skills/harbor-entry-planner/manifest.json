@@ -1,0 +1,13 @@
+{
+  "name": "harbor-entry-planner",
+  "description": "Create comprehensive harbor entry plans with approach procedures, abort criteria, and contingencies.",
+  "version": "1.0",
+  "triggers": [
+    "harbor entry plan",
+    "approach plan",
+    "harbor approach",
+    "pilotage plan",
+    "entry procedure",
+    "abort criteria"
+  ]
+}

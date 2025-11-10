@@ -1,0 +1,15 @@
+{
+  "name": "ep-calculator",
+  "description": "Calculate Estimated Position (EP) and Dead Reckoning (DR) accounting for leeway, tidal stream, and course/speed errors.",
+  "version": "1.0",
+  "triggers": [
+    "estimated position",
+    "calculate EP",
+    "dead reckoning",
+    "DR position",
+    "position with leeway",
+    "account for tidal stream",
+    "where am I now",
+    "plot EP"
+  ]
+}
