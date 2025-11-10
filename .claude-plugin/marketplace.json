@@ -3,14 +3,25 @@
   "owner": {
     "name": "ZenterFlow"
   },
-  "description": "Complete RYA/ASA YachtMaster Offshore navigation curriculum with 14 specialized tutor agents",
-  "version": "0.1.0",
+  "description": "Complete RYA/ASA YachtMaster Offshore navigation curriculum with 15 specialized agents including intelligent master coordinator",
+  "version": "1.7.0",
   "plugins": [
+    {
+      "name": "navigation-master",
+      "source": "./00-navigation-master",
+      "description": "Master coordinator - intelligent routing to specialized agents and multi-plugin workflow orchestration",
+      "version": "1.0.0",
+      "author": {
+        "name": "ZenterFlow"
+      },
+      "keywords": ["sailing", "navigation", "coordinator", "yachtmaster", "routing"],
+      "category": "coordination"
+    },
     {
       "name": "chart-basics",
       "source": "./01-chart-basics",
-      "description": "Chart datum, symbols, Mercator projection, compass types, variation & deviation",
-      "version": "0.1.0",
+      "description": "Chart datum, symbols, Mercator projection, compass errors, variation & deviation - 17 skills",
+      "version": "0.5.0",
       "author": {
         "name": "ZenterFlow"
       },
@@ -20,8 +31,8 @@
     {
       "name": "tides",
       "source": "./02-tides",
-      "description": "Causes, terms, tables, curves, secondary ports, diamonds, stream atlas",
-      "version": "0.1.0",
+      "description": "Tidal calculations, heights, streams, secondary ports, diamonds - 8 skills",
+      "version": "0.6.0",
       "author": {
         "name": "ZenterFlow"
       },
@@ -31,133 +42,133 @@
     {
       "name": "positioning",
       "source": "./03-positioning",
-      "description": "EP, circle of error, visual fixing, leeway, cross-track error",
-      "version": "0.1.0",
+      "description": "Visual fixes, EP, DR, running fixes, cross-track error, navigation web - 8 skills",
+      "version": "0.9.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "navigation", "positioning", "gps"],
+      "keywords": ["sailing", "navigation", "positioning", "gps", "visual-fix"],
       "category": "navigation"
     },
     {
       "name": "course-to-steer",
       "source": "./04-course-to-steer",
-      "description": "CTS calculations, leeway application, worked examples",
-      "version": "0.1.0",
+      "description": "CTS calculations, leeway application, velocity triangles, tidal streams - 7 skills",
+      "version": "0.3.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "navigation", "course", "leeway"],
+      "keywords": ["sailing", "navigation", "course", "leeway", "velocity-triangle"],
       "category": "navigation"
     },
     {
       "name": "electronic-navigation",
       "source": "./05-electronic-navigation",
-      "description": "GPS/GNSS, radar, instruments, abbreviations, Q & A",
-      "version": "0.1.0",
+      "description": "GPS/GNSS, radar, AIS, instruments, MARPA, radar pilotage - 16 skills",
+      "version": "0.8.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "navigation", "gps", "radar", "electronics"],
+      "keywords": ["sailing", "navigation", "gps", "radar", "electronics", "ais"],
       "category": "navigation"
     },
     {
       "name": "ec-plotting",
       "source": "./06-ec-plotting",
-      "description": "Chart-plotter operation, self-test questions",
-      "version": "0.1.0",
+      "description": "Electronic charts, chart plotters, RNC vs ENC, waypoint management - 5 skills",
+      "version": "0.8.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "navigation", "chartplotter", "electronic-charts"],
+      "keywords": ["sailing", "navigation", "chartplotter", "electronic-charts", "rnc", "enc"],
       "category": "navigation"
     },
     {
       "name": "passage-making",
       "source": "./07-passage-making",
-      "description": "Planning, regulations, watch systems, monitoring, worked plans",
-      "version": "0.1.0",
+      "description": "Passage planning, pre-departure prep, safety briefing, leeway, SOLAS V compliance - 5 skills",
+      "version": "1.6.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "navigation", "passage-planning", "offshore"],
+      "keywords": ["sailing", "navigation", "passage-planning", "offshore", "solas", "safety-brief"],
       "category": "navigation"
     },
     {
       "name": "visual-aids",
       "source": "./08-visual-aids",
-      "description": "Buoys, lights, ranges, transits, dipping distances",
-      "version": "0.1.0",
+      "description": "IALA buoyage, cardinal marks, lights, ranges, dipping distance - 11 skills",
+      "version": "1.0.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "navigation", "buoys", "lights", "iala"],
+      "keywords": ["sailing", "navigation", "buoys", "lights", "iala", "cardinal-marks"],
       "category": "navigation"
     },
     {
       "name": "pilotage",
       "source": "./09-pilotage",
-      "description": "Leading lines, clearing bearings, restricted visibility plans",
-      "version": "0.1.0",
+      "description": "Harbor entry, leading lines, clearing bearings, restricted visibility, integrated pilotage - 13 skills",
+      "version": "1.1.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "navigation", "pilotage", "harbor-entry"],
+      "keywords": ["sailing", "navigation", "pilotage", "harbor-entry", "clearing-bearings"],
       "category": "navigation"
     },
     {
       "name": "meteorology",
       "source": "./10-meteorology",
-      "description": "Forecast sources, clouds, sea-breeze, fog, synoptic charts",
-      "version": "0.1.0",
+      "description": "Weather systems, forecasts, clouds, fog, pressure patterns, Buys Ballot's Law - 6 skills",
+      "version": "1.2.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "weather", "meteorology", "forecasting"],
+      "keywords": ["sailing", "weather", "meteorology", "forecasting", "clouds"],
       "category": "weather"
     },
     {
       "name": "irpcs",
       "source": "./11-irpcs",
-      "description": "General rules, sounds, day-shapes, lights, collision scenarios",
-      "version": "0.1.0",
+      "description": "Complete COLREGS Rules 1-37, vessel hierarchy, collision avoidance, lights, shapes, signals - 7 skills",
+      "version": "1.3.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "colregs", "irpcs", "collision-regulations"],
+      "keywords": ["sailing", "colregs", "irpcs", "collision-regulations", "rules"],
       "category": "regulations"
     },
     {
       "name": "safety-environment",
       "source": "./12-safety-environment",
-      "description": "Safety briefs, Mayday, stability, environment regs",
-      "version": "0.1.0",
+      "description": "Emergency procedures, EPIRB/PLB, distress communications, life jackets, fog navigation - 7 skills",
+      "version": "1.6.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "safety", "mayday", "marpol"],
+      "keywords": ["sailing", "safety", "mayday", "epirb", "emergency", "distress"],
       "category": "safety"
     },
     {
       "name": "collision-regs",
       "source": "./13-collision-regs",
-      "description": "Conduct in sight / restricted visibility, lights, sounds, exceptions",
+      "description": "Collision scenario analysis and right-of-way determination (skeleton)",
       "version": "0.1.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "colregs", "collision-avoidance", "visibility"],
+      "keywords": ["sailing", "colregs", "collision-avoidance", "scenarios"],
       "category": "regulations"
     },
     {
       "name": "nav-lights-flip",
       "source": "./14-nav-lights-flip",
-      "description": "Navigation lights, day shapes, flags, sound signals quick quiz",
-      "version": "0.1.0",
+      "description": "Navigation lights, day shapes, sound signals rapid-fire quiz system - 3 skills",
+      "version": "1.5.0",
       "author": {
         "name": "ZenterFlow"
       },
-      "keywords": ["sailing", "lights", "shapes", "quiz", "colregs"],
+      "keywords": ["sailing", "lights", "shapes", "quiz", "colregs", "exam-prep"],
       "category": "education"
     }
   ]
