@@ -1,0 +1,247 @@
+Navigation Lights, Day Shapes & Sound Signals
+
+# Yachtmaster Offshore: Navigation Lights, Day Shapes & Sound Signals Reference
+
+Quick reference for COLREGS Rules 20-37 - essential for Yachtmaster Offshore theory and practical exams.
+
+---
+
+## **Key Thresholds & Definitions**
+
+| Vessel Length | Light Ranges | Key Requirements |
+|---------------|--------------|------------------|
+| **Under 7m** | Sidelights 1nm, Others 2nm | May combine sidelights to one lantern |
+| **7m - 12m** | Sidelights 1nm, Stern/All-round 2nm | Separate sidelights required |
+| **12m - 50m** | Masthead 5nm, Sidelights 2nm, Stern 2nm | Standard configuration |
+| **Over 50m** | Masthead 6nm, Sidelights 3nm, Stern 3nm | Additional masthead light aft |
+
+**Arcs of Visibility**: Masthead 225°, Sidelights 112.5°, Sternlight 135°, All-round 360°, Towing light 135°
+
+---
+
+## **1. NAVIGATION LIGHTS**
+
+### **Power-Driven Vessels Underway**
+| Length | Lights Displayed | Arc & Range |
+|--------|------------------|-------------|
+| **Under 12m** | All-round white + sidelights (optional separate) | White 360°, 2nm |
+| **12m - 50m** | Forward masthead white, sidelights, sternlight | Masthead 5nm, Sides 2nm, Stern 2nm |
+| **Over 50m** | Forward masthead, sidelights, sternlight, **aft masthead** | Forward 6nm, Aft 6nm |
+| **<7m & <7kn** | All-round white only (alternatively) | 360°, 2nm |
+
+**Notes for Exam**: Power-driven includes any vessel under engine (including sailboat with engine on). Sailing vessel with engine **must show forward masthead light** (steaming light) when under power.
+
+---
+
+### **Sailing Vessels Underway**
+| Situation | Lights Displayed |
+|-----------|------------------|
+| **Under sail alone** | Sidelights + sternlight (no masthead light) |
+| **Under 7m** | Torch ready to show (practical alternative) |
+| **Motor-sailing** | **Forward masthead light + sidelights + sternlight** (same as power) |
+| **Motor-sailing (Day)** | **Cone shape, apex down** (black) |
+
+**Key Exam Point**: If engine is on *at all*, show masthead light and cone shape during day.
+
+---
+
+### **Vessels at Anchor**
+| Length | Lights | Day Shape |
+|--------|--------|-----------|
+| **Under 50m** | All-round white light forward where best seen | **Ball** (black) |
+| **Over 50m** | All-round white forward + all-round white aft (lower) | **Ball** forward |
+| **>100m** | Also deck lights on working areas | Optional |
+
+**Anchor Ball**: Black ball, not less than 0.6m diameter, in forepart of vessel.
+
+---
+
+### **Vessels Aground**
+- **Lights**: Same as anchored + **Two all-round red lights in vertical line** (where best seen)
+- **Day Shapes**: **Three balls in vertical line** (top, middle, bottom)
+- **Sound**: Master’s discretion (not specified, but "gong" commonly used)
+
+---
+
+### **Fishing Vessels (Rule 26)**
+
+| Fishing Type | Lights | Day Shape |
+|--------------|--------|-----------|
+| **Trawling (underway)** | Sidelights + sternlight + **Two lights vertical: green over white** | **Two cones, apexes together** |
+| **Trawling (stopped/<2kn)** | Two all-round lights: green over white | Two cones, apexes together |
+| **Other fishing (e.g., longline)** | Sidelights + sternlight + **Two lights vertical: red over white** | **Two cones, apexes apart** |
+| **Gear >150m out** | **White all-round light or cone** in direction of gear | White light/cone indicates outlying gear side |
+
+**Key Distinction**: Trawling = nets towed through water (green over white). Other fishing = stationary gear (red over white).
+
+---
+
+### **Vessels Not Under Command (NUC)**
+
+| Condition | Lights | Day Shape | Sound |
+|-----------|--------|-----------|-------|
+| **Making way** | Two all-round red lights vertical + sidelights + sternlight | **Two balls in vertical line** | One prolonged + two short blasts every 2 min |
+| **Not making way** | Two all-round red lights vertical only | Two balls vertical | Same fog signal |
+
+---
+
+### **Vessels Restricted in Ability to Maneuver (RAM)**
+
+| Condition | Lights | Day Shape | Sound |
+|-----------|--------|-----------|-------|
+| **Making way** | Forward masthead, sidelights, sternlight + **Three lights: red-white-red vertical** | **Ball-diamond-ball vertical** | One prolonged + two short blasts every 2 min |
+| **Not making way** | Red-white-red vertical only | Ball-diamond-ball vertical | Same fog signal |
+| **At anchor** | Anchor light + Red-white-red vertical | Ball + Ball-diamond-ball vertical | Same fog signal |
+
+**Exam Tip**: RAM includes vessels launching/ recovering aircraft, dredging, diving, minesweeping, replenishing, etc.
+
+---
+
+### **Vessel Constrained by Draft (CBD)**
+
+- **Applies only when UNDERWAY**
+- **Lights**: Same as power-driven + **Three all-round red lights in vertical line**
+- **Day Shape**: **Cylinder** (black)
+- **Sound**: Standard power-driven fog signals (NOT RAM signals)
+- **Key Exam Point**: CBD is *not* RAM - different signals. Only shown when actually constrained.
+
+---
+
+### **Pilot Vessels**
+
+| Status | Lights | Day Shape |
+|--------|--------|-----------|
+| **On duty, underway** | Sidelights + sternlight + **White over red vertical** | **Hoist "H" flag** |
+| **On duty, at anchor** | Anchor light + White over red vertical | Ball + "H" flag |
+| **Not on duty** | Normal vessel lights (no special) | None |
+
+---
+
+### **Towing & Pushing (Rule 24)**
+
+| Tow Length | Lights | Day Shape |
+|------------|--------|-----------|
+| **Under 200m tow** | Forward masthead + sidelights + sternlight + **Yellow towing light over sternlight** | **Diamond** (where best seen) |
+| **Over 200m tow** | **Two masthead lights forward** + sidelights + sternlight + yellow towing light | **Diamond** |
+| **Pushing ahead/Alongside** | Forward masthead + sidelights + sternlight + **Two yellow towing lights vertical** | No shape required |
+| **Tug & tow <50m combined** | One all-round white + sidelights + sternlight (if tug <20m) | Simplified |
+
+**Towing Light**: Yellow, same characteristics as sternlight (135° arc)
+
+---
+
+### **Special Cases - Exam Favorites**
+
+| Vessel Type | Lights | Day Shape |
+|-------------|--------|-----------|
+| **Diving Operations (RAM)** | Red-white-red + "A" flag lights | Ball-diamond-ball + **Code flag "A"** |
+| **Minesweeping (RAM)** | Red-white-red + **Three all-round green lights** (masthead level) | Ball-diamond-ball + **Three balls vertical** |
+| **WIG Craft** | Forward masthead + sidelights + sternlight + **Yellow flashing all-round** | Not specified |
+| **Sail <7m in channel** | Torch ready to show | None required |
+
+---
+
+## **2. DAY SHAPES Summary (Where Best Seen)**
+
+| Shape | Meaning |
+|-------|---------|
+| **Ball** | Anchored |
+| **Two Balls Vertical** | Not Under Command |
+| **Ball-Diamond-Ball Vertical** | Restricted in Ability to Maneuver |
+| **Cone Apex Down** | Motor-sailing (sail vessel under power) |
+| **Two Cones Apexes Together** | Trawling (fishing) |
+| **Two Cones Apexes Apart** | Other fishing |
+| **Cylinder** | Constrained by Draft |
+| **Diamond** | Vessel engaged in towing or pushing |
+| **Basket** | Pilot vessel (historical, rarely used now) |
+
+**Exam Critical**: Shapes must be black, not less than 0.6m diameter/height.
+
+---
+
+## **3. SOUND SIGNALS**
+
+### **Fog Signals (Rule 35) - Interval Every 2 Minutes**
+
+| Vessel Type | Signal |
+|-------------|--------|
+| **Power-driven making way** | One prolonged blast (**4-6 seconds**) |
+| **Power-driven stopped** | Two prolonged blasts (separated) |
+| **Sailing vessel** | One prolonged + two short (**1 second each**) |
+| **NUC / RAM** | One prolonged + two short |
+| **Vessel at anchor** | **Bell 5 seconds** rapidly for 1 minute (bow) + **Gong** (stern) if >100m |
+| **Vessel aground** | Bell/gong + **Three separate strokes** before/after (master's discretion) |
+
+**Interval Note**: Anchor signals every **1 minute**, not 2 minutes.
+
+---
+
+### **Maneuvering & Warning Signals (Rule 34)**
+
+| Action | Sound Pattern | Meaning |
+|--------|---------------|---------|
+| **Turning Starboard** | One short blast (1 sec) | "I am altering course to starboard" |
+| **Turning Port** | Two short blasts | "I am altering course to port" |
+| **Operating Astern** | Three short blasts | "I am operating astern propulsion" |
+| **Danger Signal** | Five or more short blasts | "I do not understand your intentions" |
+| **Leaving Berth** | One prolonged blast | Warning to other vessels |
+
+**Visual Signals**: Same patterns may be shown by flashing lights (flashes in 4-6 seconds).
+
+---
+
+### **Restricted Visibility - Additional Signals**
+
+- **Vessel engaged in towing**: One prolonged + two short (same as NUC/RAM)
+- **Vessel <12m**: May use **mouth horn** or **efficient sound signal**
+- **Pilot vessel on duty**: Four short blasts (**identification signal**)
+
+---
+
+## **4. YACHTMASTER EXAM QUICK REFERENCE**
+
+### **Most Tested Scenarios**
+
+1. **Motor-sailing**: Must show **forward masthead light** + **cone shape** (day)
+2. **CBD vs RAM**: CBD shows **cylinder** (not ball-diamond-ball) and uses **power-driven fog signals**
+3. **Trawling vs Other Fishing**: Green over white = trawling (cones together). Red over white = other fishing (cones apart)
+4. **Anchor fog signals**: Every **1 minute** (bell), not 2 minutes
+5. **Tug <24m & tow <200m**: May show **one masthead light** (simplified)
+6. **Sidelight combination**: Under 7m may combine sidelights to one lantern
+7. **RAM at anchor**: Shows both anchor light AND red-white-red vertical
+
+### **Common Mistakes to Avoid**
+
+- ❌ CBD showing RAM signals
+- ❌ Anchor fog signal interval wrong (must be 1 min)
+- ❌ Motor-sailing without masthead light
+- ❌ Forgetting day shape for motor-sailing
+- ❌ Confusing NUC (two balls) with RAM (ball-diamond-ball)
+- ❌ Towing under 200m showing two masthead lights (only if tug >50m or tow >200m)
+
+### **Memory Aids**
+
+- **Shapes**: "RAMs are Diamonds" (Towing = Diamond shape)
+- **Colors**: "Green over White, Trawling at Night" (Trawling lights)
+- **CBD**: "Cylinder for Deep Boats" (Draft-constrained)
+- **NUC**: "Not Under Command - Not very helpful" (just two red lights)
+
+---
+
+## **5. LIGHT CHARACTERISTICS**
+
+| Type | Description |
+|------|-------------|
+| **F (Fixed)** | Continuous light |
+| **Fl (Flashing)** | <50 flashes per minute |
+| **Q (Quick)** | 50-79 flashes per minute |
+| **VQ (Very Quick)** | 80-159 flashes per minute |
+| **UQ (Ultra Quick)** | 160+ flashes per minute |
+| **Oc (Occulting)** | Longer on than off |
+| **Alt (Alternating)** | Alternates colors |
+
+**Exam Note**: Know that a **flashing yellow light** on WIG craft is **120+ flashes/minute**.
+
+---
+
+This reference covers all COLREGS scenarios tested in Yachtmaster Offshore. Focus on memorizing length thresholds, signal intervals, and the subtle differences between similar vessel categories (especially CBD vs RAM).
