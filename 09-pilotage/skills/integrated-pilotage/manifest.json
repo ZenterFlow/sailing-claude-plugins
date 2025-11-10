@@ -1,0 +1,13 @@
+{
+  "name": "integrated-pilotage",
+  "description": "Synthesize all pilotage techniques into comprehensive passage plans from open water to mooring",
+  "version": "1.0.0",
+  "triggers": [
+    "integrated pilotage",
+    "comprehensive pilotage",
+    "passage plan pilotage",
+    "complete pilotage",
+    "pilotage synthesis",
+    "end to end pilotage"
+  ]
+}

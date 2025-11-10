@@ -1,0 +1,14 @@
+{
+  "name": "light-arcs-vessel-length",
+  "description": "Calculate navigation light coverage arcs, determine vessel length from light configurations, and identify aspect angles for collision avoidance.",
+  "version": "1.0.0",
+  "triggers": [
+    "light arcs",
+    "vessel length identification",
+    "sidelight arcs",
+    "112.5 degrees",
+    "masthead lights",
+    "vessel aspect",
+    "underway making way"
+  ]
+}

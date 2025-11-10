@@ -1,10 +1,10 @@
 # Plugin 03: Positioning
 
-**Status**: ✅ Ready for Testing (6 skills implemented)
+**Status**: ✅ Complete (8 skills implemented)
 
-The Positioning Tutor teaches position fixing, estimated position (EP), dead reckoning (DR), and cross-track error monitoring.
+The Positioning Tutor teaches position fixing, estimated position (EP), dead reckoning (DR), cross-track error monitoring, and specialized navigation techniques.
 
-## Skills (6 total)
+## Skills (8 total)
 
 ### Core Position Fixing
 1. **visual-fix-calculator** - Three-point fixes, running fixes, cocked hat assessment
@@ -15,6 +15,10 @@ The Positioning Tutor teaches position fixing, estimated position (EP), dead rec
 4. **visual-fix-reliability** - Assess visual fix quality and reliability using cocked hat analysis
 5. **enhanced-visual-fixing** - Advanced visual fixing techniques (running fixes, four-point fixes)
 6. **position-fix-integrator** - Complete position fixing workflow integration
+
+### Specialized Methods
+7. **navigation-web-constructor** - Pre-plotted bearing/distance grids for rapid GPS monitoring and tacking decisions
+8. **angle-off-bow-fix** - Quick distance-off estimation using 45°/90° relative bearing method
 
 ## Installation
 
@@ -63,4 +67,4 @@ Agent: Calculates XTE, assesses against lane width, provides safety status
 - Position line advancement
 
 ## Version
-v0.3.0 (2025-11-10)
+v0.4.0 (2025-11-10)

@@ -1,16 +1,31 @@
 # Plugin 08: Visual Aids
 
-**Status**: ✅ Ready for Testing (5 skills implemented)
+**Status**: ✅ Complete (11 skills implemented)
 
-The Visual Aids Tutor teaches recognition of buoys, lights, cardinal marks, ranges, and transits for safe visual navigation.
+The Visual Aids Tutor teaches comprehensive recognition of buoys, lights, cardinal marks, ranges, transits, and navigation publications for safe visual navigation.
 
-## Skills (5 total)
+## Skills (11 total)
 
-1. **direction-of-buoyage-reminder** - IALA A/B buoyage systems
-2. **light-characteristics-quiz** - Interactive quiz for navigation light characteristics (Fl, Oc, Iso, Q, VQ)
+### Foundation (2 skills)
+1. **iala-buoyage-system** - IALA Region A/B fundamentals, direction of buoyage, five mark categories
+2. **lateral-marks-identifier** - Port and starboard marks with regional color variations and preferred channel indicators
+
+### Cardinal and Special Marks (2 skills)
 3. **cardinal-marks-identifier** - Identify cardinal marks (N/E/S/W) by topmarks, colors, and lights
-4. **ranges-and-transits-guide** - Visual ranges and transits for accurate position fixing
-5. **dipping-distance-calculator** - Geographic range calculations for lights and objects
+4. **special-purpose-marks** - Isolated danger, safe water, special marks, and wreck markers
+
+### Light Navigation (3 skills)
+5. **light-characteristics-quiz** - Interactive quiz for navigation light characteristics (Fl, Oc, Iso, Q, VQ)
+6. **light-ranges-beacons** - Calculate geographical/luminous/nominal ranges, dipping distance, identify RACON
+7. **admiralty-list-lights** - Extract and interpret Admiralty List of Lights and navigation publications
+
+### Visual Position Fixing (2 skills)
+8. **ranges-and-transits-guide** - Visual ranges and transits for accurate position fixing
+9. **dipping-distance-calculator** - Geographic range calculations for lights and objects
+
+### Comprehensive Assessment (2 skills)
+10. **direction-of-buoyage-reminder** - Quick reference for IALA buoyage rules
+11. **visual-aids-quiz** - Rapid identification quiz covering all navigation marks
 
 ## Installation
 
@@ -20,52 +35,104 @@ The Visual Aids Tutor teaches recognition of buoys, lights, cardinal marks, rang
 
 ## Usage Examples
 
-### Light Characteristics Quiz
+### IALA Buoyage System
 ```
-User: Test me on navigation light characteristics
+User: What's the difference between IALA A and B?
 
-Agent: Presents 10-question quiz:
-       "What does Fl(3) 15s mean?"
-       A) 3 flashes every 15 seconds ✓
-       B) Fixed light, 3nm range
-       C) Flashing 15 times per second
-       D) 3 lights in a row
-```
+Agent: IALA REGIONS - LATERAL MARK COLORS
 
-### Cardinal Marks
-```
-User: I see two black cones pointing up, black over yellow. What is it?
+       IALA Region A (Europe, Australia):
+       • RED to PORT (left)
+       • GREEN to STARBOARD (right)
 
-Agent: NORTH CARDINAL MARK
-       • Pass NORTH of this mark
-       • Topmark: Points up (12 o'clock)
-       • Colors: Black over Yellow
-       • Light: Q or VQ continuous
-       • Hazard is SOUTH of mark
+       IALA Region B (Americas, Asia):
+       • GREEN to PORT (left)
+       • RED to STARBOARD (right)
+
+       CRITICAL: Only lateral mark colors change.
+       All other marks (cardinal, isolated danger, safe water, special) are IDENTICAL worldwide.
 ```
 
-### Dipping Distance
+### Special Purpose Marks
 ```
-User: Light is 25m high. My height of eye is 3m. When will I see it?
+User: Black body with red horizontal band, two balls on top?
 
-Agent: DIPPING DISTANCE: 14.0 nautical miles
-       Object range: 10.4nm (2.08 × √25)
-       Observer range: 3.6nm (2.08 × √3)
-       Total: 14.0nm
+Agent: ISOLATED DANGER MARK
+       • Hazard directly beneath mark
+       • Navigable water all around
+       • Light: Fl(2) white (2 flashes)
+       • Action: Keep well clear, pass with adequate distance
+```
 
-       Light will rise above horizon at 14nm
+### Light Ranges
+```
+User: Calculate when I'll see a 30m lighthouse. My height of eye is 4m.
+
+Agent: GEOGRAPHICAL RANGE CALCULATION
+
+       Distance = 2.08√4 + 2.08√30
+       Distance = 4.2nm + 11.4nm = 15.6nm
+
+       Light should appear at 15.6nm (clear weather).
+
+       Note: This is geographical range. Actual visibility may be
+       limited by weather (luminous range) or nominal range listed on chart.
+```
+
+### Admiralty List of Lights
+```
+User: What information is in the Admiralty List of Lights?
+
+Agent: ADMIRALTY LIST OF LIGHTS ENTRIES
+
+       Each light entry contains:
+       • Reference number (unique ID)
+       • Position (lat/long)
+       • Characteristic (e.g., Fl(3)WRG.10s)
+       • Height (above chart datum)
+       • Range (nominal, in nautical miles)
+       • Structure (tower, building, etc.)
+       • Remarks (fog signals, RACON, etc.)
+
+       Updated via Notices to Mariners (weekly).
 ```
 
 ## Topics Covered
 
-- IALA A/B buoyage systems
-- Lateral marks (port/starboard)
-- Cardinal marks (N/E/S/W)
-- Isolated danger and safe water marks
-- Light characteristics (Fl, Oc, Iso, Q, VQ)
-- Ranges and transits for position fixing
-- Geographic range (dipping distance)
-- Visual navigation aids
+### Buoyage Systems
+- IALA A/B regional differences
+- Direction of buoyage concept
+- Five core mark categories (lateral, cardinal, isolated danger, safe water, special)
+
+### Mark Types
+- Lateral marks with regional color variations
+- Preferred channel indicators (2+1 light pattern)
+- Cardinal marks (N/E/S/W) with topmark recognition
+- Isolated danger marks (black/red bands, two balls)
+- Safe water marks (red/white vertical stripes)
+- Special marks (yellow with X topmark)
+- Temporary wreck markers (blue/yellow stripes)
+
+### Light Navigation
+- Light characteristics (Fl, Oc, Iso, Q, VQ, UQ, LFl, Morse)
+- Geographical range (line of sight/curvature)
+- Luminous range (intensity and weather)
+- Nominal range (standardized for 10nm visibility)
+- Dipping distance calculations (2.08√h formula)
+- Sector lights and moire lights
+- RACON identification on radar
+
+### Navigation Publications
+- Admiralty List of Lights usage
+- Notices to Mariners corrections
+- Alternative sources (Reeds, RYA almanacs)
+- Chart information boxes
+
+### Position Fixing
+- Ranges and transits
+- Leading lines and lights
+- Light bearing fixes
+- Dipping distance position lines
 
 ## Version
-v0.2.0 (2025-11-09)
+v1.0.0 (2025-11-10)

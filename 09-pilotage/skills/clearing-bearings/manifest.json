@@ -1,0 +1,13 @@
+{
+  "name": "clearing-bearings",
+  "description": "Create safe navigation corridors between hazards using NMT/NLT clearing bearings",
+  "version": "1.0.0",
+  "triggers": [
+    "clearing bearings",
+    "not more than",
+    "not less than",
+    "NMT NLT",
+    "danger bearings",
+    "safe corridor"
+  ]
+}

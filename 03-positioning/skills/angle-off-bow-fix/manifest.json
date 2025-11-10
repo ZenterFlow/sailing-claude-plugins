@@ -1,0 +1,13 @@
+{
+  "name": "angle-off-bow-fix",
+  "description": "Quick distance-off estimation using 45°/90° relative bearing method without full plotting",
+  "version": "1.0.0",
+  "triggers": [
+    "angle off bow",
+    "45 degree method",
+    "four point bearing",
+    "doubling the angle",
+    "distance off calculation",
+    "special angle fix"
+  ]
+}

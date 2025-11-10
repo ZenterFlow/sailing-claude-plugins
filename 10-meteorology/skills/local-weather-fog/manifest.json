@@ -1,0 +1,13 @@
+{
+  "name": "local-weather-fog",
+  "description": "Understand sea breezes, katabatic winds, fog formation, and fog navigation",
+  "version": "1.0.0",
+  "triggers": [
+    "sea breeze",
+    "katabatic wind",
+    "fog navigation",
+    "advection fog",
+    "radiation fog",
+    "local weather effects"
+  ]
+}

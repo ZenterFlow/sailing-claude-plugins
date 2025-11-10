@@ -1,0 +1,13 @@
+{
+  "name": "pressure-forecast-application",
+  "description": "Apply pressure effects on depth and synthesize forecasts for navigation",
+  "version": "1.0.0",
+  "triggers": [
+    "pressure effects",
+    "forecast application",
+    "weather routing",
+    "depth pressure",
+    "wind against tide",
+    "almanac weather"
+  ]
+}

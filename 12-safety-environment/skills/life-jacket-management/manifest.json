@@ -1,0 +1,13 @@
+{
+  "name": "life-jacket-management",
+  "description": "Perform systematic inspection and maintenance of life jackets while enforcing proper usage protocols for maximum survivability.",
+  "version": "1.0.0",
+  "triggers": [
+    "life jacket",
+    "pfd",
+    "crotch strap",
+    "harness",
+    "jackstay",
+    "inflatable life jacket"
+  ]
+}

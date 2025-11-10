@@ -1,0 +1,13 @@
+{
+  "name": "radar-reflector-integration",
+  "description": "Install, maintain, and integrate radar reflectors and AIS systems to maximize vessel detection by other ships.",
+  "version": "1.0.0",
+  "triggers": [
+    "radar reflector",
+    "ais integration",
+    "arpa marpa",
+    "radar cross section",
+    "reflector installation",
+    "target tracking"
+  ]
+}

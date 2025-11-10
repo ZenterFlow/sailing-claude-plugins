@@ -1,0 +1,14 @@
+{
+  "name": "admiralty-list-lights",
+  "description": "Extract and interpret information from Admiralty List of Lights and navigation publications for passage planning",
+  "version": "1.0.0",
+  "triggers": [
+    "admiralty list",
+    "list of lights",
+    "notices to mariners",
+    "light publication",
+    "sector lights",
+    "moire lights",
+    "light almanac"
+  ]
+}

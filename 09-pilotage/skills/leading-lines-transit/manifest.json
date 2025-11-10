@@ -1,0 +1,13 @@
+{
+  "name": "leading-lines-transit",
+  "description": "Navigate using charted and improvised leading lines, leading lights, and the lower light rule",
+  "version": "1.0.0",
+  "triggers": [
+    "leading lines",
+    "leading lights",
+    "transit navigation",
+    "lower light rule",
+    "charted transit",
+    "compass deviation check"
+  ]
+}

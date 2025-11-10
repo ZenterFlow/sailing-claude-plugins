@@ -1,0 +1,13 @@
+{
+  "name": "drogue-deployment",
+  "description": "Deploy drogues and sea anchors to control vessel motion during engine failure, strong wind conditions, or emergency situations.",
+  "version": "1.0.0",
+  "triggers": [
+    "drogue",
+    "sea anchor",
+    "storm tactics",
+    "heavy weather",
+    "life raft drogue",
+    "brake drogue"
+  ]
+}

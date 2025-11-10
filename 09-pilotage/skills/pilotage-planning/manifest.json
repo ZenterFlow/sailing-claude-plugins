@@ -1,0 +1,13 @@
+{
+  "name": "pilotage-planning",
+  "description": "Create pictorial and rolling road pilotage plans with all critical navigation data for deck execution",
+  "version": "1.0.0",
+  "triggers": [
+    "pilotage planning",
+    "pictorial plan",
+    "rolling road plan",
+    "tram lines",
+    "pilotage methods",
+    "deck execution plan"
+  ]
+}

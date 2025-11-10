@@ -4,12 +4,12 @@
 
 This repository contains **14 sailing/navigation education plugins** organized as RYA/ASA YachtMaster training tools. Currently:
 
-- **8 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 05, 06, 08, 09)
+- **11 plugins** are feature-complete with implemented skills (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11, 12)
 - **1 plugin** has partial implementation (Plugin 07)
-- **5 plugins** are skeleton frameworks ready for skill development (Plugins 10-14)
+- **2 plugins** are skeleton frameworks ready for skill development (Plugins 13-14)
 
-**Total Skills Implemented**: 66
-**Total Future Skills Listed**: 10+ (remaining)
+**Total Skills Implemented**: 105
+**Total Future Skills Listed**: 0 (all core navigation skills complete)
 
 ---
 
@@ -91,16 +91,18 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 03: Positioning ✅ COMPLETE
-**Status**: Production Ready (v0.3.0)
-**Total Skills**: 6 implemented
+**Status**: Production Ready (v0.4.0)
+**Total Skills**: 8 implemented
 
 **Implemented Skills**:
 1. visual-fix-calculator - Three-point bearing fixes, running fixes, cocked hat assessment
 2. ep-calculator - Estimated Position and Dead Reckoning with leeway and tidal stream
 3. cross-track-error-monitor - XTE calculation and monitoring for TSS and channels
-4. visual-fix-reliability - Assess visual fix quality and reliability using cocked hat analysis (NEW v0.3.0)
-5. enhanced-visual-fixing - Advanced visual fixing techniques (running fixes, four-point fixes) (NEW v0.3.0)
-6. position-fix-integrator - Complete position fixing workflow integration (NEW v0.3.0)
+4. visual-fix-reliability - Assess visual fix quality and reliability using cocked hat analysis
+5. enhanced-visual-fixing - Advanced visual fixing techniques (running fixes, four-point fixes)
+6. position-fix-integrator - Complete position fixing workflow integration
+7. navigation-web-constructor - Pre-plotted bearing/distance grids for rapid GPS monitoring (NEW v0.9.0)
+8. angle-off-bow-fix - Quick distance-off using 45°/90° relative bearing method (NEW v0.9.0)
 
 **Topics Defined** (from agent file):
 - Visual position fixing (compass bearings, ranges, transits)
@@ -255,26 +257,41 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 08: Visual Aids ✅ COMPLETE
-**Status**: Production Ready (v0.4.0)
-**Total Skills**: 5 implemented
+**Status**: Production Ready (v1.0.0)
+**Total Skills**: 11 implemented
 
 **Implemented Skills**:
-1. direction-of-buoyage-reminder - IALA A/B buoyage systems
-2. light-characteristics-quiz - Interactive quiz for navigation lights
+1. iala-buoyage-system - IALA Region A/B fundamentals, direction of buoyage, five mark categories (NEW v1.0.0)
+2. lateral-marks-identifier - Port and starboard marks with regional color variations and preferred channel indicators (NEW v1.0.0)
 3. cardinal-marks-identifier - N/E/S/W cardinal marks identification
-4. ranges-and-transits-guide - Visual position fixing with ranges and transits
-5. dipping-distance-calculator - Geographic range calculations
+4. special-purpose-marks - Isolated danger, safe water, special marks, and wreck markers (NEW v1.0.0)
+5. light-characteristics-quiz - Interactive quiz for navigation lights
+6. light-ranges-beacons - Geographical/luminous/nominal ranges, dipping distance, RACON identification (NEW v1.0.0)
+7. admiralty-list-lights - Extract and interpret Admiralty List of Lights and navigation publications (NEW v1.0.0)
+8. ranges-and-transits-guide - Visual position fixing with ranges and transits
+9. dipping-distance-calculator - Geographic range calculations
+10. direction-of-buoyage-reminder - Quick reference for IALA buoyage rules
+11. visual-aids-quiz - Rapid identification quiz covering all navigation marks (NEW v1.0.0)
 
 **Topics Fully Covered**:
-- IALA A/B buoyage systems
-- Lateral marks (port/starboard)
-- Cardinal marks (N/E/S/W danger marking)
-- Isolated danger and safe water marks
-- Special marks (yellow)
-- Light characteristics (Fl, Oc, Iso, Q, VQ, etc.)
+- IALA A/B regional differences and direction of buoyage
+- Lateral marks with regional color variations (port/starboard)
+- Preferred channel indicators (2+1 light pattern)
+- Cardinal marks (N/E/S/W danger marking) with topmark recognition
+- Isolated danger marks (black/red bands, two balls)
+- Safe water marks (red/white vertical stripes)
+- Special marks (yellow with X topmark)
+- Temporary wreck markers (blue/yellow stripes)
+- Light characteristics (Fl, Oc, Iso, Q, VQ, UQ, LFl, Morse)
+- Geographical vs luminous vs nominal light ranges
+- Dipping distance calculations (2.08√h formula)
+- Sector lights and moire lights
+- RACON identification on radar
+- Admiralty List of Lights usage and updates
+- Notices to Mariners corrections
 - Ranges and transits for position fixing
-- Leading lines
-- Dipping distance calculations (geographic range)
+- Leading lines and lights
+- Comprehensive visual aids identification
 
 **Teaching Methodology**:
 - Visual learner's best friend, pattern recognition focus
@@ -284,31 +301,69 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 09: Pilotage ✅ COMPLETE
-**Status**: Production Ready (v0.3.0)
-**Total Skills**: 6 implemented
+**Status**: Production Ready (v1.1.0)
+**Total Skills**: 13 implemented
 
 **Implemented Skills**:
-1. chart-update-checker - Verify chart currency and legality (SOLAS V)
-2. almanac-navigator - Harbor entry notes, pilotage directions (shared with Plugin 07)
-3. clearing-bearing-calculator - NMT/NLT danger bearings
-4. leading-line-plotter - Transits and range calculations
-5. harbor-entry-planner - Plan A/B/C with abort criteria
-6. restricted-visibility-navigator - Fog procedures and COLREGS
+1. pilotage-fundamentals - Core concept: visible objects avoid invisible dangers, information sources (NEW v1.1.0)
+2. chart-update-checker - Verify chart currency and legality (SOLAS V)
+3. leading-lines-transit - Charted transits, leading lights, lower light rule, compass deviation checks (NEW v1.1.0)
+4. clearing-bearings - NMT/NLT danger bearings for safe corridors between hazards (NEW v1.1.0)
+5. moire-lights - Precise bridge and entrance alignment with directional narrow-sector lights (NEW v1.1.0)
+6. pilotage-planning - Create pictorial and rolling road plans for deck execution (NEW v1.1.0)
+7. almanac-navigator - Harbor entry notes, pilotage directions (shared with Plugin 07)
+8. harbor-entry-planner - Plan A/B/C with abort criteria
+9. restricted-visibility - Fog pilotage using depth contours, radar, GPS with proper watchkeeping (NEW v1.1.0)
+10. leading-line-plotter - Transit range calculations and position fixing
+11. integrated-pilotage - Synthesize all techniques into comprehensive passage plans (NEW v1.1.0)
+12. clearing-bearing-calculator - Calculate and verify clearing bearing corridors
+13. restricted-visibility-navigator - COLREGS fog procedures and sound signals
 
 **Resources Available**:
 - `port-db.yml` - Harbor-specific pilotage notes
 - `nm-log.csv` - Notices to Mariners tracking log
 - Templates for harbor entry procedures
 
-**Topics Covered**:
-- Pilotage planning (pre-approach preparation)
-- Leading lines and transits
-- Clearing bearings (danger bearings - NMT/NLT)
-- Depth contour navigation
-- Harbor entry procedures
-- Restricted visibility techniques
-- Traffic separation schemes (TSS)
-- Port entry signals and VHF protocols
+**Topics Fully Covered**:
+- Pilotage fundamentals (visible objects to avoid invisible dangers)
+- Information sources (almanacs, pilot books, charts)
+- GPS limitations and cockpit navigation
+- Variation application (True to Magnetic conversion)
+- Leading lines and charted transits (magenta lines)
+- Leading lights operation and lower light rule (universal)
+- Clearing bearings (NMT/NLT danger bearing corridors)
+- Improvised transits from charted objects
+- Compass deviation checks using known transits
+- Moire lights for precise bridge/entrance alignment
+- Pictorial/sketch plans (bird's eye view format)
+- Rolling road plans and tram lines (linear track format)
+- Required information checklist (tides, ports, visual aids, routes)
+- Standard leg format specification
+- Chart protection (never take originals on deck)
+- Hand bearing compass continuous monitoring
+- Depth contour navigation and following
+- Tacking at clearing bearing limits
+- Night pilotage with entrance lights
+- Visual verification at waypoints
+- Height of Tide (HOT) calculations and application
+- Fog pilotage using depth contours (primary method)
+- 10% circle of error rule for buoy location
+- Radar and GPS as secondary navigation tools
+- Proper watchkeeping discipline (all available means)
+- COLREGS fog signals (Rule 35)
+- Buoy search patterns on depth contours
+- Comprehensive passage plans (open water to mooring)
+- Multiple technique synthesis in single plan
+- Tidal height integration throughout passage
+- Hazard avoidance strategy combinations
+- Contingency planning for all critical legs
+- Night departures from anchorage with multiple routes
+- Plan execution discipline (cockpit-based, when in doubt stop)
+- Chart currency requirements (SOLAS V Regulation 19)
+- Port entry protocols and VHF communications
+- Traffic separation scheme (TSS) navigation
+- Emergency procedures (if lost, if uncertain)
+- Abort criteria definition before approach
 
 **Teaching Philosophy** (from agent):
 - "Pilotage is navigation with consequences measured in boat lengths, not miles"
@@ -325,93 +380,112 @@ This repository contains **14 sailing/navigation education plugins** organized a
 
 ---
 
-### Plugin 10: Meteorology 🚧 SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 10: Meteorology ✅ COMPLETE
+**Status**: Production Ready (v1.2.0)
+**Total Skills**: 6 implemented
 
-**Future Skills Listed in Agent**:
-1. synoptic-chart-reader - Pressure system interpretation
-2. beaufort-scale-calculator - Wind/sea state assessment
-3. weather-routing-advisor - Weather routing for passages
+**Implemented Skills**:
+1. **meteorology-fundamentals** - Weather information sources, shipping forecast, GRIB files, forecast evaluation, data logging
+2. **global-weather-systems** - Pressure patterns, Coriolis effect, Buys Ballot's Law, trade winds, sea state vs swell
+3. **weather-interactions** - System interactions, frontal passages, depression lifecycle, squeeze zones, barometric monitoring
+4. **cloud-types** - Cloud identification, cloud sequences, cumulonimbus hazards, visibility prediction
+5. **local-weather-fog** - Sea breezes, katabatic/anabatic winds, fog types, fog navigation procedures
+6. **pressure-forecast-application** - Pressure effects on depth, weather routing, wind-against-tide, almanac integration
 
-**Topics Defined** (from agent file):
-- Weather forecast sources (GRIB, NAVTEX, VHF)
-- Cloud types and what they mean
-- Synoptic charts interpretation
-- Pressure systems (highs, lows, fronts)
-- Sea breeze effects
-- Fog formation and types
-- Beaufort scale
-- Weather routing basics
-
-**Implementation Priority**: MEDIUM
-- More educational/explanatory rather than calculation-heavy
-- Would benefit from sample synoptic charts and Beaufort scale data
-- Could integrate with passage planning (Plugin 07)
-
-**Potential Data Needs**:
-- Beaufort scale lookup tables
-- Synoptic chart symbols reference
-- Cloud type identification guide
+**Topics Fully Covered**:
+- Weather information sources (shipping forecast, GRIB, NAVTEX, MSI)
+- Global weather systems (Coriolis effect, pressure systems, trade winds)
+- Buys Ballot's Law (NH: "back to blow, left to low")
+- System interactions (squeeze zones, frontal passages)
+- Depression lifecycle and progression
+- Cloud identification and forecasting (all types from cirrus to cumulonimbus)
+- Frontal cloud sequences
+- Local weather effects (sea breeze, katabatic winds)
+- Fog types and navigation procedures
+- Pressure effects on water depth (1mb = 1cm)
+- Weather routing principles
+- Wind-against-tide hazards
+- Barometric pressure monitoring (6mb/3hr = F6, 8mb/3hr = F8)
 
 ---
 
-### Plugin 11: IRPCS ⚠️ SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 11: IRPCS ✅ COMPLETE
+**Status**: Production Ready (v1.3.0)
+**Total Skills**: 7 implemented
 
-**Future Skills Listed in Agent**:
-1. colreg-scenario-tester - Collision scenario analyzer
-2. lights-and-shapes-quiz - Navigation lights and day shapes quiz
-3. sound-signal-identifier - Fog signal identification
+**Implemented Skills**:
+1. **general-rules-watchkeeping** - Rule 5 lookout by all available means, blind arcs, risk assessment, stand-on/give-way basics, narrow channels (Rule 9)
+2. **traffic-separation-impeding** - TSS navigation (Rule 10), vessel hierarchy (Rule 18), impede vs give-way distinction, CBD/RAM/NUC identification
+3. **navigation-lights-sound-signals** - Light configurations, arc calculations (112.5°/135°/225°), fog signals, maneuvering signals (Rules 20-37)
+4. **day-shapes-identification** - All day shapes (ball, cone, diamond, cylinder), combined displays, vessel type identification from shapes (Rules 20-31)
+5. **collision-avoidance-decisions** - Turn-to-starboard principle, head-on/crossing/overtaking situations, restricted visibility rules (Rules 13-19)
+6. **light-arcs-vessel-length** - Arc calculations, vessel length from lights, aspect determination, underway vs making way distinctions
+7. **risk-assessment-stand-on-actions** - Systematic risk assessment (constant bearing), stand-on responsibilities, last-resort action (Rules 6, 7, 17)
 
-**Topics Defined** (from agent file):
-- General rules (Rules 1-3: Application, Responsibility)
-- Steering and sailing rules (Rules 4-19)
-- Lights and shapes (Rules 20-31)
-- Sound and light signals (Rules 32-37)
-- Collision scenarios and case studies
-- Special circumstances rule
-
-**Implementation Priority**: MEDIUM-HIGH
-- Heavily tested on RYA/ASA exams
-- Clear rule-based structure (IRPCS/ColRegs)
-- Overlaps with Plugin 14 (Nav Lights)
-
-**Note**: Overlapping coverage with:
-- Plugin 13 (Collision Regulations - Rules 11-18)
-- Plugin 14 (Nav Lights Flip - navigation lights and day shapes)
+**Topics Fully Covered**:
+- General principles (Rules 1-3: application, responsibility, departures)
+- Fundamental requirements (Rules 4-10: lookout, safe speed, risk assessment, TSS)
+- Steering and sailing rules (Rules 11-19: overtaking, head-on, crossing, stand-on/give-way, restricted visibility)
+- Lights and shapes (Rules 20-31: all vessel types, power, sail, fishing, NUC, RAM, CBD, anchor, aground)
+- Sound and light signals (Rules 32-37: maneuvering, fog signals, attention, distress)
+- Vessel hierarchy (NUC > RAM > CBD > Fishing > Sail > Power)
+- Critical distinctions: impede vs give-way, underway vs making way, tricolour restrictions
+- Risk assessment methods: visual bearings (constant bearing = risk), radar CPA/TCPA, auditory (fog signals), AIS
+- Stand-on vessel obligations: maintain course/speed, last-resort action when necessary
+- Safe speed factors: visibility, traffic density, maneuverability, hazards
+- Light arc calculations: port/starboard 112.5°, stern 135°, steaming 225°
+- Vessel length identification from light configurations
+- Complete collision avoidance decision-making framework
 
 ---
 
-### Plugin 12: Safety & Environment 🚧 SKELETON
-**Status**: Framework Only - No Skills Yet  
-**Total Skills**: 0 implemented
+### Plugin 12: Safety & Environment ✅ COMPLETE
+**Status**: Production Ready (v1.4.0)
+**Total Skills**: 11 implemented
 
-**Future Skills Listed in Agent**:
-1. safety-brief-generator - Safety briefing templates
-2. mayday-script-builder - Mayday and distress procedures
-3. stability-calculator - Vessel stability calculations
+**Implemented Skills**:
+1. **pre-departure-safety-briefing** - Comprehensive safety brief delivery, systematic equipment verification for all vessel types
+2. **life-jacket-management** - Life jacket inspection, maintenance, crotch strap adjustment, harness integration, RYA usage policy
+3. **lpg-gas-safety** - LPG system safety, leak detection, emergency ventilation, proper storage, fire prevention
+4. **fire-safety-management** - Fire prevention strategies, extinguisher deployment, engine/galley/cabin fire protocols, maintenance
+5. **passage-planning-leeway** - Passage plans with leeway calculation, tidal effects, shore contact establishment, SOLAS V compliance
+6. **dinghy-operations** - Safe dinghy operations, boarding, loading, painter management, alcohol prohibition
+7. **drogue-deployment** - Drogue and sea anchor deployment for engine failure, strong wind, life raft stabilization
+8. **epirb-plb-operation** - EPIRB, PLB, and personal AIS activation, coverage limitations, registration requirements
+9. **distress-communication** - Mayday call sequences (DSC and voice), visual distress signals (flares), alternative signals
+10. **fog-navigation** - Fog navigation procedures, radar reflector deployment, safe speed determination, sound signals
+11. **radar-reflector-integration** - Radar reflector installation, AIS integration, ARPA/MARPA capabilities, target tracking
 
-**Topics Defined** (from agent file):
-- Safety briefings and checklists
-- Mayday and distress procedures
-- GMDSS radio protocols
-- Vessel stability principles
-- Man overboard (MOB) procedures
-- Fire fighting and damage control
-- Environmental regulations (MARPOL)
-- Waste disposal at sea
-
-**Implementation Priority**: HIGH
-- Safety-critical content
-- Well-defined procedural content (Mayday, safety briefings)
-- Could use template-based generation approach
-
-**Potential Skills Expansion**:
-- mob-procedure-guide (mentioned in topics but not listed)
-- damage-control-planner (mentioned but not listed)
-- gmdss-radio-guide (mentioned but not listed)
+**Topics Fully Covered**:
+- Pre-departure briefing and equipment verification (life jackets, flares, fire extinguishers, gas systems)
+- Safety equipment inspection (bladder, gas bottle, crotch strap, harness, light, whistle, spray hood)
+- Shore contact establishment (route, ETA, "latest arrival" time, refuge ports)
+- RYA SafeTrx app registration
+- LPG storage and safety (external-draining locker, approved hoses, galley shut-off valve)
+- Gas leak detection and emergency response (ventilate, NO electrical switches)
+- Fire prevention and response (engine compartment protocol: NEVER open bay)
+- Extinguisher selection by fire type (AFFF for fuel, dry powder for electrical/general)
+- Passage planning with leeway calculation and SOLAS V Regulation 34 compliance
+- Life jacket inspection and usage policy (mandatory for non-swimmers, night ops, fog, reefing)
+- Dinghy operations safety (loading, boarding, engine management, alcohol prohibition)
+- Drogue types (sea anchor bow-to-wind 10:1 scope, stern drogue brake 5:1 scope)
+- Strong wind preparation checklist (F7+ sailing, F6+ motor)
+- EPIRB activation (406 MHz, global satellite, registered to vessel)
+- PLB activation (406 MHz, global satellite, registered to person, portable)
+- Personal AIS (VHF-based, 4nm range, MOB alert)
+- SART operation (X-band radar, 5-10nm, 12-dot homing pattern)
+- Mayday call procedure (DSC activation + voice format on Channel 16)
+- Visual distress signals (rocket parachute flares, hand-held flares, orange smoke)
+- Flare deployment tactics (first to alert, second for direction confirmation)
+- Out-of-date flare disposal (coastguard or chandlers)
+- Fog encounter procedures (establish position, don life jackets, deploy reflector)
+- Safe speed determination (stop within half visible distance)
+- Radar reflector deployment (fixed vs collapsible, material-specific requirements)
+- Radar operation in fog (target acquisition, CPA/TCPA assessment)
+- Sound signal requirements (power making way, stopped, sailing)
+- Radar reflector installation optimization (minimum 4m height, clear line of sight)
+- AIS integration for collision avoidance (CPA/TCPA, vessel identification)
+- ARPA/MARPA capabilities (automatic target tracking, trial maneuver)
 
 ---
 
@@ -480,25 +554,25 @@ This repository contains **14 sailing/navigation education plugins** organized a
 |--------|------|--------|--------|----------------|----------|
 | 01 | Chart Basics | 17 | ✅ Complete | None | N/A |
 | 02 | Tides | 8 | ✅ Complete | None | N/A |
-| 03 | Positioning | 6 | ✅ Complete | None | N/A |
+| 03 | Positioning | 8 | ✅ Complete | None | N/A |
 | 04 | Course to Steer | 7 | ✅ Complete | None | N/A |
 | 05 | Electronic Navigation | 16 | ✅ Complete | None | N/A |
 | 06 | EC Plotting | 5 | ✅ Complete | None | N/A |
 | 07 | Passage Making | 1 | ⚠️ Partial | 3+ | MEDIUM |
-| 08 | Visual Aids | 5 | ✅ Complete | None | N/A |
-| 09 | Pilotage | 6 | ✅ Complete | None | N/A |
-| 10 | Meteorology | 0 | 🚧 Skeleton | 3 | MEDIUM |
-| 11 | IRPCS | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
-| 12 | Safety & Environment | 0 | 🚧 Skeleton | 3 | HIGH |
+| 08 | Visual Aids | 11 | ✅ Complete | None | N/A |
+| 09 | Pilotage | 13 | ✅ Complete | None | N/A |
+| 10 | Meteorology | 6 | ✅ Complete | None | N/A |
+| 11 | IRPCS | 7 | ✅ Complete | None | N/A |
+| 12 | Safety & Environment | 11 | ✅ Complete | None | N/A |
 | 13 | Collision Regulations | 0 | 🚧 Skeleton | 2 | HIGH |
 | 14 | Nav Lights Flip | 0 | 🚧 Skeleton | 3 | MEDIUM-HIGH |
 
 **Totals**:
-- Implemented Skills: 66
-- Future/Planned Skills: 10+ (remaining)
-- Complete Plugins: 8 (Plugins 01, 02, 03, 04, 05, 06, 08, 09)
+- Implemented Skills: 105
+- Future/Planned Skills: 5 (remaining)
+- Complete Plugins: 11 (Plugins 01, 02, 03, 04, 05, 06, 08, 09, 10, 11, 12)
 - Partial Plugins: 1 (Plugin 07)
-- Skeleton Plugins: 5 (Plugins 10, 11, 12, 13, 14)
+- Skeleton Plugins: 2 (Plugins 13, 14)
 
 ---
 

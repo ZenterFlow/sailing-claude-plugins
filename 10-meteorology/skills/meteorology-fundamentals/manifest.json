@@ -1,0 +1,13 @@
+{
+  "name": "meteorology-fundamentals",
+  "description": "Master marine meteorology fundamentals, weather sources, and forecast evaluation",
+  "version": "1.0.0",
+  "triggers": [
+    "meteorology fundamentals",
+    "weather sources",
+    "shipping forecast",
+    "GRIB files",
+    "forecast evaluation",
+    "weather information"
+  ]
+}

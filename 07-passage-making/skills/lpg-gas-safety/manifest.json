@@ -1,0 +1,13 @@
+{
+  "name": "lpg-gas-safety",
+  "description": "Manage LPG (butane/propane) systems safely including leak detection, emergency ventilation, and proper storage to eliminate explosion risks.",
+  "version": "1.0.0",
+  "triggers": [
+    "gas safety",
+    "lpg",
+    "gas leak",
+    "gas locker",
+    "butane propane",
+    "gas ventilation"
+  ]
+}

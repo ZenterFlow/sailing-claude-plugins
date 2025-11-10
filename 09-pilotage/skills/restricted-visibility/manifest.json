@@ -1,0 +1,13 @@
+{
+  "name": "restricted-visibility",
+  "description": "Execute safe pilotage in fog using depth contours, radar, GPS with proper watchkeeping",
+  "version": "1.0.0",
+  "triggers": [
+    "restricted visibility",
+    "fog pilotage",
+    "depth contour navigation",
+    "buoy location fog",
+    "visibility pilotage",
+    "fog navigation"
+  ]
+}

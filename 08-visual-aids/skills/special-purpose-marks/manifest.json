@@ -1,0 +1,13 @@
+{
+  "name": "special-purpose-marks",
+  "description": "Identify isolated danger, safe water, special marks, and wreck markers with correct passage rules",
+  "version": "1.0.0",
+  "triggers": [
+    "isolated danger",
+    "safe water mark",
+    "special mark",
+    "wreck marker",
+    "fairway buoy",
+    "black with red bands"
+  ]
+}

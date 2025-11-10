@@ -1,0 +1,14 @@
+{
+  "name": "collision-avoidance-decisions",
+  "description": "Execute correct collision avoidance actions based on vessel hierarchy, encounter type, and visibility conditions, applying the turn-to-starboard principle.",
+  "version": "1.0.0",
+  "triggers": [
+    "collision avoidance",
+    "turn to starboard",
+    "head on situation",
+    "crossing situation",
+    "overtaking",
+    "restricted visibility rules",
+    "give way action"
+  ]
+}

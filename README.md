@@ -2,7 +2,9 @@
 
 **One-command access to the full RYA/ASA navigation syllabus inside Claude Code.**
 
-This plugin suite provides 14 specialized agents with dedicated skills, turning your Claude Code environment into a comprehensive, interactive tutor for sailing navigation and theory.
+This plugin suite provides 15 specialized agents with dedicated skills, turning your Claude Code environment into a comprehensive, interactive tutor for sailing navigation and theory.
+
+**NEW: Plugin 00 (Navigation Master)** - Intelligent coordinator that routes your questions to the right specialist and orchestrates complex multi-plugin workflows automatically.
 
 ---
 
@@ -38,7 +40,8 @@ Install the plugins you need:
 ### Or Install All at Once
 
 ```bash
-# Install all 14 plugins
+# Install all 15 plugins (includes master coordinator)
+/plugin install navigation-master@sailing-curriculum && \
 /plugin install chart-basics@sailing-curriculum && \
 /plugin install tides@sailing-curriculum && \
 /plugin install positioning@sailing-curriculum && \
@@ -65,7 +68,21 @@ This opens the interactive plugin management interface where you can see all ins
 
 ---
 
-## 📚 The 14 Topic Agents
+## 📚 The 15 Navigation Agents
+
+### 🎯 Plugin 00: Master Coordinator (NEW!)
+
+**Navigation Master** - Intelligent routing system that analyzes your questions and automatically:
+- Routes to the appropriate specialized agent(s)
+- Orchestrates multi-plugin workflows for complex scenarios
+- Synthesizes responses from multiple domains
+- Provides unified access to all 14 specialized tutors
+
+**Use this as your primary entry point** - just ask navigation questions naturally!
+
+---
+
+### 📖 The 14 Specialized Topic Agents
 
 Each plugin contains:
 - **One specialized tutor agent** with expertise in that topic
@@ -73,29 +90,29 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (9 plugins, 66 skills)
+### ✅ Complete & Ready (13 plugins, 108 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
 | **01. Chart Basics** | Chart Basics Tutor | 17 skills: datum-guardian, charted-height-interpreter, longitude-latitude, chartwork-mercator-projection, symbol-spotter, symbol-quiz-flashcards, chart-symbol-spotter, chart-correction-decoder, corrections-mini-quiz, chart-update-checklist, chart-update-checker, chart-safe-go-nogo, photo-correction-reader, magnetic-variation-calculator, compass-error-corrector, deviation-table-reader, hand-bearing-compass-guide | ✅ Complete |
 | **02. Tides** | Tides Tutor | 8 skills: tide-calculator, tidal-diamond-reader, diamond-dispatcher, depth-datum-flipper, vertical-clearance-solver, tidal-terminology-guide, time-zone-converter, tidal-theory-explainer | ✅ Complete |
-| **03. Positioning** | Positioning Tutor | 6 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor, visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator | ✅ Complete |
+| **03. Positioning** | Positioning Tutor | 8 skills: visual-fix-calculator, ep-calculator, cross-track-error-monitor, visual-fix-reliability, enhanced-visual-fixing, position-fix-integrator, navigation-web-constructor, angle-off-bow-fix | ✅ Complete |
 | **04. Course to Steer** | Course to Steer Tutor | 7 skills: cts-calculator, velocity-triangle-plotter, vector-triangle-plotter, leeway-applicator, multi-factor-converter, tidal-hour-selector, cts-practical-integrator | ✅ Complete |
 | **05. Electronic Nav** | Electronic Navigation Tutor | 16 skills: gps-gnss-fundamentals, gps-data-interpretation, depth-sounder-configuration, radar-basics-limitations, ais-target-interpretation, integrated-electronic-navigation, electronic-navigation-limitations, waypoint-management-safety, navigation-instrument-calibration, radar-pilotage-techniques, marpa-collision-assessment, electronic-navigation-integration, radar-overlay-verification, feature-radar-appearance, restricted-visibility-decision, ais-data-source-distinction | ✅ Complete |
 | **06. EC Plotting** | EC Plotting Tutor | 5 skills: electronic-chart-types, chart-plotter-operation, auto-route-verification, mobile-device-repeater, waypoint-positioning-adjustment | ✅ Complete |
-| **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
-| **08. Visual Aids** | Visual Aids Tutor | 5 skills: direction-of-buoyage-reminder, light-characteristics-quiz, cardinal-marks-identifier, ranges-and-transits-guide, dipping-distance-calculator | ✅ Complete |
-| **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Complete |
+| **07. Passage Making** | Passage Making Tutor | 5 skills: almanac-navigator, pre-departure-safety-briefing, lpg-gas-safety, fire-safety-management, passage-planning-leeway | ✅ Complete |
+| **08. Visual Aids** | Visual Aids Tutor | 11 skills: iala-buoyage-system, lateral-marks-identifier, cardinal-marks-identifier, special-purpose-marks, light-characteristics-quiz, light-ranges-beacons, admiralty-list-lights, ranges-and-transits-guide, dipping-distance-calculator, direction-of-buoyage-reminder, visual-aids-quiz | ✅ Complete |
+| **09. Pilotage** | Pilotage Tutor | 13 skills: pilotage-fundamentals, chart-update-checker, leading-lines-transit, clearing-bearings, moire-lights, pilotage-planning, almanac-navigator, harbor-entry-planner, restricted-visibility, leading-line-plotter, integrated-pilotage, clearing-bearing-calculator, restricted-visibility-navigator | ✅ Complete |
+| **10. Meteorology** | Meteorology Tutor | 6 skills: meteorology-fundamentals, global-weather-systems, weather-interactions, cloud-types, local-weather-fog, pressure-forecast-application | ✅ Complete |
+| **11. IRPCS** | IRPCS Tutor | 7 skills: general-rules-watchkeeping, traffic-separation-impeding, navigation-lights-sound-signals, day-shapes-identification, collision-avoidance-decisions, light-arcs-vessel-length, risk-assessment-stand-on-actions | ✅ Complete |
+| **12. Safety & Environment** | Safety & Environment Tutor | 7 skills: life-jacket-management, dinghy-operations, drogue-deployment, epirb-plb-operation, distress-communication, fog-navigation, radar-reflector-integration | ✅ Complete |
+| **14. Nav Lights Flip** | Nav Lights Quiz Master | 3 skills: lights-flashcard-quiz, shapes-identifier, sound-signal-quiz | ✅ Complete |
 
-### 🚧 In Development (5 plugins)
+### 🚧 In Development (1 plugin)
 
 | Plugin | Agent | Topics Covered |
 |--------|-------|----------------|
-| **10. Meteorology** | Meteorology Tutor | Forecasts, clouds, pressure systems, sea state |
-| **11. IRPCS** | IRPCS Tutor | Collision regulations, rules, case studies |
-| **12. Safety & Environment** | Safety & Environment Tutor | Safety briefs, Mayday, stability, MARPOL |
 | **13. Collision Regs** | Collision Regs Tutor | Conduct in sight, restricted visibility |
-| **14. Nav Lights Flip** | Nav Lights Quiz Master | Lights, shapes, signals flashcard quiz |
 
 ---
 
@@ -319,14 +336,21 @@ https://github.com/ZenterFlow/claude-skills-library
 
 - **Total Plugins**: 14
 - **Ready for Testing**: 9 (64%)
-- **Total Skills**: 66 (with more planned)
+- **Total Skills**: 68 (with more planned)
 - **Total Agents**: 14
-- **Lines of Documentation**: 16,000+
+- **Lines of Documentation**: 17,000+
 - **Coverage**: Full RYA/ASA YachtMaster Offshore syllabus
 
 ---
 
 ## 📝 Version History
+
+**v0.9.0** (2025-11-10)
+- Added 2 specialized positioning skills to Plugin 03
+- Plugin 03 (Positioning) expanded to 8 skills: Added navigation-web-constructor (pre-plotted bearing/distance grids for rapid GPS monitoring and tacking decisions), angle-off-bow-fix (45°/90° relative bearing method for quick distance-off estimation)
+- 68 total skills implemented (2 new)
+- Complete specialized navigation techniques coverage
+- Comprehensive duplicate check: All SKILL_15-47 reviewed, identified only 2 non-duplicate skills
 
 **v0.8.0** (2025-11-10)
 - Added 8 advanced electronic navigation and chart plotter skills
@@ -408,4 +432,4 @@ Skills consolidated from:
 &copy; ZenterFlow
 
 *Last Updated: 2025-11-10*
-*Version: 0.8.0 (Beta)*
+*Version: 0.9.0 (Beta)*

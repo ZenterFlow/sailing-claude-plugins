@@ -1,0 +1,13 @@
+{
+  "name": "visual-aids-quiz",
+  "description": "Rapid identification quiz for all navigation marks with systematic recognition techniques",
+  "version": "1.0.0",
+  "triggers": [
+    "visual aids quiz",
+    "mark identification",
+    "navigation mark quiz",
+    "test my knowledge",
+    "identify navigation marks",
+    "buoy quiz"
+  ]
+}

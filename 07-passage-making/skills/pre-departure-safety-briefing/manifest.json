@@ -1,0 +1,13 @@
+{
+  "name": "pre-departure-safety-briefing",
+  "description": "Master comprehensive pre-passage safety briefing delivery and systematic equipment verification procedures for all vessel types.",
+  "version": "1.0.0",
+  "triggers": [
+    "safety briefing",
+    "pre departure",
+    "life jacket inspection",
+    "flare check",
+    "shore contact",
+    "passage plan registration"
+  ]
+}
