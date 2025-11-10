@@ -1,0 +1,22 @@
+{
+  "name": "navigation-master",
+  "version": "1.0.0",
+  "description": "Master coordinator for all sailing navigation plugins - intelligently routes questions and orchestrates multi-plugin workflows",
+  "license": "CC-BY-SA-4.0",
+  "author": "ZenterFlow",
+  "agents": [
+    {
+      "name": "navigation-master",
+      "path": "agents/navigation-master.md",
+      "description": "Master navigation coordinator that routes to specialized agents and orchestrates complex workflows"
+    }
+  ],
+  "keywords": [
+    "sailing",
+    "navigation",
+    "yachtmaster",
+    "coordinator",
+    "routing",
+    "offshore"
+  ]
+}

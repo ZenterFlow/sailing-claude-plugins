@@ -2,7 +2,9 @@
 
 **One-command access to the full RYA/ASA navigation syllabus inside Claude Code.**
 
-This plugin suite provides 14 specialized agents with dedicated skills, turning your Claude Code environment into a comprehensive, interactive tutor for sailing navigation and theory.
+This plugin suite provides 15 specialized agents with dedicated skills, turning your Claude Code environment into a comprehensive, interactive tutor for sailing navigation and theory.
+
+**NEW: Plugin 00 (Navigation Master)** - Intelligent coordinator that routes your questions to the right specialist and orchestrates complex multi-plugin workflows automatically.
 
 ---
 
@@ -38,7 +40,8 @@ Install the plugins you need:
 ### Or Install All at Once
 
 ```bash
-# Install all 14 plugins
+# Install all 15 plugins (includes master coordinator)
+/plugin install navigation-master@sailing-curriculum && \
 /plugin install chart-basics@sailing-curriculum && \
 /plugin install tides@sailing-curriculum && \
 /plugin install positioning@sailing-curriculum && \
@@ -65,7 +68,21 @@ This opens the interactive plugin management interface where you can see all ins
 
 ---
 
-## 📚 The 14 Topic Agents
+## 📚 The 15 Navigation Agents
+
+### 🎯 Plugin 00: Master Coordinator (NEW!)
+
+**Navigation Master** - Intelligent routing system that analyzes your questions and automatically:
+- Routes to the appropriate specialized agent(s)
+- Orchestrates multi-plugin workflows for complex scenarios
+- Synthesizes responses from multiple domains
+- Provides unified access to all 14 specialized tutors
+
+**Use this as your primary entry point** - just ask navigation questions naturally!
+
+---
+
+### 📖 The 14 Specialized Topic Agents
 
 Each plugin contains:
 - **One specialized tutor agent** with expertise in that topic
@@ -73,7 +90,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (13 plugins, 108 skills)
+### ✅ Complete & Ready (13 plugins, 108 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
