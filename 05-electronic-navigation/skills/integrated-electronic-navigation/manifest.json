@@ -1,0 +1,6 @@
+{
+  "name": "integrated-electronic-navigation",
+  "description": "Integrate GPS, radar, AIS, depth, log for verified navigation.",
+  "version": "1.0",
+  "triggers": ["integrate electronic systems", "cross-check GPS", "verify electronic navigation", "redundant navigation"]
+}

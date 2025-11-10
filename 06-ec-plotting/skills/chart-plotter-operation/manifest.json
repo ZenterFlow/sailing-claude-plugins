@@ -1,0 +1,6 @@
+{
+  "name": "chart-plotter-operation",
+  "description": "Chart plotter menu navigation, alarms, and MOB function.",
+  "version": "1.0",
+  "triggers": ["chart plotter setup", "plotter alarms", "MOB function", "COG extension lines"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "radar-basics-limitations",
+  "description": "Radar principles, beam width effects, and navigation applications.",
+  "version": "1.0",
+  "triggers": ["how does radar work", "radar beam width", "radar accuracy", "radar-assisted collision"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "marpa-collision-assessment",
+  "description": "MARPA target tracking and CPA/TCPA collision assessment.",
+  "version": "1.0",
+  "triggers": ["what is MARPA", "CPA TCPA", "radar target tracking", "collision assessment radar"]
+}

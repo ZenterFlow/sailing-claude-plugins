@@ -1,0 +1,6 @@
+{
+  "name": "electronic-navigation-limitations",
+  "description": "Electronic system limitations and paper chart requirements.",
+  "version": "1.0",
+  "triggers": ["electronic navigation limitations", "GPS accuracy problems", "paper chart requirement", "recreational chart plotter"]
+}
