@@ -1,0 +1,72 @@
+# SKILL: Comprehensive Electronic Navigation Integration
+
+## Description
+Integrate all electronic navigation systems into a cohesive navigation plan, using each system's strengths while compensating for weaknesses and maintaining mandatory paper chart backup.
+
+## Prerequisites
+- All electronic skills (48-60)
+- Paper navigation skills (15-47)
+
+## Learning Objectives
+- Create passage plan integrating electronic and paper navigation
+- Cross-verify position using multiple systems
+- Transition smoothly between primary and backup methods
+- Recognize and respond to electronic system failures
+- Comply with legal requirements for paper charts
+
+## Integration Framework
+**Passage Planning - Dual Approach:**
+1. **Paper chart:** Plot primary track, waypoints, hazards
+2. **Electronic:** Enter waypoints, verify track matches paper
+3. **Cross-check:** Ensure both show safe passage
+4. **Backup:** Paper chart always accessible and plotted
+
+**Active Navigation Loop (Continuous):**
+- **Primary (every 15 min):** GPS position on plotter
+- **Verification (every 30 min):** Radar range fix or depth check
+- **Paper update (every hour):** Plot position on paper chart
+- **Log entry:** Record position, course, speed, depth
+- **Cross-check:** If systems disagree, investigate immediately
+
+**System Roles:**
+- **GPS:** Primary position source
+- **Radar:** Navigation fix, collision detection
+- **AIS:** Vessel identification, collision avoidance
+- **Depth:** Position verification, hazard warning
+- **Log:** DR calculation, speed through water
+- **Plotter:** Route monitoring, XTE, TTG
+
+**Failure Scenarios:**
+- **GPS fails:** Use radar ranges, depth contours, visual fixes
+- **Radar fails:** Rely on GPS, AIS, visual lookout
+- **Plotter fails:** Use GPS standalone with paper chart
+- **All electronics fail:** DR/EP from last known position
+- **Depth fails:** Navigate by position only, avoid shallow areas
+
+**Legal Compliance:**
+- Paper charts mandatory on all vessels
+- Paper passage plan required
+- Positions must be plotted on paper
+- Electronics are aids, not primary means
+- Recreational plotters not official charts
+
+**Cross-Verification Protocol:**
+- GPS position should match radar ranges to charted objects
+- Depth should match charted depth + tide for GPS position
+- COG should approximate course steered ± tide/leeway
+- If depth &lt; expected, GPS position is wrong or in hazard
+- If radar ranges don't match GPS, investigate error source
+
+## Common Errors
+- Not plotting positions on paper chart
+- No backup plan for electronics failure
+- Assuming electronics are infallible
+- Not cross-checking between systems
+- Ignoring discrepancies between systems
+
+## Assessment
+- Create dual paper/electronic passage plan
+- Demonstrate position cross-check using 3 methods
+- Respond to simulated GPS failure
+- Show paper chart with hourly positions plotted
+- Explain legal requirements to examiner
