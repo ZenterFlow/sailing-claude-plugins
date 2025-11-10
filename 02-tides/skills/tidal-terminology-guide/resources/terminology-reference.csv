@@ -1,0 +1,9 @@
+term,abbreviation,definition,typical_use,relative_height
+"Highest Astronomical Tide",HAT,"Maximum possible tide under astronomical conditions","Bridge clearances, overhead cables",5.2
+"Mean High Water Springs",MHWS,"Average high water during spring tides","Light elevations, structure heights",4.5
+"Mean High Water Neaps",MHWN,"Average high water during neap tides","Tidal range reference",3.8
+"Mean Sea Level",MSL,"Average of all tidal heights over 18.6 year cycle","Land contours, spot heights",2.5
+"Mean Low Water Neaps",MLWN,"Average low water during neap tides","Tidal range reference",1.3
+"Mean Low Water Springs",MLWS,"Average low water during spring tides","Tidal range reference",0.5
+"Chart Datum",CD,"Reference plane for charted depths (usually at LAT)","All charted depths measured below this",0.0
+"Lowest Astronomical Tide",LAT,"Minimum possible tide under astronomical conditions","Chart Datum usually set here",0.0
