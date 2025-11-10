@@ -1,0 +1,12 @@
+{
+  "name": "chartwork-mercator-projection",
+  "description": "Explains Mercator and Transverse Mercator projection principles for chart work",
+  "version": "0.1.0",
+  "triggers": [
+    "Mercator projection",
+    "latitude scale",
+    "transverse Mercator",
+    "chart projection",
+    "why does latitude scale change"
+  ]
+}
