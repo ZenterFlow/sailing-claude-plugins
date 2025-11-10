@@ -1,0 +1,13 @@
+{
+  "name": "restricted-visibility-navigator",
+  "description": "Navigation procedures and sound signal requirements for safe operation in fog and restricted visibility.",
+  "version": "1.0",
+  "triggers": [
+    "restricted visibility",
+    "fog navigation",
+    "poor visibility",
+    "fog signals",
+    "sound signals",
+    "fog procedures"
+  ]
+}

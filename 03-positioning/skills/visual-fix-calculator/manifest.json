@@ -1,0 +1,15 @@
+{
+  "name": "visual-fix-calculator",
+  "description": "Calculate vessel position using visual bearings, ranges, and transits with cocked hat error assessment.",
+  "version": "1.0",
+  "triggers": [
+    "three point fix",
+    "visual position fix",
+    "compass bearing fix",
+    "cocked hat",
+    "running fix",
+    "position from bearings",
+    "two bearing fix",
+    "cross bearing"
+  ]
+}

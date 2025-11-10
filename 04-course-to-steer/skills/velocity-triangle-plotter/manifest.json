@@ -1,0 +1,14 @@
+{
+  "name": "velocity-triangle-plotter",
+  "description": "Plot and solve velocity triangles graphically for Course To Steer and Track Made Good problems.",
+  "version": "1.0",
+  "triggers": [
+    "velocity triangle",
+    "water triangle",
+    "plot vectors",
+    "graphical CTS",
+    "draw triangle",
+    "vector diagram",
+    "show me the triangle"
+  ]
+}
