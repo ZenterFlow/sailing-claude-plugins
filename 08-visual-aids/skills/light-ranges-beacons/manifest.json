@@ -1,0 +1,14 @@
+{
+  "name": "light-ranges-beacons",
+  "description": "Calculate geographical, luminous, and nominal light ranges plus identify radar beacons (RACON)",
+  "version": "1.0.0",
+  "triggers": [
+    "light range",
+    "geographical range",
+    "nominal range",
+    "luminous range",
+    "dipping distance",
+    "RACON",
+    "radar beacon"
+  ]
+}

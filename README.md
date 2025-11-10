@@ -73,7 +73,7 @@ Each plugin contains:
 - **Interactive examples** and worked calculations
 - **RYA/ASA exam-focused** content
 
-### ✅ Ready for Testing (9 plugins, 68 skills)
+### ✅ Ready for Testing (9 plugins, 74 skills)
 
 | Plugin | Agent | Skills | Status |
 |--------|-------|--------|--------|
@@ -84,7 +84,7 @@ Each plugin contains:
 | **05. Electronic Nav** | Electronic Navigation Tutor | 16 skills: gps-gnss-fundamentals, gps-data-interpretation, depth-sounder-configuration, radar-basics-limitations, ais-target-interpretation, integrated-electronic-navigation, electronic-navigation-limitations, waypoint-management-safety, navigation-instrument-calibration, radar-pilotage-techniques, marpa-collision-assessment, electronic-navigation-integration, radar-overlay-verification, feature-radar-appearance, restricted-visibility-decision, ais-data-source-distinction | ✅ Complete |
 | **06. EC Plotting** | EC Plotting Tutor | 5 skills: electronic-chart-types, chart-plotter-operation, auto-route-verification, mobile-device-repeater, waypoint-positioning-adjustment | ✅ Complete |
 | **07. Passage Making** | Passage Making Tutor | 1 skill: almanac-navigator | ✅ Ready |
-| **08. Visual Aids** | Visual Aids Tutor | 5 skills: direction-of-buoyage-reminder, light-characteristics-quiz, cardinal-marks-identifier, ranges-and-transits-guide, dipping-distance-calculator | ✅ Complete |
+| **08. Visual Aids** | Visual Aids Tutor | 11 skills: iala-buoyage-system, lateral-marks-identifier, cardinal-marks-identifier, special-purpose-marks, light-characteristics-quiz, light-ranges-beacons, admiralty-list-lights, ranges-and-transits-guide, dipping-distance-calculator, direction-of-buoyage-reminder, visual-aids-quiz | ✅ Complete |
 | **09. Pilotage** | Pilotage Tutor | 6 skills: chart-update-checker, almanac-navigator, clearing-bearing-calculator, leading-line-plotter, harbor-entry-planner, restricted-visibility-navigator | ✅ Complete |
 
 ### 🚧 In Development (5 plugins)

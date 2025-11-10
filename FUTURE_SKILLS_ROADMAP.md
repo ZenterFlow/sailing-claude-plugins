@@ -8,8 +8,8 @@ This repository contains **14 sailing/navigation education plugins** organized a
 - **1 plugin** has partial implementation (Plugin 07)
 - **5 plugins** are skeleton frameworks ready for skill development (Plugins 10-14)
 
-**Total Skills Implemented**: 68
-**Total Future Skills Listed**: 10+ (remaining)
+**Total Skills Implemented**: 74
+**Total Future Skills Listed**: 4+ (remaining)
 
 ---
 
@@ -257,26 +257,41 @@ This repository contains **14 sailing/navigation education plugins** organized a
 ---
 
 ### Plugin 08: Visual Aids ✅ COMPLETE
-**Status**: Production Ready (v0.4.0)
-**Total Skills**: 5 implemented
+**Status**: Production Ready (v1.0.0)
+**Total Skills**: 11 implemented
 
 **Implemented Skills**:
-1. direction-of-buoyage-reminder - IALA A/B buoyage systems
-2. light-characteristics-quiz - Interactive quiz for navigation lights
+1. iala-buoyage-system - IALA Region A/B fundamentals, direction of buoyage, five mark categories (NEW v1.0.0)
+2. lateral-marks-identifier - Port and starboard marks with regional color variations and preferred channel indicators (NEW v1.0.0)
 3. cardinal-marks-identifier - N/E/S/W cardinal marks identification
-4. ranges-and-transits-guide - Visual position fixing with ranges and transits
-5. dipping-distance-calculator - Geographic range calculations
+4. special-purpose-marks - Isolated danger, safe water, special marks, and wreck markers (NEW v1.0.0)
+5. light-characteristics-quiz - Interactive quiz for navigation lights
+6. light-ranges-beacons - Geographical/luminous/nominal ranges, dipping distance, RACON identification (NEW v1.0.0)
+7. admiralty-list-lights - Extract and interpret Admiralty List of Lights and navigation publications (NEW v1.0.0)
+8. ranges-and-transits-guide - Visual position fixing with ranges and transits
+9. dipping-distance-calculator - Geographic range calculations
+10. direction-of-buoyage-reminder - Quick reference for IALA buoyage rules
+11. visual-aids-quiz - Rapid identification quiz covering all navigation marks (NEW v1.0.0)
 
 **Topics Fully Covered**:
-- IALA A/B buoyage systems
-- Lateral marks (port/starboard)
-- Cardinal marks (N/E/S/W danger marking)
-- Isolated danger and safe water marks
-- Special marks (yellow)
-- Light characteristics (Fl, Oc, Iso, Q, VQ, etc.)
+- IALA A/B regional differences and direction of buoyage
+- Lateral marks with regional color variations (port/starboard)
+- Preferred channel indicators (2+1 light pattern)
+- Cardinal marks (N/E/S/W danger marking) with topmark recognition
+- Isolated danger marks (black/red bands, two balls)
+- Safe water marks (red/white vertical stripes)
+- Special marks (yellow with X topmark)
+- Temporary wreck markers (blue/yellow stripes)
+- Light characteristics (Fl, Oc, Iso, Q, VQ, UQ, LFl, Morse)
+- Geographical vs luminous vs nominal light ranges
+- Dipping distance calculations (2.08√h formula)
+- Sector lights and moire lights
+- RACON identification on radar
+- Admiralty List of Lights usage and updates
+- Notices to Mariners corrections
 - Ranges and transits for position fixing
-- Leading lines
-- Dipping distance calculations (geographic range)
+- Leading lines and lights
+- Comprehensive visual aids identification
 
 **Teaching Methodology**:
 - Visual learner's best friend, pattern recognition focus

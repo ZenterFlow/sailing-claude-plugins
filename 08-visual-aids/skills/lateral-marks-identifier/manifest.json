@@ -1,0 +1,13 @@
+{
+  "name": "lateral-marks-identifier",
+  "description": "Identify port and starboard lateral marks with regional color variations and preferred channel indicators",
+  "version": "1.0.0",
+  "triggers": [
+    "lateral marks",
+    "port hand mark",
+    "starboard hand mark",
+    "channel marks",
+    "preferred channel",
+    "can and cone"
+  ]
+}

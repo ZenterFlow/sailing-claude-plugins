@@ -1,0 +1,14 @@
+{
+  "name": "iala-buoyage-system",
+  "description": "Master IALA Region A and B buoyage systems, direction of buoyage, and five mark categories",
+  "version": "1.0.0",
+  "triggers": [
+    "IALA buoyage",
+    "IALA system",
+    "region A region B",
+    "buoyage system",
+    "direction of buoyage",
+    "red to port",
+    "green to port"
+  ]
+}
